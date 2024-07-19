@@ -1,1 +1,1 @@
-Please refer to [releases](https://github.com/cometchat/platform/releases) section for all platform updates
+Please refer to the [releases](https://github.com/cometchat/changelog/releases) section to view the changelog. For UI Kits and SDKs, please refer to the releases section of their respective repositories.

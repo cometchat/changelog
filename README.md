@@ -6,10 +6,10 @@ Please refer to the [releases](https://github.com/cometchat/changelog/releases) 
 
 ## Components
 
-- [AI Services](./ai-services/CHANGELOG.md)
 - [Chat API](./chat-api/CHANGELOG.md)
+  - [Features > Extensions](./extensions/CHANGELOG.md)
+  - [Features > AI User Copilot](./ai-services/CHANGELOG.md)
 - [Dashboard](./dashboard/CHANGELOG.md)
-- [Extensions](./extensions/CHANGELOG.md)
 - [Management API](./management-api/CHANGELOG.md)
 - [Moderation](./moderation/CHANGELOG.md)
 - [Notifications](./notifications/CHANGELOG.md)

@@ -1,0 +1,123 @@
+# Notifications v1.4.0 | 2025-04-10
+## New
+- Introduced **Notification Logs** feature, allowing customers to view and track notification history for easier investigation and debugging.
+
+## Enhancements
+- None.
+
+## Fixes
+- None.   
+<br/>
+
+
+# Notifications v1.3.0 | 2025-03-18
+## New
+- Custom providers for triggering Email, SMS, and Push notifications.
+
+## Enhancements
+- None.
+
+## Fixes
+- None.   
+<br/>
+
+
+# Notifications v1.2.4 | 2025-02-10
+### New
+- None
+
+### Enhancements
+- None
+
+### Fixes
+- Fixed an issue where push notifications were mistakenly sent to deactivated users for messages and events in groups.   
+<br/>
+
+
+# Notifications v1.2.2 | 2024-11-28
+### New
+- None
+
+### Enhancements
+-  None
+
+### Fixes
+- Resolved an issue where the required details, such as type, receiver's avatar URL, receiver's uid, etc. were missing in the APNs payload.
+- Resolved an issue where the list of muted conversations was always returned empty.   
+<br/>
+
+
+# Notifications v1.2.1 | 2024-10-01
+### New
+- None
+
+### Enhancements
+-  Updated notification preferences for **Message Edited** and **Message Deleted** events, enabling user customisation.
+
+### Fixes
+- None
+   
+<br/>
+
+
+# Notifications v1.2.0 | 2024-08-29
+## New
+
+-  None
+
+## Enhancements
+
+-  Modified the template data structure to include `uid` and `guid` for creating the Email and SMS content using templates.
+
+## Fixes
+
+-  None   
+<br/>
+
+
+# Notifications v1.1.1 | 2024-08-07
+## New
+
+-   None
+
+## Enhancements
+
+-   None
+
+## Fixes
+
+-   Fixed a bug in Push notifications where the user_blocked event was not handled properly.
+-   Fixed a bug in email notifications that was forcing privacy templates for all the emails.   
+<br/>
+
+
+# Notifications v1.1.0 | 2024-08-07
+## New
+
+-   Added enhanced Email notifications with improved control over notifications and preferences.
+-   Added enhanced SMS notifications with improved control over notifications and preferences.
+
+## Enhancements
+
+-   None
+
+## Fixes
+
+-   None   
+<br/>
+
+
+# Notifications v1.0.0 | 2024-08-07
+## New
+
+-   Introduced a new notifications service with enhanced push notifications for improved control over notifications and preferences.
+
+## Enhancements
+
+-   None
+
+## Fixes
+
+-   None
+   
+<br/>

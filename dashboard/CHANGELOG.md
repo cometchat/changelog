@@ -5,7 +5,6 @@
 ## Enhancements
 - Enhanced the webhooks create/update page to support the **Retry on Failure** option. When enabled, failed webhook events will automatically be retried, improving reliability.
 - Updated text in the **Integrate** section for improved clarity.
-- [Internal] Added support for Dashboard to function in `cc-cluster-2` environment.
 
 ## Fixes
 - Resolved a broken link in multi-tenancy child apps that prevented users from accessing the parent app's billing screen.

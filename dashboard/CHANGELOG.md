@@ -1,3 +1,18 @@
+# Dashboard v3.14.1 | 2025-04-15
+## New
+- None
+
+## Enhancements
+- Enhanced the webhooks create/update page to support the **Retry on Failure** option. When enabled, failed webhook events will automatically be retried, improving reliability.
+- Updated text in the **Integrate** section for improved clarity.
+
+## Fixes
+- Resolved a broken link in multi-tenancy child apps that prevented users from accessing the parent app's billing screen.
+- Fixed an issue where multiple visual builder creation attempts were triggered from the **Integrate** screen.
+- Fixed an issue where customized builder settings in preview were not being cleared on the client side.
+<br/>
+
+
 # Dashboard v3.14.0 | 2025-04-08
 ## New
 

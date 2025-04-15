@@ -1,3 +1,15 @@
+# Platform v3.0.10 | 2025-04-15
+## New
+- None
+
+## Enhancements
+- Added webhook support for the following call events: `call_ended`, `call_rejected`, `call_unanswered`, and `call_busy`
+
+## Fixes
+- None
+   
+<br/>
+
 # Platform v3.0.9 | 2025-03-31
 ## New
 - None

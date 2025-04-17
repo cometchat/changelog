@@ -1,3 +1,15 @@
+# Extensions v3.0.9 | 2025-04-17
+## New
+- None.
+
+## Enhancements
+- None.
+
+## Fixes
+- Fixed an issue where message translations caused @mentions to break.
+- Resolved a performance issue in the Data Masking Filter extension where the email regex pattern led to excessive CPU usage.
+- Fixed a compatibility issue that prevented the settings page from loading for the Report Message and Report User extensions when using Firefox.
+
 # Extensions v3.0.8 | 2025-01-23
 ## New
 

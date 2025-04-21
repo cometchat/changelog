@@ -1,6 +1,6 @@
 # Notifications v1.5.0 | 2025-04-24
 ## New
-- Admins can now override all the notification preferences to ensure @mention alerts are delivered.
+- Introduced the ability to bypass notification preferences for mentions, ensuring users always receive alerts when they are mentioned.
 
 ## Enhancements
 - None

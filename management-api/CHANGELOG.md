@@ -1,3 +1,15 @@
+# Management API v1.3.11 | 2025-04-22
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where fetching extension settings via API returned a 404 error.
+<br/>
+
+
 # Management API v1.3.11 | 2025-04-10
 ## New
 - None

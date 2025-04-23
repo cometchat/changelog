@@ -7,6 +7,7 @@
 
 ## Fixes
 - Resolved an issue where retrieving extension settings via multi-tenant APIs returned a 404 error when using an alternate management domain.
+- Added the `Strict-Transport-Security` header to enhance security, addressing feedback from a vulnerability assessment report.
 <br/>
 
 

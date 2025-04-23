@@ -1,4 +1,4 @@
-# Management API v1.3.11 | 2025-04-22
+# Management API v1.3.12 | 2025-04-22
 ## New
 - None
 
@@ -6,7 +6,7 @@
 - None
 
 ## Fixes
-- Fixed an issue where fetching extension settings via API returned a 404 error.
+- Resolved an issue where retrieving extension settings via multi-tenant APIs returned a 404 error when using an alternate management domain.
 <br/>
 
 

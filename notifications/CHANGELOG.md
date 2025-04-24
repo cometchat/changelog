@@ -1,3 +1,14 @@
+# Notifications v1.5.0 | 2025-04-24
+## New
+- Introduced the ability to bypass notification preferences for mentions, ensuring users always receive alerts when they are mentioned.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+<br/>
+
 # Notifications v1.4.0 | 2025-04-10
 ## New
 - Introduced **Notification Logs** feature, allowing customers to view and track notification history for easier investigation and debugging.

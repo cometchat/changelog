@@ -10,7 +10,6 @@
 - Corrected the API response structure when modifying the scope of an admin user.
 - Enabled the ability to search soft-deleted messages through the Admin API.
 - Fixed incorrect conversation ordering when the enhanced message status service was enabled.
-- Ensured that conversation updates now respect the "Include Group Actions" setting in conversation previews.
 <br/>
 
 

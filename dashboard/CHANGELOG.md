@@ -14,16 +14,6 @@
 - Handled validation errors for incorrect pattern values entered in rule conditions.
 <br/>
 
-# Dashboard v3.14.2 | 2025-04-21
-## New
-- Added a dashboard toggle to enable or disable the Conversation Search feature.
-
-## Enhancements
-- None
-
-## Fixes
-- None
-<br/>
 
 # Dashboard v3.14.2 | 2025-04-21
 ## New

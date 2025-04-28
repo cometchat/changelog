@@ -3,8 +3,8 @@
 - None
 
 ## Enhancements
-- Updated UI Kit version to 6.0.4, including changes to the CSS import path.
-- Updated SDK version to 4.0.12.
+- Updated React UI Kit version to 6.0.4, including changes to the CSS import path.
+- Updated JS Chat SDK version to 4.0.12.
 
 ## Fixes
 - Fixed a UI issue with the download modal that caused display inconsistencies.

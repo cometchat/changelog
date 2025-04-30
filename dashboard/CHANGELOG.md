@@ -1,3 +1,20 @@
+# Dashboard v3.14.3 | 2025-04-28
+## New
+- None
+
+## Enhancements
+- Updated React UI Kit version to 6.0.4, including changes to the CSS import path.
+- Updated JS Chat SDK version to 4.0.12.
+
+## Fixes
+- Fixed a UI issue with the download modal that caused display inconsistencies.
+- Redirected users to the "Integrate" section instead of "Overview" when current usage is 0, improving onboarding flow.
+- Fixed UI issues on the Chat Settings and App General Settings pages for a more consistent experience.
+- Fixed an incorrect documentation link for Next.js, ensuring accurate developer resources.
+- Handled validation errors for incorrect pattern values entered in rule conditions.
+<br/>
+
+
 # Dashboard v3.14.2 | 2025-04-21
 ## New
 - Added a dashboard toggle to enable or disable the Conversation Search feature.

@@ -1,3 +1,15 @@
+# Dashboard v3.14.4 | 2025-04-30
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue with Conversation Search setting on Chat settings.
+<br/>
+
+
 # Dashboard v3.14.3 | 2025-04-28
 ## New
 - None

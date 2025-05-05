@@ -1,3 +1,23 @@
+# Dashboard v3.14.5 | 2025-05-05
+## New
+- Added "Next.js" to the technology list when creating a new app.
+- Added a banner prompting users to subscribe to a plan for free apps with active usage.
+- Included a "Status Page" option under both the Resources list and Quick Links in the App Overview.
+
+## Enhancements
+- Changed the "Current Usage" label in the App Overview from *CCU* to *PCC* for improved clarity.
+- Added explanatory text to the App Overview noting that "Current Usage" reflects the current billing cycle.
+- Updated the title of the upselling banner to “Upgrade your plan” for better visibility.
+- Updated the subtext for the Sample App link in Quick Links to: “Explore ready-to-use app examples on GitHub.”
+- Made the order of items in the Resources and Quick Links lists consistent across the dashboard.
+- Improved app navigation by adding scroll functionality and refining scrolling behavior on smaller resolutions.
+
+## Fixes
+- Fixed a UI issue with selecting list inputs in the Moderation rule Add/Edit interface.
+- Fixed a bug where the Voice Message feature appeared in the Chat Widget settings, despite not being configurable.
+<br/>
+
+
 # Dashboard v3.14.4 | 2025-04-30
 ## New
 - None

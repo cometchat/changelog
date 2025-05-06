@@ -1,3 +1,16 @@
+# Chat API v3.9.29 | 2025-05-06
+## New
+- None
+
+## Enhancements
+- Added the ability to filter members by status in the List Group Members API.
+
+## Fixes
+- Updated the Stats API to leverage the new metrics service for improved accuracy and performance.
+- Ensured user and group tags are passed to the moderation event bus during message sending, allowing tag-based filters to function correctly.
+<br/>
+
+
 # Chat API v3.9.28 | 2025-04-23
 ## New
 - None

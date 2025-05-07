@@ -1,13 +1,12 @@
 # Dashboard v3.14.5 | 2025-05-05
 ## New
-- None
+- Added a banner prompting users to subscribe to a plan for free apps with active usage.
 
 ## Enhancements
 - Updated UI Kit to version **6.0.5**
 - Removed Chat SDK as a direct dependency; it is now managed as a **peer dependency** via the updated UI Kit.
 - Changed the "Current Usage" label in the App Overview from *CCU* to *PCC* for improved clarity.
 - Added explanatory text to the App Overview noting that "Current Usage" reflects the current billing cycle.
-- Updated the title of the upselling banner to “Upgrade your plan” for better visibility.
 - Updated the subtext for the Sample App link in Quick Links to: “Explore ready-to-use app examples on GitHub.”
 - Made the order of items in the Resources and Quick Links lists consistent across the dashboard.
 - Improved app navigation by adding scroll functionality and refining scrolling behavior on smaller resolutions.

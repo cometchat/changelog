@@ -2,7 +2,6 @@
 ## New
 - Added "Next.js" to the technology list when creating a new app.
 - Added a banner prompting users to subscribe to a plan for free apps with active usage.
-- Included a "Status Page" option under both the Resources list and Quick Links in the App Overview.
 
 ## Enhancements
 - Updated UI Kit to version **6.0.5**

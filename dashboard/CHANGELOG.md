@@ -5,6 +5,8 @@
 - Included a "Status Page" option under both the Resources list and Quick Links in the App Overview.
 
 ## Enhancements
+- Updated UI Kit to version **6.0.5**
+- Removed Chat SDK as a direct dependency; it is now managed as a **peer dependency** via the updated UI Kit.
 - Changed the "Current Usage" label in the App Overview from *CCU* to *PCC* for improved clarity.
 - Added explanatory text to the App Overview noting that "Current Usage" reflects the current billing cycle.
 - Updated the title of the upselling banner to “Upgrade your plan” for better visibility.

@@ -1,3 +1,14 @@
+# Extensions v3.0.10 | 2025-05-08
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where the Thumbnail Generation, Collaborative Document, Collaborative Whiteboard, and Avatar extensions were not working in the UAE due to the cometchat.io domain being blocked. An alternate domain has been added to restore functionality in the UAE.
+</br>
+
 # Extensions v3.0.9 | 2025-04-17
 ## New
 - None.

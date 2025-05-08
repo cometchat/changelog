@@ -1,4 +1,4 @@
-# Extensions v3.0.10 | 2025-05-08
+# Extensions v3.0.10 | 2025-05-07
 ## New
 - None
 

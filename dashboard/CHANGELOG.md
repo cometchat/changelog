@@ -1,3 +1,22 @@
+# Dashboard v3.14.6 | 2025-05-08
+## New
+- Added **Next.js** to the technology list when creating a new app, expanding framework options.
+- Added a **React Integration video** to the "Integrate" page, guiding users on how to integrate React apps using Visual Builder.
+- Included a **Status Page** link under both **Resources** and **Quick Links** on the dashboard for easier access to system health updates.
+- Introduced a **"Subscribe Plan" banner** for expired apps, displayed regardless of usage status to encourage timely reactivation.
+
+## Enhancements
+- Renamed **Next JS** to **Next.js** across the dashboard for naming consistency.
+- Updated the title text for **upselling banners** across the dashboard to improve clarity and consistency.
+
+## Fixes
+- Redirected users with **expired apps** to the **Plans and Billing** section instead of the Integrate page for a more relevant experience.
+- Fixed broken UI in the **restricted view of the Integrate section** when accessed from an expired app.
+- Resolved an issue where the **Upgrade Plan banner** was affecting the layout of the app navigation.
+- Fixed navigation issues on **smaller screen resolutions** for improved accessibility and usability.
+<br/>
+
+
 # Dashboard v3.14.5 | 2025-05-05
 ## New
 - Added a banner prompting users to subscribe to a plan for free apps with active usage.

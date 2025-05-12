@@ -1,3 +1,16 @@
+# Notifications v1.6.0 | 2025-05-14
+## New
+- None
+
+## Enhancements
+- Added the ability to configure notification preferences related to calls through the Dashboard and REST API, giving more control over how call alerts are delivered.
+- Introduced options to customize push notification payloads, allowing inclusion or exclusion of the message object and metadata for greater control over notification content.
+- Increased the delay between SMS and email notifications to 1 minute to help prevent duplicate or closely timed alerts.
+
+## Fixes
+- Fixed an issue where pagination in the notification logs failed to work correctly, ensuring smooth navigation through log entries.
+</br>
+
 # Notifications v1.5.0 | 2025-04-24
 ## New
 - Introduced the ability to bypass notification preferences for mentions, ensuring users always receive alerts when they are mentioned.

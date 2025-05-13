@@ -1,3 +1,15 @@
+# Management API v1.3.13 | 2025-05-13
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Added correct error responses for requests to non-existent extension settings endpoints, ensuring they return a 404 status as expected.
+<br/>
+
+
 # Management API v1.3.12 | 2025-04-22
 ## New
 - None

@@ -3,7 +3,7 @@
 - None
 
 ## Enhancements
-- None
+- Added support for marking extensions as "Legacy" or "End of Life" to better manage extension lifecycle.
 
 ## Fixes
 - Added correct error responses for requests to non-existent extension settings endpoints, ensuring they return a 404 status as expected.

@@ -9,7 +9,7 @@
   - App owners can **define custom rules** for both OpenAI and Custom API-based moderation.
   - Available for **Build** and **Enterprise** plans only.
   
- - **New Mention Notification Preference Toggle**  
+ - **Notification Preference Toggle for Mentions**  
   Added a toggle under **Notifications > Common Preferences** to **ignore end-user mute settings when the user is mentioned in a message**, ensuring important mentions are delivered.
 
 - Added **Push Notification Logs** in the dashboard, enabling app owners to view logs of failed push notifications—helping diagnose delivery issues.

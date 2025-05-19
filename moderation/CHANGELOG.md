@@ -1,3 +1,14 @@
+# Moderation v1.0.6 | 2025-05-19
+## New
+- Added support for OpenAI integration, enabling automated moderation using stored OpenAI prompts.
+- Introduced support for custom Moderation APIs, allowing developers to apply their own logic for content control.
+## Enhancements
+- None
+## Fixes
+- Fixed an issue where regex input validation failed when creating a list of regex with commas.
+<br/>
+
+
 # Moderation v1.0.5 | 2025-05-14
 ## New
 - None

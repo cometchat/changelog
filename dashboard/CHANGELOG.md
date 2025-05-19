@@ -16,14 +16,13 @@
   - **Chat Features**
   - **Webhooks (New)**
   - **Legacy Notifications**
-- Visual Builder: App credentials are now included by default when exporting a React app, simplifying integration and setup.
-- Visual Builder: Disabled AI features by default in Visual Builder to give developers more control over feature activation.
-- Visual Builder: Updated nomenclature in core files for improved code clarity and consistency.
 
 ## Enhancements
 - Added **hover states** for buttons and links across the dashboard to improve interactivity and visual feedback.
 - Updated text and made visual improvements to the **Upgrade banner** for better clarity and engagement.
-- Visual Builder: App credentials are now included by default when exporting a React app, simplifying integration and setup.
+- **App Export Improvements**: App credentials are now included by default when exporting a **React app**, simplifying setup and reducing integration steps.
+- **AI Settings Control**: Disabled **AI features by default**, giving developers more control over when and how AI is used in the Visual Builder.
+- **Codebase Consistency**: Updated **nomenclature in core files** to improve code clarity, readability, and maintainability.
 
 ## Fixes
 - Fixed an issue where users were **unable to scroll** on the Moderation Settings page.

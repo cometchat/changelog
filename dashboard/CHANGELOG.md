@@ -20,9 +20,9 @@
 ## Enhancements
 - Added **hover states** for buttons and links across the dashboard to improve interactivity and visual feedback.
 - Updated text and made visual improvements to the **Upgrade banner** for better clarity and engagement.
-- **App Export Improvements**: App credentials are now included by default when exporting a **React app**, simplifying setup and reducing integration steps.
-- **AI Settings Control**: Disabled **AI features by default**, giving developers more control over when and how AI is used in the Visual Builder.
-- **Codebase Consistency**: Updated **nomenclature in core files** to improve code clarity, readability, and maintainability.
+- Visual Builder: **App Export Improvements** - App credentials are now included by default when exporting a **React app**, simplifying setup and reducing integration steps.
+- Visual Builder: **AI Settings Control** - Disabled **AI features by default**, giving developers more control over when and how AI is used in the Visual Builder.
+- Visual Builder: **Codebase Consistency** - Updated **nomenclature in core files** to improve code clarity, readability, and maintainability.
 
 ## Fixes
 - Fixed an issue where users were **unable to scroll** on the Moderation Settings page.

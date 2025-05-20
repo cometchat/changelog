@@ -31,6 +31,8 @@
 - Fixed a bug where the **"Cancel" button** on the "Add User Role" dialog was not working.
 - Resolved an **overflow issue** with graphs on the App Overview page, ensuring content stays within bounds.
 - Fixed **double border rendering** in Webhooks forms for a cleaner UI.
+- Fixed UI issue being faced after page reload in create application.
+- Fixed success notification issue on enabling Conversation search feature.
 - Fixed a UI issue where **feature toggle borders** were inconsistent on the Visual Builder toggle list.
 - Resolved an issue where the toggle for **Custom Push Notification Provider** was **enabled by default** when it shouldn't be.
 - Visual Builder: Fixed an issue where the "Show Back Button" setting in the sample app was not applying correctly.

@@ -10,7 +10,7 @@
 - Fixed an issue where the `conversationId` was missing from the APNS payload, which occurred in version v1.6.0. This ensures proper deep linking for a notification on iOS devices.
 </br>
 
-# Notifications v1.6.0 | 2025-05-14
+# Notifications v1.6.0 | 2025-05-20
 ## New
 - None
 

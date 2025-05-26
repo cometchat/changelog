@@ -1,3 +1,20 @@
+# Chat API v3.9.30 | 2025-05-19
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where `membersCount` did not update correctly when users were kicked or banned from a group.
+- Resolved a problem where `callToken` size exceeded acceptable limits by omitting user metadata during token generation.
+- Fixed a bug that allowed a user to react to a message after blocking another user.
+- Ensured `unreadMessageCount` is set to 0 when a conversation is reset.
+- Corrected the behavior of `category` and `type` filters in the list messages API, which previously caused empty message lists in UI Kits when the search service was enabled.
+- Fixed a bug where group conversations were not added to the conversation list when a user was added to a group with "Include Group Actions" disabled in the Conversation Preview configuration. This issue was introduced in version v3.9.26.
+<br/>
+
+
 # Chat API v3.9.29 | 2025-05-06
 ## New
 - None

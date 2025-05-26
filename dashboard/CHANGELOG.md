@@ -1,3 +1,49 @@
+# Dashboard v3.14.7 | 2025-04-19
+## New
+- **AI-Based Moderation**  
+  - Introduced support for **OpenAI-based content moderation** and a **Custom Moderation API**, enabling more intelligent and context-aware filtering of user messages.
+  - Configure your own **OpenAI key, model, temperature**, and **prompt** directly from the dashboard.
+  - Use **custom APIs** for moderation with flexible error-handling options.
+  - Added new moderation list types: **OpenAI Prompt** and **Custom Moderation API**.
+  - **Default AI moderation rules** are now added automatically to help users get started quickly.
+  - App owners can **define custom rules** for both OpenAI and Custom API-based moderation.
+  - Available for **Build** and **Enterprise** plans only.
+  
+ - **Notification Preference Toggle for Mentions**  
+  Added a toggle under **Notifications > Common Preferences** to **ignore end-user mute settings when the user is mentioned in a message**, ensuring important mentions are delivered.
+
+- Added **Push Notification Logs** in the dashboard, enabling app owners to view logs of failed push notifications—helping diagnose delivery issues.
+  
+- Added **"Upgrade" tags** to premium features based on the user's current plan. Tags now appear on:
+  - **Chat Features**
+  - **Webhooks (New)**
+  - **Legacy Notifications**
+
+## Enhancements
+- Added **hover states** for buttons and links across the dashboard to improve interactivity and visual feedback.
+- Updated text and made visual improvements to the **Upgrade banner** for better clarity and engagement.
+- Visual Builder: **App Export Improvements** - App credentials are now included by default when exporting a **React app**, simplifying setup and reducing integration steps.
+- Visual Builder: **AI Settings Control** - Disabled **AI features by default**, giving developers more control over when and how AI is used in the Visual Builder.
+- Visual Builder: **Codebase Consistency** - Updated **nomenclature in core files** to improve code clarity, readability, and maintainability.
+
+## Fixes
+- Fixed an issue where users were **unable to scroll** on the Moderation Settings page.
+- Fixed a bug where the **"Cancel" button** on the "Add User Role" dialog was not working.
+- Resolved an **overflow issue** with graphs on the App Overview page, ensuring content stays within bounds.
+- Fixed **double border rendering** in Webhooks forms for a cleaner UI.
+- Fixed UI issue being faced after page reload in create application.
+- Fixed success notification issue on enabling Conversation search feature.
+- Fixed a UI issue where **feature toggle borders** were inconsistent on the Visual Builder toggle list.
+- Resolved an issue where the toggle for **Custom Push Notification Provider** was **enabled by default** when it shouldn't be.
+- Visual Builder: Fixed an issue where the "Show Back Button" setting in the sample app was not applying correctly.
+- Visual Builder: Fixed a bug where the Owner scope was not updating when a user left a password-protected group.
+- Visual Builder: Resolved a problem where the delete chat toggle was not working for new conversations.
+- Visual Builder: Fixed a UI issue in the voice calling screen, ensuring consistent visual behavior during calls.
+- Visual Builder: Fixed a bug where the Leave Group option appeared even when the owner was the only member in the group.
+- Visual Builder: Fixed an issue where the Info page did not close after creating a new group.
+- Visual Builder: Fixed a bug where pressing Enter in the group member search box triggered the last performed action prior to opening the search.
+- Visual Builder: Fixed a layout issue where, on clicking "Add Members", the user list appeared on only half the screen and overlapped with the group info panel.
+
 # Dashboard v3.14.6 | 2025-05-08
 ## New
 - Added **Next.js** to the technology list when creating a new app, expanding framework options.

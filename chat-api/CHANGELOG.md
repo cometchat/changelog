@@ -1,3 +1,15 @@
+# Chat API v3.9.31 | 2025-06-02
+## New
+- None
+
+## Enhancements
+- Added support for the `attachmentTypes` query parameter in the List Messages API, enabling more precise filtering of message attachments for the Advanced Search service.
+
+## Fixes
+- Fixed an issue where the List Conversations API, when called with `includeBlockedUsers` set to `1`, incorrectly displayed a blocked user after the conversation with them was reset.
+- Resolved a bug in the Import Users API that caused request failures when importing a mix of deactivated and active users.
+<br/>
+
 # Chat API v3.9.30 | 2025-05-19
 ## New
 - None

@@ -1,3 +1,47 @@
+# Dashboard v3.14.8 | 2025-06-04
+
+## New
+- **Call Notification Preferences**  
+  Added a new option under **Notifications → Preferences → Common Preferences** to configure all call notifications behaviour.
+
+- **Custom Push Notification Payloads**  
+  Customers can now customise push notification payloads and include additional metadata via  
+  **Notifications → Preferences → Common Preferences**, offering greater flexibility and control.
+
+- **Extensions Update**  
+  A new extension lifecycle model has been implemented. Extension states are reflected in **Chat Features**, **Legacy Moderation**, and **Legacy Notifications** sections:
+  
+  - **Legacy Extensions**  
+    - Hidden from all **new users**.  
+    - For **existing users** who have **not enabled** the extension, it will be removed.  
+    - For users who have **already enabled** it, the extension will remain fully functional.  
+    - A **"Legacy" tag** will appear next to these extensions in the UI.  
+    - For **multi-tenant accounts**, the extension remains accessible across apps.  
+    - **Email Replies, Mentions, Reactions, Smart Reply** are now marked as Legacy.
+
+  - **Deprecated Extensions**  
+    - Extensions are completely removed from the dashboard.  
+    - No longer available to any users.  
+    - **Slow Mode, XSS Filter, E2E Encryption, Applozic, Video Broadcasting, Emojis, Gfycat, Avatar** are now deprecated.
+
+## Enhancements
+- **Two-Factor Authentication (2FA) Defaults Updated**  
+  - **Free plan users**: 2FA is now **disabled by default**, but can be manually enabled from Account Settings.  
+  - **Paid plan users**: 2FA is **enabled by default** upon subscription, with the option to disable it.  
+  - **No impact** on existing users — their current 2FA settings remain unchanged.
+
+- **AI Settings Migration**  
+  - AI settings have been moved from the **AI Chatbot** section to **Chat Settings → AI User Copilot**.  
+  - The **"Enable AI" toggle has been removed** — AI activates automatically when valid settings (Model, API Key, Temperature, etc.) are provided.  
+  - During bot creation, users are now redirected to configure AI settings before proceeding.  
+  - This update streamlines configuration and improves the overall AI setup experience.
+
+## Fixes
+- Fixed an issue where the **Upgrade tag** appeared on **Message Basic Webhooks** for users on the **Advanced plan**.
+- Fixed an issue where an **incorrect label** was displayed for the **Group Type** field on the **Add Group** screen.
+<br/>
+
+
 # Dashboard v3.14.7 | 2025-04-19
 ## New
 - **AI-Based Moderation**  
@@ -43,6 +87,8 @@
 - Visual Builder: Fixed an issue where the Info page did not close after creating a new group.
 - Visual Builder: Fixed a bug where pressing Enter in the group member search box triggered the last performed action prior to opening the search.
 - Visual Builder: Fixed a layout issue where, on clicking "Add Members", the user list appeared on only half the screen and overlapped with the group info panel.
+<br/>
+
 
 # Dashboard v3.14.6 | 2025-05-08
 ## New

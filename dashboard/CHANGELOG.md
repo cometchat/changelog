@@ -6,7 +6,7 @@
 
 - **Custom Push Notification Payloads**  
   Customers can now customise push notification payloads and include additional metadata via  
-  **Notifications → Preferences → Common Preferences**, offering greater flexibility and control.
+  **Notifications → Preferences → Push Notification Preferences**, offering greater flexibility and control.
 
 - **Extensions Update**  
   A new extension lifecycle model has been implemented. Extension states are reflected in **Chat Features**, **Legacy Moderation**, and **Legacy Notifications** sections:

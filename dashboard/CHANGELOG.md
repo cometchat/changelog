@@ -12,11 +12,7 @@
   A new extension lifecycle model has been implemented. Extension states are reflected in **Chat Features**, **Legacy Moderation**, and **Legacy Notifications** sections:
   
   - **Legacy Extensions**  
-    - Hidden from all **new users**.  
-    - For **existing users** who have **not enabled** the extension, it will be removed.  
-    - For users who have **already enabled** it, the extension will remain fully functional.  
     - A **"Legacy" tag** will appear next to these extensions in the UI.  
-    - For **multi-tenant accounts**, the extension remains accessible across apps.  
     - **Email Replies, Mentions, Reactions, Smart Reply** are now marked as Legacy.
 
   - **Deprecated Extensions**  

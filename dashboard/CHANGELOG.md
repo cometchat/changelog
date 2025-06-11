@@ -1,6 +1,36 @@
 # Dashboard v3.14.8 | 2025-06-04
 
 ## New
+- [Visual Builder] Added `showScrollbar` prop support to the following components for improved UI control:
+  - `CometChatConversations`
+  - `CometChatUsers`
+  - `CometChatGroups`
+  - `CometChatMessageList`
+  - `CometChatMessageComposer`
+
+## Enhancements
+- Added support for **React UI Kit version 6.0.7**, bringing the latest improvements and refinements to the Visual Builder experience.
+
+## Deprecations
+- Deprecated the following **legacy extensions** for apps where they have not been enabled:
+  - **Mentions**
+  - **Reactions**
+  - **Smart Reply**
+  - **Legacy Notifications**
+  - **Legacy Moderation**
+
+  These extensions will no longer appear for new or inactive usage, ensuring a cleaner and more streamlined configuration experience.
+
+## Fixes
+- [Visual Builder] Resolved an issue where the **message list** caused the entire webpage to scroll to the bottom on load.
+- [Visual Builder] Fixed a **UI spacing issue** where there was a missing space between the **member count** and the **member** keyword.
+- [Visual Builder] Fixed a **crash** caused by **unsupported regular expression features** in certain JavaScript engines, improving cross-browser stability.
+<br/>
+
+
+# Dashboard v3.14.8 | 2025-06-04
+
+## New
 - **Call Notification Preferences**  
   Added a new option under **Notifications → Preferences → Common Preferences** to configure all call notifications behaviour.
 

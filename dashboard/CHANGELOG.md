@@ -1,4 +1,4 @@
-# Dashboard v3.14.8 | 2025-06-04
+# Dashboard v3.14.9 | 2025-06-11
 
 ## New
 - [Visual Builder] Added `showScrollbar` prop support to the following components for improved UI control:

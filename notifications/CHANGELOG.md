@@ -1,3 +1,15 @@
+# Notifications v1.6.3 | 2025-06-16
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Added customJson to APNS VoIP Notification payloads
+</br>
+
 # Notifications v1.6.1 | 2025-05-22
 
 ## New

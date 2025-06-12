@@ -1,3 +1,15 @@
+# Management API v1.3.14 | 2025-06-12
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Added a restriction for multi-tenant customers on the Build plan to limit app creation to a maximum of 10 apps.
+<br/>
+
+
 # Management API v1.3.13 | 2025-05-13
 ## New
 - None

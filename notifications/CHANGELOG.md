@@ -7,7 +7,7 @@
 - None
 
 ## Fixes
-- Added customJson to APNS VoIP Notification payloads
+- Fixed an issue where `customJson` was missing from APNS VoIP notification payloads
 </br>
 
 # Notifications v1.6.1 | 2025-05-22

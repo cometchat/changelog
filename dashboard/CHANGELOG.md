@@ -22,6 +22,7 @@
   These extensions will no longer appear for new or inactive usage, ensuring a cleaner and more streamlined configuration experience.
 
 ## Fixes
+- Addressed UI bugs across multiple sections including Moderation, Chats, Bots, and Notifications for improved user experience.
 - [Visual Builder] Resolved an issue where the **message list** caused the entire webpage to scroll to the bottom on load.
 - [Visual Builder] Fixed a **UI spacing issue** where there was a missing space between the **member count** and the **member** keyword.
 - [Visual Builder] Fixed a **crash** caused by **unsupported regular expression features** in certain JavaScript engines, improving cross-browser stability.

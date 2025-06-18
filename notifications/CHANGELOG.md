@@ -1,3 +1,15 @@
+# Notifications v1.6.3 | 2025-06-16
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where additional data in the payload was missing from the APNS VoIP notification.
+</br>
+
 # Notifications v1.6.1 | 2025-05-22
 
 ## New

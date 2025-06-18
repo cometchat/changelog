@@ -7,7 +7,7 @@
 - None
 
 ## Fixes
-- Fixed an issue where additional data was missing from the APNS VoIP notification payloads.
+- Fixed an issue where additional data in the payload was missing from the APNS VoIP notification.
 </br>
 
 # Notifications v1.6.1 | 2025-05-22

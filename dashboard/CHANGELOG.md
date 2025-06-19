@@ -19,7 +19,7 @@
   - **Legacy Notifications**
   - **Legacy Moderation**
 
-  These extensions will no longer appear for new or inactive usage, ensuring a cleaner and more streamlined configuration experience.
+  These extensions will no longer appear for new or inactive apps, ensuring a cleaner and more streamlined configuration experience.
 
 ## Fixes
 - Addressed UI issues across multiple sections, including Integrate, Groups, App navigation, Visual Builder, Moderation, Chats, Bots, and Notifications for improved user experience.

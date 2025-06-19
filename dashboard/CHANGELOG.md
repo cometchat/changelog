@@ -1,3 +1,34 @@
+# Dashboard v3.14.9 | 2025-06-11
+
+## New
+- [Visual Builder] Added `showScrollbar` prop support to the following components for improved UI control:
+  - `CometChatConversations`
+  - `CometChatUsers`
+  - `CometChatGroups`
+  - `CometChatMessageList`
+  - `CometChatMessageComposer`
+
+## Enhancements
+- Added support for **React UI Kit version 6.0.7**, bringing the latest improvements and refinements to the Visual Builder experience.
+
+## Deprecations
+- Deprecated the following **legacy extensions** for apps where they have not been enabled:
+  - **Mentions**
+  - **Reactions**
+  - **Smart Reply**
+  - **Legacy Notifications**
+  - **Legacy Moderation**
+
+  These extensions will no longer appear for new or inactive apps, ensuring a cleaner and more streamlined configuration experience.
+
+## Fixes
+- Addressed UI issues across multiple sections, including Integrate, Groups, App navigation, Visual Builder, Moderation, Chats, Bots, and Notifications for improved user experience.
+- [Visual Builder] Resolved an issue where the **message list** caused the entire webpage to scroll to the bottom on load.
+- [Visual Builder] Fixed a **UI spacing issue** where there was a missing space between the **member count** and the **member** keyword.
+- [Visual Builder] Fixed a **crash** caused by **unsupported regular expression features** in certain JavaScript engines, improving cross-browser stability.
+<br/>
+
+
 # Dashboard v3.14.8 | 2025-06-04
 
 ## New
@@ -6,17 +37,13 @@
 
 - **Custom Push Notification Payloads**  
   Customers can now customise push notification payloads and include additional metadata via  
-  **Notifications → Preferences → Common Preferences**, offering greater flexibility and control.
+  **Notifications → Preferences → Push Notification Preferences**, offering greater flexibility and control.
 
 - **Extensions Update**  
   A new extension lifecycle model has been implemented. Extension states are reflected in **Chat Features**, **Legacy Moderation**, and **Legacy Notifications** sections:
   
   - **Legacy Extensions**  
-    - Hidden from all **new users**.  
-    - For **existing users** who have **not enabled** the extension, it will be removed.  
-    - For users who have **already enabled** it, the extension will remain fully functional.  
     - A **"Legacy" tag** will appear next to these extensions in the UI.  
-    - For **multi-tenant accounts**, the extension remains accessible across apps.  
     - **Email Replies, Mentions, Reactions, Smart Reply** are now marked as Legacy.
 
   - **Deprecated Extensions**  

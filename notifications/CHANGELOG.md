@@ -1,3 +1,17 @@
+# Notifications v1.6.4 | 2025-06-25
+
+## New
+- None
+
+## Enhancements
+- None
+ 
+## Fixes
+- Fixed an issue where the receiver and sender metadata were missing from call notifications.
+- Fixed an issue where the notification sound was not working on FCM iOS platforms.
+- Fixed an issue where notification key settings were not being applied to FCM iOS notifications.
+</br>
+
 # Notifications v1.6.3 | 2025-06-16
 
 ## New

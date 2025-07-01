@@ -1,3 +1,20 @@
+# Dashboard v3.14.10 | 2025-07-01
+
+## New
+- None
+
+## Enhancements
+- Renamed **“Non AI Bots”** to **“Custom Bots”** for improved clarity in bot configuration.
+- Removed the **Upgrade plan banner** from the **Legacy Moderation** screen as **Legacy Moderation** is now deprecated for newer apps.
+- Updated the **Current Usage** display in **App Overview** to show **monthly usage** for annual plans, providing more relevant insights.
+
+## Fixes
+- Fixed an issue with the **Insights calendar** where date selection was not functioning correctly.
+- Resolved a **UI bug with radio button options** in the Visual Builder.
+- Fixed UI issues in the **App/Builder Creation success/failure modals** for a smoother user experience.
+- Fixed **loader alignment issues** on buttons to ensure proper layout and feedback.
+- Removed inconsistent **background image** from onboarding screens for a cleaner appearance.
+
 # Dashboard v3.14.9 | 2025-06-11
 
 ## New

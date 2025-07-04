@@ -1,3 +1,15 @@
+# Notifications v1.6.6 | 2025-07-09
+
+## New
+- None
+
+## Enhancements
+- Added validation to ensure provider ID is valid and matches the device platform during push token registration.
+ 
+## Fixes
+- Fixed an issue where the metadata was missing from call notifications.
+</br>
+
 # Notifications v1.6.4 | 2025-06-25
 
 ## New

@@ -12,6 +12,7 @@
     - **Configure Moderation Webhook**
     - **Integrate & Test Moderation API**
   - Quick links to tutorial, documentation, and a demo to guide users through the process.
+  - **Users can intuitively switch between the _Get Started_ and _Setup_ views** for a smoother experience.
 
   This update streamlines the moderation onboarding experience and helps teams get started faster with content safety tools.
   

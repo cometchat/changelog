@@ -11,7 +11,7 @@
     - **Set Up Rules**
     - **Configure Moderation Webhook**
     - **Integrate & Test Moderation API**
-  - Quick links to tutorials, documentation, and a demo to guide users through the process.
+  - Quick links to tutorial, documentation, and a demo to guide users through the process.
 
   This update streamlines the moderation onboarding experience and helps teams get started faster with content safety tools.
   

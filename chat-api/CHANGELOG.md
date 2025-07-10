@@ -1,3 +1,15 @@
+# Chat API v3.9.32 | 2025-07-03
+## New
+- Introduced separate REST API endpoints for Moderation, enabling it to operate independently from the core chat service.
+
+## Enhancements
+- None
+
+## Fixes
+- Masked `apiKey` and `authToken` values in error responses to enhance security.
+- Fixed an issue where the action message contained incorrect user information when changing user scope.
+<br/>
+
 # Chat API v3.9.31 | 2025-06-02
 ## New
 - None

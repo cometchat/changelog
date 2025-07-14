@@ -1,3 +1,29 @@
+# Dashboard v3.14.11 | 2025-07-04
+
+## New
+
+- **"Get Started" Section for Moderation**  
+  A new **Get Started** section has been added under the **Moderation** tab to help users easily understand and set up moderation in their apps.
+
+  Highlights include:
+  - A visual overview of how moderation works, with an example of a flagged message.
+  - Easy access to key setup actions:
+    - **Set Up Rules**
+    - **Configure Moderation Webhook**
+    - **Integrate & Test Moderation API**
+  - Quick links to tutorial, documentation, and relevant app sections to guide users through the process.
+  - Users can intuitively switch between the **_Get Started_ and _Setup_ views** for a smoother experience.
+
+  This update streamlines the moderation onboarding experience and helps teams get started faster with content safety tools.
+  
+  ## Enhancements
+  - None
+  
+  ## Fixes
+  - None
+<br/>
+
+
 # Dashboard v3.14.10 | 2025-07-01
 
 ## New
@@ -14,6 +40,8 @@
 - Fixed UI issues in the **App/Builder Creation success/failure modals** for a smoother user experience.
 - Fixed **loader alignment issues** on buttons to ensure proper layout and feedback.
 - Removed inconsistent **background image** from onboarding screens for a cleaner appearance.
+<br/>
+
 
 # Dashboard v3.14.9 | 2025-06-11
 

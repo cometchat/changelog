@@ -1,3 +1,29 @@
+# Dashboard v3.14.12 | 2025-07-16
+
+## New
+
+- **"Get Started" Screen for AI Agents**  
+  A new **Get Started** screen has been introduced under the **AI Agents** section to assist users in setting up AI-powered chat experiences.  
+  Selecting "Get Started" navigates users directly to the **Custom Agents** configuration screen for a streamlined onboarding process.
+
+## Enhancements
+
+- The **"AI Chatbot"** section has been renamed to **"AI Agents"** in the navigation menu to reflect expanded capabilities and improve clarity.
+- **"Custom Bots"** have been renamed to **"Custom Agents"** for greater alignment with current terminology and feature scope.
+
+## Deprecations
+
+- **AI Bots and Personalities**  
+  The legacy **AI Bots** and **Personalities** features have been deprecated and are no longer available for new configurations.  
+  Existing configurations will continue to function as expected but are no longer supported for new setup.
+
+## Fixes
+
+- **Moderation – Get Started and Overview Screens**  
+  Addressed various UI and content-related issues in the **Moderation Get Started** and **Overview** screens, enhancing layout consistency, readability, and overall usability.
+<br>
+
+
 # Dashboard v3.14.11 | 2025-07-04
 
 ## New

@@ -1,3 +1,17 @@
+# Chat API v3.9.33 | 2025-07-21
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where the member count was not updating reliably when multiple Add Members API calls were made concurrently, especially during simultaneous member additions and removals.
+- Ensured action messages are now included in responses from the Get Message API.
+- Fixed an issue with conversation updates when marked as read/delivered via API.
+- Resolved a bug where marking a non-existent message as read or delivered via API lead to 5xx error.
+<br/>
+
 # Chat API v3.9.32 | 2025-07-03
 ## New
 - Introduced separate REST API endpoints for Moderation, enabling it to operate independently from the core chat service.

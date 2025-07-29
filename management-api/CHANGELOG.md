@@ -1,3 +1,14 @@
+# Management API v1.3.15 | 2025-07-25
+## New
+- Introduced API support for signing in to the dashboard using Google and GitHub.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+<br/>
+
 # Management API v1.3.14 | 2025-06-12
 ## New
 - None

@@ -1,3 +1,15 @@
+# Notifications v1.6.7 | 2025-08-04
+
+## New
+- None
+
+## Enhancements
+- None
+ 
+## Fixes
+- Fixed an issue in email notifications where `Body (Fallback)` was prioritized over `Body` for custom messages in the notifications template.
+</br>
+
 # Notifications v1.6.6 | 2025-07-09
 
 ## New

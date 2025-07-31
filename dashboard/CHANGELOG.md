@@ -1,3 +1,26 @@
+# Dashboard v3.15.0 | 2025-07-30
+
+## New
+- Added no-code widget support in Chat Builder, allowing users to embed chat functionality without writing any code.
+- Introduced conversation search functionality in Chat Builder, available in both code and no-code implementations.
+- Added support for integrating **Chat Builder** with platforms such as **HTML** and **WordPress**, making it easier to embed chat experiences with minimal setup. 
+- **Coming soon**: Support for **Shopify**, **Squarespace**, **Wix**, and **Webflow**.
+
+## Enhancements
+- Renamed "Visual Builder" to "Chat Builder" for improved clarity and alignment with product direction.
+- The new Chat Builder widget includes all existing functionality, layout options (docked and embedded), advanced methods and customisations from Legacy Widgets.
+- No-code widget now fully supports all features available in the code-based version of Chat Builder.
+- Updated the UI for the Create App screen and the Welcome screen in the onboarding flow to enhance the user experience.
+- Updated UI Kit and SDK versions to their latest versions in Chat Builder for improved performance and visual consistency.
+
+## Fixes
+- None
+
+## Deprecations
+- Legacy Widgets are now deprecated for newer customer accounts. Users are encouraged to use Chat Builder for the latest features and customisation options.
+<br>
+
+
 # Dashboard v3.14.12 | 2025-07-16
 
 ## New

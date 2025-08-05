@@ -1,3 +1,12 @@
+# Moderation v1.0.7 | 2025-08-05
+## New
+- None
+## Enhancements
+- Added support for real-time moderation events in the frontend, which will enable the UI to reflect moderation actions immediately.
+## Fixes
+- None
+<br/>
+
 # Moderation v1.0.6 | 2025-05-19
 ## New
 - Added support for OpenAI integration, enabling automated moderation using stored OpenAI prompts.
@@ -87,3 +96,4 @@
 
 -   None   
 <br/>
+

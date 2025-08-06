@@ -1,3 +1,14 @@
+# Platform v3.0.12 | 2025-08-06
+## New
+- None
+
+## Enhancements
+- Added support for real-time moderation events in the frontend, which will enable the UI to reflect moderation actions immediately.
+  
+## Fixes
+- None
+</br>
+
 # Platform v3.0.11 | 2025-05-07
 ## New
 - None
@@ -209,3 +220,4 @@
 
 -   None   
 <br/>
+

@@ -1,3 +1,15 @@
+# Chat API v3.9.34 | 2025-08-05
+## New
+- None
+
+## Enhancements
+- Added support for real-time moderation events in the frontend, which will enable the UI to reflect moderation actions immediately.
+
+## Fixes
+- Fixed an issue that prevented member scope updates from applying correctly when adding members in bulk. The bug was introduced in v3.9.33
+<br/>
+
+
 # Chat API v3.9.33 | 2025-07-21
 ## New
 - None
@@ -324,3 +336,4 @@
 
 -   None   
 <br/>
+

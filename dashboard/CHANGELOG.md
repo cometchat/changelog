@@ -1,3 +1,20 @@
+# Dashboard v3.15.2 | 2025-08-11
+
+## New
+- Added support in Chat Builder to enable or disable the conversation search feature.
+- Moved conversation search settings in the dashboard from **Chat > Settings** to **Chat > Features** for improved accessibility.
+- Added support to integrate Chat Builder with Android and iOS apps, including downloadable app versions for both platforms.
+- Introduced real-time preview via QR code scanning from Android and iOS apps.
+
+## Enhancements
+- Updated the mechanism for applying preview settings by introducing temporary builder settings in the dashboard flow, with an automatic time-to-live (TTL) of 24 hours.
+- Android and iOS integrations are available for the code-based version of Chat Builder only.
+
+## Fixes
+- Implemented bug fixes and UI enhancements for the conversation feature in React code and no-code apps, covering threaded view, user/group info, and user profile view.
+<br>
+
+
 # Dashboard v3.15.0 | 2025-07-30
 
 ## New
@@ -603,3 +620,4 @@ None
 
 -   None   
 <br/>
+

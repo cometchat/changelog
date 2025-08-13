@@ -1,3 +1,26 @@
+# Dashboard v3.15.1 | 2025-08-14
+
+## New
+- **AI Agents** 
+  Introduced AI Agents to help businesses easily create, customise, and deploy intelligent chatbots, copilots, and agents directly into their applications — without the complexity of traditional AI integrations.  
+  - **Faster setup** – Launch production-ready AI agents in minutes using our no-code widget. 
+  - **Seamless integration** – Use our integration wizard and embeddable widget to add AI to your web apps effortlessly.  
+  - US apps only release — coming soon for EU and IN regions.
+
+- **Chat Builder (No code - widget) Launch with AI Agent Support**  
+  Released the new Chat Builder with built-in AI Agent integration, allowing users to design, customise, and deploy AI-powered chat experiences directly from the Chat Builder interface.
+
+- **Updated React UI Kit and JavaScript SDK in Chat Builder**  
+  Upgraded to the latest versions of the React UI Kit and JavaScript SDK within Chat Builder, delivering improved performance, refreshed UI components, and a better developer experience.
+
+## Enhancements
+- Enhanced the design and usability of **Legacy Widgets**, providing a cleaner interface and improved user experience for existing widget implementations.
+
+## Fixes
+- None
+<br>
+
+
 # Dashboard v3.15.0 | 2025-07-30
 
 ## New
@@ -603,3 +626,4 @@ None
 
 -   None   
 <br/>
+

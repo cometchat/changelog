@@ -1,3 +1,15 @@
+# Chat API v3.9.35 | 2025-08-13
+## New
+- Introduced internal support for AI Agents, enabling automated and intelligent task handling for future feature expansion.
+
+## Enhancements
+- Updated bot permissions to allow bots to join groups without restrictions.
+- Implemented a restriction preventing bots from creating authentication tokens, improving security and access control.
+
+## Fixes
+- None
+<br/>
+
 # Chat API v3.9.34 | 2025-08-05
 ## New
 - None
@@ -336,4 +348,5 @@
 
 -   None   
 <br/>
+
 

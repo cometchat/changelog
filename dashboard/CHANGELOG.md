@@ -1,17 +1,23 @@
-# Dashboard v3.15.2 | 2025-08-11
+# Dashboard v3.15.1 | 2025-08-14
 
 ## New
-- Added support in Chat Builder to enable or disable the conversation search feature.
-- Moved conversation search settings in the dashboard from **Chat > Settings** to **Chat > Features** for improved accessibility.
-- Added support to integrate Chat Builder with Android and iOS apps, including downloadable app versions for both platforms.
-- Introduced real-time preview via QR code scanning from Android and iOS apps.
+- **AI Agents** 
+  Introduced AI Agents to help businesses easily create, customise, and deploy intelligent chatbots, copilots, and agents directly into their applications — without the complexity of traditional AI integrations.  
+  - **Faster setup** – Launch production-ready AI agents in minutes using our no-code widget. 
+  - **Seamless integration** – Use our integration wizard and embeddable widget to add AI to your web apps effortlessly.  
+  - US apps only release — coming soon for EU and IN regions.
+
+- **Chat Builder (No code - widget) Launch with AI Agent Support**  
+  Released the new Chat Builder with built-in AI Agent integration, allowing users to design, customise, and deploy AI-powered chat experiences directly from the Chat Builder interface.
+
+- **Updated React UI Kit and JavaScript SDK in Chat Builder**  
+  Upgraded to the latest versions of the React UI Kit and JavaScript SDK within Chat Builder, delivering improved performance, refreshed UI components, and a better developer experience.
 
 ## Enhancements
-- Updated the mechanism for applying preview settings by introducing temporary builder settings in the dashboard flow, with an automatic time-to-live (TTL) of 24 hours.
-- Android and iOS integrations are available for the code-based version of Chat Builder only.
+- Enhanced the design and usability of **Legacy Widgets**, providing a cleaner interface and improved user experience for existing widget implementations.
 
 ## Fixes
-- Implemented bug fixes and UI enhancements for the conversation feature in React code and no-code apps, covering threaded view, user/group info, and user profile view.
+- None
 <br>
 
 

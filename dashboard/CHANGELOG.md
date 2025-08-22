@@ -1,3 +1,16 @@
+# Dashboard v3.15.2 | 2025-08-22
+
+## New
+- None
+
+## Enhancements
+- AI Bots and Instructions are now marked as Legacy (instead of Deprecated) and remain visible for apps created before 15th August 2025.
+
+## Fixes
+- Corrected missing configuration in Custom Subscription Options where the Bypass Preferences setting was not available earlier.
+<br>
+
+
 # Dashboard v3.15.1 | 2025-08-14
 
 ## New
@@ -626,4 +639,5 @@ None
 
 -   None   
 <br/>
+
 

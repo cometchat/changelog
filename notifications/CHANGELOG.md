@@ -1,4 +1,4 @@
-# Notifications v1.6.10 | 2026-08-25
+# Notifications v1.6.10 | 2026-08-26
 
 ## New
 - None

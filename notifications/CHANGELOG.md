@@ -1,3 +1,16 @@
+# Notifications v1.6.10 | 2026-08-25
+
+## New
+- None
+
+## Enhancements
+- Introduced options to customize email notification payloads, allowing inclusion or exclusion of the message object and metadata for greater control over notification content.
+- Introduced options to customize SMS notification payloads, allowing inclusion or exclusion of the message object and metadata for greater control over notification content.
+ 
+## Fixes
+- Fixed an issue where call notifications were not received for custom providers.
+</br>
+
 # Notifications v1.6.7 | 2025-08-04
 
 ## New

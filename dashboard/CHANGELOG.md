@@ -1,3 +1,33 @@
+# Dashboard v3.15.4 | 2025-08-26
+
+## New
+- **AI Agents**  
+  - Expanded availability of AI Agents to **IN and EU regions** in addition to the US.  
+
+- **Mobile Chat Builder Support**  
+  Added support for Android and iOS apps with live preview capability via QR code scanning.  
+
+- **Downloadable Apps with Chat Builder Settings**  
+  Enabled the ability to download Android and iOS apps pre-configured with selected Chat Builder settings for easier integration and testing.  
+
+- **Chat Builder Mobile Preview**  
+  Introduced the option to preview Chat Builder directly within Android and iOS apps for a real-time testing experience.  
+
+- **Conversation Search Toggle in Chat Builder**  
+  Introduced the option to enable or disable the conversation search feature in both code and no-code variations of Chat Builder.  
+
+## Enhancements
+- **UI Improvements in AI Agent Chat Builder**  
+  Applied multiple UI refinements to improve usability and overall chat experience.  
+
+- **Legacy Widgets UI Improvements (Dashboard)**  
+  Enhanced the design and usability of Legacy Widgets within the dashboard for a smoother setup and management experience.  
+
+## Fixes
+AI Agents displayed **unread message count** in the docked layout when accessed from chat history.  
+<br>
+
+
 # Dashboard v3.15.2 | 2025-08-22
 
 ## New
@@ -639,5 +669,6 @@ None
 
 -   None   
 <br/>
+
 
 

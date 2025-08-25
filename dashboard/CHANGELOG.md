@@ -26,7 +26,8 @@
   Enhanced the design and usability of Legacy Widgets within the dashboard for a smoother setup and management experience.  
 
 ## Fixes
-AI Agents displayed **unread message count** in the docked layout when accessed from chat history.  
+- AI Agents displayed **unread message count** in the docked layout when accessed from chat history.  
+- Fixed an issue where messages disappeared in Agent Builder after a theme change or when switching between web and mobile views. 
 <br>
 
 ## Deprecations
@@ -673,6 +674,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

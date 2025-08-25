@@ -11,10 +11,12 @@
   Enabled the ability to download Android and iOS apps pre-configured with selected Chat Builder settings for easier integration and testing.  
 
 - **Chat Builder Mobile Preview**  
-  Introduced the option to preview Chat Builder directly within Android and iOS apps for a real-time testing experience.  
+- Introduced the option to preview Chat Builder directly within Android and iOS apps for a real-time testing experience.  
+- Updated the mechanism for applying preview settings by introducing temporary builder settings in the dashboard flow, with an automatic time-to-live (TTL) of 24 hours.
 
 - **Conversation Search Toggle in Chat Builder**  
   Introduced the option to enable or disable the conversation search feature in both code and no-code variations of Chat Builder.  
+  Moved conversation search settings in the dashboard from **Chat > Settings** to **Chat > Features** for improved accessibility.
 
 ## Enhancements
 - **UI Improvements in AI Agent Chat Builder**  
@@ -669,6 +671,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

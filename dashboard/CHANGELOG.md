@@ -29,6 +29,8 @@
 AI Agents displayed **unread message count** in the docked layout when accessed from chat history.  
 <br>
 
+## Deprecations
+- Removed Sans-serif option from typography font family list in Chat Builder.
 
 # Dashboard v3.15.2 | 2025-08-22
 
@@ -671,6 +673,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

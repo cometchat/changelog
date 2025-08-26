@@ -1,3 +1,15 @@
+# Chat API v3.9.36 | 2025-08-26
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where mentions were not being processed for moderation. Mentions are now consistently sent for moderation, ensuring they appear in real-time events via WebSocket.
+<br/>
+
+
 # Chat API v3.9.35 | 2025-08-13
 ## New
 - Introduced internal support for AI Agents, enabling automated and intelligent task handling for future feature expansion.
@@ -348,5 +360,6 @@
 
 -   None   
 <br/>
+
 
 

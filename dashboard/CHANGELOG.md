@@ -1,3 +1,71 @@
+# Dashboard v3.15.3 | 2025-08-26
+
+## New
+- **AI Agents**  
+  Expanded availability of AI Agents to **IN and EU regions** in addition to the US.  
+
+- **Chat Builder Preview**  
+  Updated the mechanism for applying preview settings by introducing temporary builder settings in the dashboard flow, with an automatic time-to-live (TTL) of 24 hours.
+
+- **Conversation Search Toggle in Chat Builder**  
+  Introduced the option to enable or disable the conversation search feature in both code and no-code variations of Chat Builder.  
+  Moved conversation search settings in the dashboard from **Chat > Settings** to **Chat > Features** for improved accessibility.
+
+## Enhancements
+- **UI Improvements in AI Agent Chat Builder**  
+  Applied multiple UI refinements to improve usability and overall chat experience.  
+
+- **One-on-One Chat Behavior**  
+  Resolved an issue in both code and no-code apps where opening an agent conversation from the **Chats** tab incorrectly launched the one-on-one user chat instead of the intended AI Assistant chat.
+
+- **Legacy Widgets UI Improvements (Dashboard)**  
+  Enhanced the design and usability of Legacy Widgets within the dashboard for a smoother setup and management experience.  
+
+## Fixes
+- AI Agents displayed **unread message count** in the docked layout when accessed from chat history.  
+- Fixed an issue where messages disappeared in Agent Builder after a theme change or when switching between web and mobile views. 
+- Fixed an issue where, on certain occasions, creating a new app incorrectly redirected users to the **Apps Listing** page.
+<br>
+
+## Deprecations
+- Removed Sans-serif option from typography font family list in Chat Builder.
+
+# Dashboard v3.15.2 | 2025-08-22
+
+## New
+- None
+
+## Enhancements
+- AI Bots and Instructions are now marked as Legacy (instead of Deprecated) and remain visible for apps created before 15th August 2025.
+
+## Fixes
+- Corrected missing configuration in Custom Subscription Options where the Bypass Preferences setting was not available earlier.
+<br>
+
+
+# Dashboard v3.15.1 | 2025-08-14
+
+## New
+- **AI Agents** 
+  Introduced AI Agents to help businesses easily create, customise, and deploy intelligent chatbots, copilots, and agents directly into their applications — without the complexity of traditional AI integrations.  
+  - **Faster setup** – Launch production-ready AI agents in minutes using our no-code widget. 
+  - **Seamless integration** – Use our integration wizard and embeddable widget to add AI to your web apps effortlessly.  
+  - US apps only release — coming soon for EU and IN regions.
+
+- **Chat Builder (No code - widget) Launch with AI Agent Support**  
+  Released the new Chat Builder with built-in AI Agent integration, allowing users to design, customise, and deploy AI-powered chat experiences directly from the Chat Builder interface.
+
+- **Updated React UI Kit and JavaScript SDK in Chat Builder**  
+  Upgraded to the latest versions of the React UI Kit and JavaScript SDK within Chat Builder, delivering improved performance, refreshed UI components, and a better developer experience.
+
+## Enhancements
+- Enhanced the design and usability of **Legacy Widgets**, providing a cleaner interface and improved user experience for existing widget implementations.
+
+## Fixes
+- None
+<br>
+
+
 # Dashboard v3.15.0 | 2025-07-30
 
 ## New
@@ -603,3 +671,15 @@ None
 
 -   None   
 <br/>
+
+
+
+
+
+
+
+
+
+
+
+

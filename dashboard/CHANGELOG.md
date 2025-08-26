@@ -2,10 +2,10 @@
 
 ## New
 - **AI Agents**  
-- Expanded availability of AI Agents to **IN and EU regions** in addition to the US.  
+  Expanded availability of AI Agents to **IN and EU regions** in addition to the US.  
 
 - **Chat Builder Preview**  
-- Updated the mechanism for applying preview settings by introducing temporary builder settings in the dashboard flow, with an automatic time-to-live (TTL) of 24 hours.
+  Updated the mechanism for applying preview settings by introducing temporary builder settings in the dashboard flow, with an automatic time-to-live (TTL) of 24 hours.
 
 - **Conversation Search Toggle in Chat Builder**  
   Introduced the option to enable or disable the conversation search feature in both code and no-code variations of Chat Builder.  
@@ -667,6 +667,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

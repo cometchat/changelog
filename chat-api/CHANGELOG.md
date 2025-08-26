@@ -1,4 +1,5 @@
 # Chat API v3.9.36 | 2025-08-26
+
 ## New
 - None
 
@@ -6,7 +7,7 @@
 - None
 
 ## Fixes
-- Fixed an issue where mentions were not being processed for moderation. Mentions are now consistently sent for moderation, ensuring they appear in real-time events via WebSocket.
+- Fixed an issue where mentions were not being processed by the moderation system. Mentions are now correctly sent for moderation and consistently appear in real-time WebSocket events.
 <br/>
 
 
@@ -360,6 +361,7 @@
 
 -   None   
 <br/>
+
 
 
 

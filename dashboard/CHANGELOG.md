@@ -15,6 +15,9 @@
 - **UI Improvements in AI Agent Chat Builder**  
   Applied multiple UI refinements to improve usability and overall chat experience.  
 
+- **One-on-One Chat Behavior**  
+  Resolved an issue in both code and no-code apps where opening an agent conversation from the **Chats** tab incorrectly launched the one-on-one user chat instead of the intended AI Assistant chat.
+
 - **Legacy Widgets UI Improvements (Dashboard)**  
   Enhanced the design and usability of Legacy Widgets within the dashboard for a smoother setup and management experience.  
 
@@ -668,6 +671,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

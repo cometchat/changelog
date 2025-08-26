@@ -4,14 +4,7 @@
 - **AI Agents**  
   - Expanded availability of AI Agents to **IN and EU regions** in addition to the US.  
 
-- **Mobile Chat Builder Support**  
-  Added support for Android and iOS apps with live preview capability via QR code scanning.  
-
-- **Downloadable Apps with Chat Builder Settings**  
-  Enabled the ability to download Android and iOS apps pre-configured with selected Chat Builder settings for easier integration and testing.  
-
-- **Chat Builder Mobile Preview**  
-- Introduced the option to preview Chat Builder directly within Android and iOS apps for a real-time testing experience.  
+- **Chat Builder Preview**  
 - Updated the mechanism for applying preview settings by introducing temporary builder settings in the dashboard flow, with an automatic time-to-live (TTL) of 24 hours.
 
 - **Conversation Search Toggle in Chat Builder**  
@@ -674,6 +667,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

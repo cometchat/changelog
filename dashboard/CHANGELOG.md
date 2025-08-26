@@ -21,6 +21,7 @@
 ## Fixes
 - AI Agents displayed **unread message count** in the docked layout when accessed from chat history.  
 - Fixed an issue where messages disappeared in Agent Builder after a theme change or when switching between web and mobile views. 
+- Fixed an issue where, on certain occasions, creating a new app incorrectly redirected users to the **Apps Listing** page.
 <br>
 
 ## Deprecations
@@ -667,6 +668,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

@@ -1,3 +1,26 @@
+# Dashboard v3.15.4 | 2025-08-28
+
+## New
+- Introduced options to customize **email notification payloads**, allowing users to include or exclude the message object and metadata for greater control over notification content.
+
+- Introduced options to customize **SMS notification payloads**, giving users flexibility to include or exclude the message object and metadata.
+
+- Added support for **Moderation**, with the ability to enable or disable the feature directly in Chat Builder (available in both code and no-code variations).
+
+- Added an option to **launch the builder with a selected default agent from the AI Agents list**, streamlining setup and improving workflow efficiency.
+
+## Enhancements
+- Updated **React UI Kit** to the latest version `6.2.1`.
+
+- Enhanced **Chat Builder demo and preview** to fetch agentic users using the CometChat SDK.
+
+- Minor UI enhancements on Dashboard navigation.
+
+## Fixes
+- UI fixes on AI Agents Chat.
+<br>
+
+
 # Dashboard v3.15.3 | 2025-08-26
 
 ## New
@@ -25,10 +48,11 @@
 - AI Agents displayed **unread message count** in the docked layout when accessed from chat history.  
 - Fixed an issue where messages disappeared in Agent Builder after a theme change or when switching between web and mobile views. 
 - Fixed an issue where, on certain occasions, creating a new app incorrectly redirected users to the **Apps Listing** page.
-<br>
 
 ## Deprecations
 - Removed Sans-serif option from typography font family list in Chat Builder.
+<br>
+
 
 # Dashboard v3.15.2 | 2025-08-22
 
@@ -671,6 +695,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

@@ -1,3 +1,22 @@
+# Dashboard v3.15.5 | 2025-09-01
+
+## New
+- **Mobile Chat Builder Support**: Added support for Android and iOS apps with live preview capability via QR code scanning.  
+
+- **Downloadable Apps with Chat Builder Settings**: Enabled the ability to download Android and iOS apps pre-configured with selected Chat Builder settings, making integration and testing easier.  
+
+- Introduced a new category of messages, **Agentic**, now available in App → Chats (both live and history).
+
+## Enhancements
+- **Chat Builder Moderation**:  
+  - Renamed *Moderator controls* to **Moderation** for improved clarity.  
+  - Updated the *Moderation* option: it is now called **Blocked Message Feedback** and is accessible under Moderation.
+
+## Fixes
+- Fixed an issue where the **Chat Builder view was blocked on certain desktop devices**.
+<br>
+
+
 # Dashboard v3.15.4 | 2025-08-28
 
 ## New
@@ -695,6 +714,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

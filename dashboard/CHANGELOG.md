@@ -5,8 +5,6 @@
 
 - **Downloadable Apps with Chat Builder Settings**: Enabled the ability to download Android and iOS apps pre-configured with selected Chat Builder settings, making integration and testing easier.  
 
-- Introduced a new category of messages, **Agentic**, now available in App → Chats (both live and history).
-
 ## Enhancements
 - **Chat Builder Moderation**:  
   - Renamed *Moderator controls* to **Moderation** for improved clarity.  
@@ -714,6 +712,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

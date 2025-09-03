@@ -10,7 +10,9 @@
   - Renamed *Moderator controls* to **Moderation** for improved clarity.  
   - Updated the *Moderation* option: it is now called **Blocked Message Feedback** and is accessible under Moderation.
 
-- Integrate - Updated links for **Chat Builder** to point to the new documentation.
+- **Integrate** - Updated links for **Chat Builder** to point to the new documentation.
+
+- **AI Agents**: Minor updates to the **Get Started** screen for improved clarity.
 
 ## Fixes
 - Fixed an issue where the **Chat Builder view was blocked on certain desktop devices**.
@@ -714,6 +716,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

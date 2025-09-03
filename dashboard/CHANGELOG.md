@@ -1,3 +1,18 @@
+# Dashboard v3.15.6 | 2025-09-04
+
+## New
+- Introduced a new category of messages, **Agentic**, now available in App → Chats (both live and history).
+
+## Enhancements
+- **Documentation**: Updated No code Chat builder links to match the new documentation.  
+- **App Navigation**: Minor enhancements for smoother user experience.  
+- **Usage Tracking**: Updated current usage for annual apps to display data for the current month instead of the full yearly term.
+
+## Fixes
+- Fixed an issue where the **docked layout** was incorrectly visible in rare cases in the Code version of the demo Chat Builder on the dashboard.  
+<br>
+
+
 # Dashboard v3.15.5 | 2025-09-01
 
 ## New
@@ -716,6 +731,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

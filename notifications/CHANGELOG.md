@@ -7,7 +7,7 @@
 - Introduced notifications for agentic messages.
  
 ## Fixes
-- Fixed an issue where call notifications were not received for custom providers.
+- None
 </br>
 
 # Notifications v1.6.10 | 2025-08-26

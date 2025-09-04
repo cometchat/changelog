@@ -1,3 +1,19 @@
+# Dashboard v3.15.6 | 2025-09-04
+
+## New
+- Introduced a new category of messages, **Agentic**, now available in App → Chats (both live and history).
+
+## Enhancements
+- **Documentation**: Updated No code Chat builder links to match the new documentation.  
+- **App Navigation**: Minor enhancements for smoother user experience.  
+
+## Fixes
+- Fixed an issue where the **docked layout** was incorrectly visible in rare cases in the Code version of the demo Chat Builder on the dashboard.  
+- Fixed an issue where **role IDs appeared capitalized** in the users list and user detail views.
+- Fixed an issue in the **AI Agent Chat Builder** where changing the active agent in the multiple agents list did not work as expected.
+<br>
+
+
 # Dashboard v3.15.5 | 2025-09-01
 
 ## New
@@ -716,20 +732,5 @@ None
 
 -   None   
 <br/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

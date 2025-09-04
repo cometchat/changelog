@@ -1,3 +1,51 @@
+# Management API v1.3.15 | 2025-07-25
+## New
+- Introduced API support for signing in to the dashboard using Google and GitHub.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+<br/>
+
+# Management API v1.3.14 | 2025-06-12
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Added a restriction for multi-tenant customers on the Build plan to limit app creation to a maximum of 10 apps.
+<br/>
+
+
+# Management API v1.3.13 | 2025-05-13
+## New
+- None
+
+## Enhancements
+- Introduced support for marking extensions as "Legacy" or "End of Life" to improve extension lifecycle management.
+
+## Fixes
+- Added correct error responses for requests to non-existent extension settings endpoints, ensuring they return a 404 status as expected.
+<br/>
+
+
+# Management API v1.3.12 | 2025-04-22
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Resolved an issue where retrieving extension settings via multi-tenant APIs returned a 404 error when using an alternate management domain.
+- Added the `Strict-Transport-Security` header to enhance security, addressing feedback from a vulnerability assessment report.
+<br/>
+
+
 # Management API v1.3.11 | 2025-04-10
 ## New
 - None

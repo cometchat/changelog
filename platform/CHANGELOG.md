@@ -1,3 +1,25 @@
+# Platform v3.0.12 | 2025-08-06
+## New
+- None
+
+## Enhancements
+- Added support for real-time moderation events in the frontend, which will enable the UI to reflect moderation actions immediately.
+  
+## Fixes
+- None
+</br>
+
+# Platform v3.0.11 | 2025-05-07
+## New
+- None
+
+## Enhancements
+- Added support for generating token-based media URLs compatible with the UAE region.
+  
+## Fixes
+- None
+</br>
+
 # Platform v3.0.10 | 2025-04-15
 ## New
 - None
@@ -198,3 +220,4 @@
 
 -   None   
 <br/>
+

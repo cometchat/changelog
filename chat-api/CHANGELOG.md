@@ -1,3 +1,110 @@
+# Chat API v3.9.35 | 2025-08-13
+## New
+- Introduced internal support for AI Agents, enabling automated and intelligent task handling for future feature expansion.
+
+## Enhancements
+- Updated bot permissions to allow bots to join groups without restrictions.
+- Implemented a restriction preventing bots from creating authentication tokens, improving security and access control.
+
+## Fixes
+- None
+<br/>
+
+# Chat API v3.9.34 | 2025-08-05
+## New
+- None
+
+## Enhancements
+- Added support for real-time moderation events in the frontend, which will enable the UI to reflect moderation actions immediately.
+
+## Fixes
+- Fixed an issue that prevented member scope updates from applying correctly when adding members in bulk. The bug was introduced in v3.9.33
+<br/>
+
+
+# Chat API v3.9.33 | 2025-07-21
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where the member count was not updating reliably when multiple Add Members API calls were made concurrently, especially during simultaneous member additions and removals.
+- Ensured action messages are now included in responses from the Get Message API.
+- Fixed an issue with conversation updates when marked as read/delivered via API.
+- Resolved a bug where marking a non-existent message as read or delivered via API lead to 5xx error.
+<br/>
+
+# Chat API v3.9.32 | 2025-07-03
+## New
+- Introduced separate REST API endpoints for Moderation, enabling it to operate independently from the core chat service.
+
+## Enhancements
+- None
+
+## Fixes
+- Masked `apiKey` and `authToken` values in error responses to enhance security.
+- Fixed an issue where the action message contained incorrect user information when changing user scope.
+<br/>
+
+# Chat API v3.9.31 | 2025-06-02
+## New
+- None
+
+## Enhancements
+- Added support for the `attachmentTypes` query parameter in the List Messages API, enabling more precise filtering of message attachments for the Advanced Search service.
+
+## Fixes
+- Fixed an issue where the List Conversations API, when called with `includeBlockedUsers` set to `1`, incorrectly displayed a blocked user after the conversation with them was reset.
+- Resolved a bug in the Import Users API that caused request failures when importing a mix of deactivated and active users.
+<br/>
+
+# Chat API v3.9.30 | 2025-05-19
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where `membersCount` did not update correctly when users were kicked or banned from a group.
+- Resolved a problem where `callToken` size exceeded acceptable limits by omitting user metadata during token generation.
+- Fixed a bug that allowed a user to react to a message after blocking another user.
+- Ensured `unreadMessageCount` is set to 0 when a conversation is reset.
+- Corrected the behavior of `category` and `type` filters in the list messages API, which previously caused empty message lists in UI Kits when the search service was enabled.
+- Fixed a bug where group conversations were not added to the conversation list when a user was added to a group with "Include Group Actions" disabled in the Conversation Preview configuration. This issue was introduced in version v3.9.26.
+<br/>
+
+
+# Chat API v3.9.29 | 2025-05-06
+## New
+- None
+
+## Enhancements
+- Added the ability to filter members by status in the List Group Members API.
+
+## Fixes
+- Updated the Stats API to leverage the new metrics service for improved accuracy and performance.
+- Ensured user and group tags are passed to the moderation event bus during message sending, allowing tag-based filters to function correctly.
+<br/>
+
+
+# Chat API v3.9.28 | 2025-04-23
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Resolved an issue where messages sent before a conversation reset were still visible when fetching message details.
+- Corrected the API response structure when modifying the scope of an admin user.
+- Enabled the ability to search soft-deleted messages through the Admin API.
+- Fixed incorrect conversation ordering when the enhanced message status service was enabled.
+<br/>
+
+
 # Chat API v3.9.27 | 2025-03-21
 ## New
 - None
@@ -241,3 +348,5 @@
 
 -   None   
 <br/>
+
+

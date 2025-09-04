@@ -1,3 +1,42 @@
+# Moderation v1.0.7 | 2025-08-05
+## New
+- None
+## Enhancements
+- Added support for real-time moderation events in the frontend, which will enable the UI to reflect moderation actions immediately.
+## Fixes
+- None
+<br/>
+
+# Moderation v1.0.6 | 2025-05-19
+## New
+- Added support for OpenAI integration, enabling automated moderation using stored OpenAI prompts.
+- Introduced support for custom Moderation APIs, allowing developers to apply their own logic for content control.
+## Enhancements
+- None
+## Fixes
+- Fixed an issue where regex input validation failed when creating a list of regex with commas.
+<br/>
+
+
+# Moderation v1.0.5 | 2025-05-14
+## New
+- None
+## Enhancements
+- Enhanced the AI sentence similarity model to deliver more accurate and relevant results, improving response precision and overall user experience.
+## Fixes
+- None
+<br/>
+
+# Moderation v1.0.4 | 2025-03-28
+## New
+- None
+
+## Enhancements
+- None
+## Fixes
+- Added validation to ensure proper format and accuracy when creating regex-based keyword filters.   
+<br/>
+
 # Moderation v1.0.3 | 2024-11-26
 ## New
 - AI Similarity Matching: Added support for AI-based similarity matching, allowing it to identify and match similar sentences effectively.
@@ -57,3 +96,4 @@
 
 -   None   
 <br/>
+

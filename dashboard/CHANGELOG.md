@@ -6,7 +6,6 @@
 ## Enhancements
 - **Documentation**: Updated No code Chat builder links to match the new documentation.  
 - **App Navigation**: Minor enhancements for smoother user experience.  
-- **Usage Tracking**: Updated current usage for annual apps to display data for the current month instead of the full yearly term.
 
 ## Fixes
 - Fixed an issue where the **docked layout** was incorrectly visible in rare cases in the Code version of the demo Chat Builder on the dashboard.  
@@ -732,6 +731,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

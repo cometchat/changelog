@@ -10,6 +10,7 @@
 ## Fixes
 - Fixed an issue where the **docked layout** was incorrectly visible in rare cases in the Code version of the demo Chat Builder on the dashboard.  
 - Fixed an issue where **role IDs appeared capitalized** in the users list and user detail views.
+- Fixed an issue in the **AI Agent Chat Builder** where changing the active agent in the multiple agents list did not work as expected.
 <br>
 
 
@@ -731,6 +732,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

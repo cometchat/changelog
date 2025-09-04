@@ -1,3 +1,15 @@
+# Extensions v3.0.14 | 2025-09-09
+
+## New
+- None
+
+## Enhancements
+- Introduced notifications for agentic messages.
+
+## Fixes
+- None
+</br>
+
 # Extensions v3.0.10 | 2025-05-07
 ## New
 - None

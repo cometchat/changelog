@@ -1,3 +1,17 @@
+# Chat API v3.9.37 | 2025-09-06
+
+## New
+- None
+
+## Enhancements
+- Added support for importing mentions through the Import Messages API.
+- Optimized the App Creation API to deliver faster and more reliable setup.
+
+## Fixes
+- Fixed an issue where imported group members were unable to view past messages if those messages were sent before they joined.
+- List Messages Admin API now supports fetching agentic messages.
+<br/>
+
 # Chat API v3.9.36 | 2025-08-26
 
 ## New
@@ -361,6 +375,7 @@
 
 -   None   
 <br/>
+
 
 
 

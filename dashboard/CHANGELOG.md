@@ -1,7 +1,7 @@
 # Dashboard v3.15.7 | 2025-09-10
 
 ## New
-- ** Chat Builder (Code and No Code)**: Added new chat and delete conversation option in the CometChatAIAssistantChatHistory component.
+- **Chat Builder (Code and No Code)**: Added new chat and delete conversation option in the CometChatAIAssistantChatHistory component.
 
 ## Enhancements
 - **UI Kit**: Updated to version `6.2.2` across the Chat Builder demo, Code apps, and No Code apps.
@@ -750,6 +750,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

@@ -1,13 +1,18 @@
 # Dashboard v3.15.7 | 2025-09-10
 
 ## New
-- None 
+- ** Chat Builder (Code and No Code)**: Added new chat and delete conversation option in the CometChatAIAssistantChatHistory component.
 
 ## Enhancements
 - **UI Kit**: Updated to version `6.2.2` across the Chat Builder demo, Code apps, and No Code apps.
 
 ## Fixes
 - Fixed an issue where the **selected timezone under App Settings** was not working for certain options due to UTC handling in Insights.
+- Chat Builder (Code and No code)
+  - Fixed inconsistent conversation header height across different views for a more uniform interface.
+  - Fixed an issue where audio files became distorted after sending.
+  - Fixed the hideReceipts prop in the CometChatThreadHeader component so it now updates correctly at runtime.
+  - Fixed an issue where adding a new template for custom messages failed to display the default statusInfoView.
 <br>
 
 
@@ -745,6 +750,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

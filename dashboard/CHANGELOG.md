@@ -1,3 +1,16 @@
+# Dashboard v3.15.7 | 2025-09-10
+
+## New
+- None 
+
+## Enhancements
+- **UI Kit**: Updated to version `6.2.2` across the Chat Builder demo, Code apps, and No Code apps.
+
+## Fixes
+- Fixed an issue where the **selected timezone under App Settings** was not working for certain options due to UTC handling in Insights.
+<br>
+
+
 # Dashboard v3.15.6 | 2025-09-04
 
 ## New
@@ -732,5 +745,6 @@ None
 
 -   None   
 <br/>
+
 
 

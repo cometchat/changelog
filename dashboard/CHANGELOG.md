@@ -8,6 +8,7 @@
 
 ## Fixes
 - Fixed an issue where the **selected timezone under App Settings** was not working for certain options due to UTC handling in Insights.
+- Fixed an issue where the Chat Builder view was blocked on certain desktop devices.
 - Chat Builder (Code and No code)
   - Fixed inconsistent conversation header height across different views for a more uniform interface.
   - Fixed an issue where audio files became distorted after sending.
@@ -750,6 +751,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

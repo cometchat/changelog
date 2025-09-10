@@ -14,6 +14,8 @@
   - Fixed an issue where audio files became distorted after sending.
   - Fixed the hideReceipts prop in the CometChatThreadHeader component so it now updates correctly at runtime.
   - Fixed an issue where adding a new template for custom messages failed to display the default statusInfoView.
+- Agent Builder
+  - Fixed an issue where **switching between agents** did not refresh and display the correct message list.
 <br>
 
 
@@ -751,6 +753,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

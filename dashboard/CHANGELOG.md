@@ -4,7 +4,7 @@
 - **Chat Builder (Code and No Code)**: Added new chat and delete conversation option in the CometChatAIAssistantChatHistory component.
 
 ## Enhancements
-- **UI Kit**: Updated to version `6.2.2` across the Chat Builder demo, Code apps, and No Code apps.
+- **UI Kit**: Updated to version `6.2.3` across the Chat Builder demo, Code apps, and No Code apps.
 
 ## Fixes
 - Fixed an issue where the **selected timezone under App Settings** was not working for certain options due to UTC handling in Insights.
@@ -753,6 +753,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

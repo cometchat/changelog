@@ -1,4 +1,16 @@
-# Notifications v1.6.10 | 2026-08-26
+# Notifications v1.6.11 | 2025-09-09
+
+## New
+- Introduced notifications for agentic messages.
+
+## Enhancements
+- None
+ 
+## Fixes
+- None
+</br>
+
+# Notifications v1.6.10 | 2025-08-26
 
 ## New
 - None

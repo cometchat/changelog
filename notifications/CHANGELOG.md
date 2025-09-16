@@ -1,3 +1,17 @@
+# Notifications v1.6.12 | 2025-09-18
+
+## New
+- None
+
+## Enhancements
+- None
+ 
+## Fixes
+- Fixed an issue where custom message email notifications were sent without validating `sendNotification` key in message payload.
+- Fixed an issue where custom message SMS notifications were sent without validating `sendNotification` key in message payload.
+- Fixed an issue where group reaction notifications were also sent to other group members instead of only the message sender.
+</br>
+
 # Notifications v1.6.11 | 2025-09-09
 
 ## New

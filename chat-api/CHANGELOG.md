@@ -1,3 +1,15 @@
+# Chat API v3.9.38 | 2025-09-17
+
+## New
+- Introduced support for quoted messages, enabling users to reply to specific messages.
+
+## Enhancements
+- Enhanced the list conversations API with cursor-based pagination, allowing efficient handling of large conversation lists.
+
+## Fixes
+- Resolved an issue where the SDK would throw warnings if no extensions were enabled.
+<br/>
+
 # Chat API v3.9.37 | 2025-09-06
 
 ## New
@@ -375,6 +387,7 @@
 
 -   None   
 <br/>
+
 
 
 

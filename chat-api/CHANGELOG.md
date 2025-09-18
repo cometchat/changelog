@@ -1,13 +1,14 @@
 # Chat API v3.9.38 | 2025-09-17
 
 ## New
-- Introduced support for quoted messages, enabling users to reply to specific messages.
+- Introduced support for quoted messages, allowing users to reference a specific message when sending a new one.
 
 ## Enhancements
-- Enhanced the list conversations API with cursor-based pagination, allowing efficient handling of large conversation lists.
+- Improved the List Conversations API with cursor-based pagination for more efficient handling of large conversation lists.
 
 ## Fixes
-- Resolved an issue where the SDK would throw warnings if no extensions were enabled.
+- Enforced a rate limit of 30 messages per minute per `authToken` on the Send Message API to enhance security and stability.
+- Resolved SDK warnings that appeared when no extensions were enabled, following the deprecation of Chat Widgets which were previously enabled by default.
 <br/>
 
 # Chat API v3.9.37 | 2025-09-06
@@ -387,6 +388,7 @@
 
 -   None   
 <br/>
+
 
 
 

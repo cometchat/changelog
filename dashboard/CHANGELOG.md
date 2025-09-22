@@ -1,3 +1,27 @@
+# Dashboard v3.15.8 | 2025-09-19
+
+## New
+- Introduced a **new onboarding flow** to help users get started more quickly and efficiently.  
+- Added **Get Started guides** for easier navigation and setup.  
+- Added support for **Login or Signup with Google and GitHub** for faster and more convenient authentication.  
+
+## Enhancements
+- Delivered multiple **UI and UX improvements across the App section**, including:  
+  - Improved tables for better readability.  
+  - Consistent button styling.  
+  - Updated app navigation for a smoother experience.  
+  - General **UX enhancements** to improve usability throughout the app.  
+- Updated **labels & titles for legacy features** such as Moderation, AI Bots, and Notifications to improve clarity.  
+- **UI Kit**: Updated to version `6.2.5` in Chat Builder (demo, Code, and No Code apps).  
+- Added **instructions in the Chat Builder preview** before redirecting users to the dashboard, improving clarity in the flow.  
+- Updated **Chat Builder No Code embed code** to use version `1.x.x` (`https://cdn.jsdelivr.net/npm/@cometchat/chat-embed@1.x.x/dist/main.js`) instead of `latest` for more stable integrations.
+
+## Fixes
+- Fixed an issue where **role IDs were displayed in capitalized format** in the users list.  
+- Fixed a **pagination issue** in the users list when handling a large number of users.
+<br/>
+
+
 # Dashboard v3.15.7 | 2025-09-10
 
 ## New
@@ -753,5 +777,7 @@ None
 
 -   None   
 <br/>
+
+
 
 

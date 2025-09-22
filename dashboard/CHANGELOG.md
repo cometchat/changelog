@@ -11,9 +11,10 @@
   - Consistent button styling.  
   - Updated app navigation for a smoother experience.  
   - General **UX enhancements** to improve usability throughout the app.  
-- Updated **labels for legacy features** such as Moderation, AI Bots, and Notifications to improve clarity.  
+- Updated **labels & titles for legacy features** such as Moderation, AI Bots, and Notifications to improve clarity.  
 - **UI Kit**: Updated to version `6.2.5` in Chat Builder (demo, Code, and No Code apps).  
 - Added **instructions in the Chat Builder preview** before redirecting users to the dashboard, improving clarity in the flow.  
+- Updated **Chat Builder No Code embed code** to use version `1.x.x` (`https://cdn.jsdelivr.net/npm/@cometchat/chat-embed@1.x.x/dist/main.js`) instead of `latest` for more stable integrations.
 
 ## Fixes
 - Fixed an issue where **role IDs were displayed in capitalized format** in the users list.  
@@ -776,6 +777,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

@@ -4,7 +4,7 @@
 - None
 
 ## Enhancements
-- Chat builder (preview, code and no code modes) - Updated the React UI Kit to the latest version, v6.2.6.
+- **Chat Builder (Preview, Code, and No-Code modes)**: Updated React UI Kit to version `6.2.6` for improved stability and feature support.
 - Delivered minor **App navigation UI enhancements** for improved consistency and usability.  
 
 ## Fixes
@@ -793,6 +793,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

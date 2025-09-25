@@ -9,6 +9,7 @@
 
 ## Fixes
 - Fixed an issue where **launching the Agent Chat Builder** occasionally did not work.  
+- **No Code Chat Builder Widget** - Fixed a **theming issue in Firefox** for deployed **No Code Chat Builder**, ensuring consistent appearance across browsers.
 - Fixed an issue where searching for an app returned an empty view with no results after switching from the **Accounts** screen.  
 - Fixed an issue in **Account Settings** where roles were displayed as raw values instead of role names for older roles.
 <br/>
@@ -793,6 +794,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

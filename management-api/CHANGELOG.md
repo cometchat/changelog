@@ -1,3 +1,14 @@
+# Management API v1.3.16 | 2025-09-26
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Improved GitHub OAuth login reliability: The system now falls back to the GitHub username when the user's display name is not set, ensuring consistent user identification during authentication.
+<br/>
+
 # Management API v1.3.15 | 2025-07-25
 ## New
 - Introduced API support for signing in to the dashboard using Google and GitHub.
@@ -191,3 +202,4 @@ More details regarding the endpoint - https://api-explorer.cometchat.com/referen
 -   None
    
 <br/>
+

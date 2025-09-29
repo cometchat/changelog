@@ -1,3 +1,14 @@
+# Chat API v3.9.39 | 2025-09-29
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue in the list Conversations API where the last message was not displayed if it had been deleted. This issue, introduced in Chat API v3.9.38, has now been resolved to ensure the correct last message is always returned.
+
 # Chat API v3.9.38 | 2025-09-17
 
 ## New
@@ -389,6 +400,7 @@
 
 -   None   
 <br/>
+
 
 
 

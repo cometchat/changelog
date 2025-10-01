@@ -1,4 +1,4 @@
-# Dashboard v3.15.9 | 2025-09-25
+# Dashboard v3.15.10 | 2025-09-25
 
 ## New
 - Added support for **Quoted Replies** in Chat Builder (Demo, Code, and No Code Widget), with the option to enable or disable the feature as needed.  
@@ -811,6 +811,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

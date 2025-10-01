@@ -1,6 +1,23 @@
 # Dashboard v3.15.9 | 2025-09-25
 
 ## New
+- Added support for **Quoted Replies** in Chat Builder (Demo, Code, and No Code Widget), with the option to enable or disable the feature as needed.  
+
+## Enhancements
+- **UI Kit**: Updated to version `6.3.0` for the latest improvements and stability.  
+- Delivered minor **UI enhancements** across both App and non-App sections for improved usability.  
+- **Webhooks**:  
+  - Renamed *Legacy Webhooks* to **Webhooks (Legacy)** for better clarity.  
+  - Introduced a **new UI for Webhooks add and edit forms**, improving ease of configuration.  
+  
+## Fixes
+- None
+<br/>
+
+
+# Dashboard v3.15.9 | 2025-09-25
+
+## New
 - None
 
 ## Enhancements
@@ -794,6 +811,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

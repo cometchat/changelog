@@ -11,7 +11,7 @@
   - Introduced a **new UI for Webhooks add and edit forms**, improving ease of configuration.  
   
 ## Fixes
-- None
+- Chat Builder - Fixed an issue where **conversation search** was not working as expected when launches from Chats list.
 <br/>
 
 
@@ -811,6 +811,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

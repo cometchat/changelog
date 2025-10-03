@@ -1,3 +1,20 @@
+# Dashboard v3.15.10 | 2025-09-25
+
+## New
+- Added support for **Quoted Replies** in Chat Builder (Demo, Code, and No Code Widget), with the option to enable or disable the feature as needed.  
+
+## Enhancements
+- **UI Kit**: Updated to version `6.3.0` for the latest improvements and stability.  
+- Delivered minor **UI enhancements** across both App and non-App sections for improved usability.  
+- **Webhooks**:  
+  - Renamed *Legacy Webhooks* to **Webhooks (Legacy)** for better clarity.  
+  - Introduced a **new UI for Webhooks add and edit forms**, improving ease of configuration.  
+  
+## Fixes
+- Chat Builder - Fixed an issue where **conversation search** was not working as expected when launches from Chats list.
+<br/>
+
+
 # Dashboard v3.15.9 | 2025-09-25
 
 ## New
@@ -9,6 +26,7 @@
 
 ## Fixes
 - Fixed an issue where **launching the Agent Chat Builder** occasionally did not work.  
+- **No Code Chat Builder Widget** - Fixed a **theming issue in Firefox** for deployed **No Code Chat Builder**, ensuring consistent appearance across browsers.
 - Fixed an issue where searching for an app returned an empty view with no results after switching from the **Accounts** screen.  
 - Fixed an issue in **Account Settings** where roles were displayed as raw values instead of role names for older roles.
 <br/>
@@ -793,6 +811,10 @@ None
 
 -   None   
 <br/>
+
+
+
+
 
 
 

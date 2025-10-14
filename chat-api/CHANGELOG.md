@@ -1,3 +1,15 @@
+# Chat API v3.9.40 | 2025-10-14
+
+## New
+- None
+
+## Enhancements
+- Updated the calling host to support the latest calling backend, ensuring improved performance and compatibility.
+
+## Fixes
+- Fixed an issue where group member scope change events were not updated in real time. This issue originated from the WebSocket infrastructure maintenance conducted on August 5, 2025.
+- Updated the Messages Import API to correctly handle timestamps. Messages with sentAt dates older than the archival period are now restricted from import, ensuring data consistency.
+
 # Chat API v3.9.39 | 2025-09-29
 
 ## New
@@ -400,6 +412,7 @@
 
 -   None   
 <br/>
+
 
 
 

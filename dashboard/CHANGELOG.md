@@ -1,3 +1,27 @@
+# Dashboard v3.15.11 | 2025-10-14
+
+## New
+- Added detailed **platform support and compatibility information** for Chat features to help developers better understand feature availability across platforms.  
+- Added **UI Kit Builder options** for **iOS** and **Android** under *Getting Started → Chats* for easier setup and integration.  
+- Added an option to **request to join shared Slack Channel with CometChat Engineers directly from the Dashboard**.  
+
+## Enhancements
+- Delivered multiple **UI and UX improvements** across various app sections.  
+- Enhanced **empty views** across app modules for a clearer and more informative user experience.  
+- **Renamed modules for better clarity**:  
+  - *Chat Builder* → **UI Kit Builder**  
+  - *Chat Widget Builder (No Code)* → **Widget Builder**  
+  - Combined **Legacy AI Bots**, **AI Instructions**, and **Custom Bots** into one unified module called **Custom Bots (Legacy)**.  
+  - Updated nomenclature in **Custom Bots (Legacy)** from *Agent* to *Bot*.  
+- **Webhooks**: Improved the *Edit Webhooks* experience in the new UI for better usability.  
+- **React UI Kit**: Updated to the latest version across the **Demo**, **AI Agent Builder**, **UI Kit Builder**, and **Widget Builder** for improved stability and performance.  
+- **Moderation**: Introduced an option to **enable Blocked Messages** even when the Moderation feature is disabled.  
+
+## Fixes
+- Implemented multiple **UI fixes** across the platform to enhance consistency and visual polish.
+<br/>
+
+
 # Dashboard v3.15.10 | 2025-09-25
 
 ## New
@@ -811,6 +835,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

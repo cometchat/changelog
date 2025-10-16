@@ -35,11 +35,11 @@
 
 ## Enhancements
 
--  Fixed an issue that caused the server to crash.
+-  None
 
 ## Fixes
 
--  None
+-  Fixed an issue that caused the server to crash.
    
 <br/>
 

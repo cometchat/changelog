@@ -15,7 +15,7 @@
   - Updated nomenclature in **Custom Bots (Legacy)** from *Agent* to *Bot*.  
 - **Webhooks**: Improved the *Edit Webhooks* experience in the new UI for better usability.  
 - **React UI Kit**: Updated to the latest version across the **Demo**, **AI Agent Builder**, **UI Kit Builder**, and **Widget Builder** for improved stability and performance.  
-- **Moderation**: Introduced an option to **enable Blocked Messages** even when the Moderation feature is disabled.  
+- **Moderation**: Introduced an option to **enable Moderation** in Blocked message logs, when the Moderation feature is disabled.  
 
 ## Fixes
 - Implemented multiple **UI fixes** across the platform to enhance consistency and visual polish.
@@ -835,6 +835,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

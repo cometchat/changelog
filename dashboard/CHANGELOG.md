@@ -1,3 +1,17 @@
+# Dashboard v3.15.12 | 2025-10-17
+
+## New
+- Added a new section for **AI Agents (Beta)** featuring a **Contact Us** option and a **Coming Soon** view to preview upcoming capabilities.
+
+## Enhancements
+- Renamed existing **AI Agents** to **Third-Party Agents** for better clarity and categorization.  
+- Updated the **Chat Builder logo** to reflect the new nomenclature — **UI Kit Builder** for Code integrations and **Widget Builder** for No Code integrations.
+
+## Fixes
+- Fixed an issue with the **enable/disable option** for **Third-Party Agents** not functioning as expected.
+<br/>
+
+
 # Dashboard v3.15.11 | 2025-10-14
 
 ## New
@@ -835,6 +849,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

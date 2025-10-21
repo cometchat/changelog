@@ -1,3 +1,16 @@
+# Dashboard v3.15.12 | 2025-10-21
+
+## New
+- None
+
+## Enhancements
+- Added a condition to **exclude multi-tenancy apps** created after **August 15th** from **deprecation checks** applied to **Custom Bots (Legacy)**, ensuring continued support for newer multi-tenant implementations.
+
+## Fixes
+- None
+<br/>
+
+
 # Dashboard v3.15.11 | 2025-10-14
 
 ## New
@@ -835,6 +848,8 @@ None
 
 -   None   
 <br/>
+
+
 
 
 

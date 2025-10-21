@@ -1,14 +1,13 @@
-# Dashboard v3.15.12 | 2025-10-17
+# Dashboard v3.15.12 | 2025-10-21
 
 ## New
-- Added a new section for **AI Agents (Beta)** featuring a **Contact Us** option and a **Coming Soon** view to preview upcoming capabilities.
+- None
 
 ## Enhancements
-- Renamed existing **AI Agents** to **Third-Party Agents** for better clarity and categorization.  
-- Updated the **Chat Builder logo** to reflect the new nomenclature — **UI Kit Builder** for Code integrations and **Widget Builder** for No Code integrations.
+- Added a condition to **exclude multi-tenancy apps** created after **August 15th** from **deprecation checks** applied to **Custom Bots (Legacy)**, ensuring continued support for newer multi-tenant implementations.
 
 ## Fixes
-- Fixed an issue with the **enable/disable option** for **Third-Party Agents** not functioning as expected.
+- None
 <br/>
 
 
@@ -849,6 +848,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

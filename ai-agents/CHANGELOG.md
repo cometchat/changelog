@@ -1,7 +1,8 @@
 # AI Agents v0.0.5 | 2025-10-14
 
 ## New
--  None
+-  Added support for Vercel v5 Agents.
+-  Added support for AG2 Agents.
 
 ## Enhancements
 

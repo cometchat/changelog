@@ -1,3 +1,15 @@
+# Chat API v3.9.41 | 2025-10-23
+
+## New
+- None
+
+## Enhancements
+- Optimized the Add Members bulk operation API to allow sequential execution of member queries.
+- Updated the calling host to support the latest calling backend, ensuring improved performance and compatibility.
+
+## Fixes
+- None
+
 # Chat API v3.9.40 | 2025-10-14
 
 ## New
@@ -412,6 +424,7 @@
 
 -   None   
 <br/>
+
 
 
 

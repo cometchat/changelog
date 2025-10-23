@@ -1,3 +1,14 @@
+# Platform v3.0.13 | 2025-10-23
+## New
+- None
+
+## Enhancements
+- Optimized the Add Members bulk operation API to allow sequential execution of member queries.
+  
+## Fixes
+- None
+</br>
+
 # Platform v3.0.12 | 2025-08-06
 ## New
 - None
@@ -220,4 +231,5 @@
 
 -   None   
 <br/>
+
 

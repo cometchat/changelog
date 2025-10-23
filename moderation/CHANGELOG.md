@@ -1,6 +1,6 @@
 # Moderation v1.0.8 | 2025-10-23
 ## New
-- Introduced support for the Flag and Review.
+- Added support for Flag and Review, allowing both users and AI to flag messages for review.
 ## Enhancements
 - None
 ## Fixes
@@ -105,5 +105,6 @@
 
 -   None   
 <br/>
+
 
 

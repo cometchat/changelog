@@ -3,8 +3,8 @@
 - None
 
 ## Enhancements
-- Optimized the Add Members bulk operation API to allow sequential execution of member queries.
-  
+- Added support for app-level configuration to enable sequential execution of member management operations in the Add Members API.
+
 ## Fixes
 - None
 </br>
@@ -231,5 +231,6 @@
 
 -   None   
 <br/>
+
 
 

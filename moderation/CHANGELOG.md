@@ -1,3 +1,12 @@
+# Moderation v1.0.8 | 2025-10-23
+## New
+- Introduced support for the Flag and Review.
+## Enhancements
+- None
+## Fixes
+- None
+<br/>
+
 # Moderation v1.0.7 | 2025-08-05
 ## New
 - None
@@ -96,4 +105,5 @@
 
 -   None   
 <br/>
+
 

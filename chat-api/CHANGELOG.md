@@ -6,6 +6,7 @@
 ## Enhancements
 - Added support for app-level configuration to enable sequential execution of member management operations in the Add Members API.
 - Updated the calling configuration to support the latest calling backend, ensuring improved performance and compatibility.
+- Added support for Flag and Review, allowing both users and AI to flag messages for review.
 
 ## Fixes
 - None
@@ -424,6 +425,7 @@
 
 -   None   
 <br/>
+
 
 
 

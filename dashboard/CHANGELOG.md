@@ -1,3 +1,16 @@
+# Dashboard v3.15.13 | 2025-10-22
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where updating a custom bot was not working as expected.
+<br/>
+
+
 # Dashboard v3.15.12 | 2025-10-21
 
 ## New
@@ -848,6 +861,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

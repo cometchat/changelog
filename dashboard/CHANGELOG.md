@@ -1,3 +1,22 @@
+# Dashboard v3.15.14 | 2025-10-24
+
+## New
+- Added a new section for **AI Agents (Beta)** featuring a **Contact Us** option and a **Coming Soon** view to preview upcoming capabilities.  
+- **UI Kit Builder**:  
+  - Added an option to manage **showing or hiding group action messages** for greater customization.  
+  - Added support for **Flutter integration**, enabling developers to easily use UI Kit Builder within Flutter applications.  
+- **Widget Builder**: Added options to manage **showing or hiding group action messages** and **unread count bubbles in the docked layout **.  
+
+## Enhancements
+- Renamed existing **AI Agents** to **Third-Party Agents** for improved clarity and categorization.  
+- Upgraded the React UI Kit in UI Kit Builder, Widget Builder and Preview to version **6.3.2**, delivering improved performance, refined design components, and a smoother development experience.  
+- Updated the **Chat Builder logo** to align with the new nomenclature — **UI Kit Builder** for Code integrations and **Widget Builder** for No Code integrations.  
+
+## Fixes
+- Fixed an issue where the **enable/disable option** for **Third-Party Agents** was not functioning as expected.
+<br/>
+
+
 # Dashboard v3.15.13 | 2025-10-22
 
 ## New
@@ -861,6 +880,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

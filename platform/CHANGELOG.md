@@ -1,3 +1,14 @@
+# Platform v3.0.13 | 2025-10-23
+## New
+- None
+
+## Enhancements
+- Added support for app-level configuration to enable sequential execution of member management operations in the Add Members API.
+
+## Fixes
+- None
+</br>
+
 # Platform v3.0.12 | 2025-08-06
 ## New
 - None
@@ -220,4 +231,6 @@
 
 -   None   
 <br/>
+
+
 

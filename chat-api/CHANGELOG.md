@@ -1,3 +1,16 @@
+# Chat API v3.9.41 | 2025-10-23
+
+## New
+- None
+
+## Enhancements
+- Added support for app-level configuration to enable sequential execution of member management operations in the Add Members API.
+- Updated the calling configuration to support the latest calling backend, ensuring improved performance and compatibility.
+- Added support for Flag and Review, allowing both users and AI to flag messages for review.
+
+## Fixes
+- None
+
 # Chat API v3.9.40 | 2025-10-14
 
 ## New
@@ -412,6 +425,9 @@
 
 -   None   
 <br/>
+
+
+
 
 
 

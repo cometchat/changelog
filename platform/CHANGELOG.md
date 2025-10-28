@@ -1,3 +1,14 @@
+# Platform v3.0.14 | 2025-10-28
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed issues with the `getOnlineUserCount` and `getOnlineGroupMemberCount` SDK methods, where the APIs called by these methods were returning CORS errors. This issue originated with the WebSocket infrastructure maintenance on August 5, 2025.
+<br/>
+
 # Platform v3.0.13 | 2025-10-23
 ## New
 - None
@@ -231,6 +242,8 @@
 
 -   None   
 <br/>
+
+
 
 
 

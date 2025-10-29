@@ -1,3 +1,20 @@
+# Dashboard v3.15.15 | 2025-10-29
+
+## New
+- **Optional Auth Key in No-Code Widget Builder**  
+  Made the **Auth Key** optional when using **Auth Token** in the No-Code Widget Builder for easier setup and configuration.  
+
+## Enhancements
+- **Updated Upgrade Tag to Premium Tag**  
+  Replaced the “Upgrade” tag with a **“Premium”** tag for chat features that are part of restricted or paid plans, improving clarity in feature accessibility.  
+
+## Fixes
+- **Webhook List Toggle UI**  
+  Fixed an issue with the toggle UI in the webhook list on the **Edit Webhook** form for more consistent interaction.  
+- **Preview to Dashboard State Persistence**  
+  Resolved an issue where returning from preview to the dashboard for existing users did not clear previously selected settings, causing problems when launching variants after reaching the variant limit.  
+<br/>
+
 # Dashboard v3.15.14 | 2025-10-24
 
 ## New
@@ -880,6 +897,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

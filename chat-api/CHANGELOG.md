@@ -1,3 +1,16 @@
+# Chat API v3.9.42 | 2025-10-28
+
+## New
+- None
+
+## Enhancements
+- Added a restriction on the maximum file size and the number of files that can be uploaded in a single request to ensure better performance and reliability.
+- Introduced `hideAgentic` and `onlyAgentic` query parameters to provide more control over displaying conversations involving agents.
+
+## Fixes
+- Fixed an issue where the call rejected webhook was incorrectly triggered during group calls.
+
+
 # Chat API v3.9.41 | 2025-10-23
 
 ## New
@@ -425,6 +438,7 @@
 
 -   None   
 <br/>
+
 
 
 

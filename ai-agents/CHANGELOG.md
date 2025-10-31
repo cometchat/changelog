@@ -1,3 +1,17 @@
+# AI Agents v0.0.6 | 2025-10-31
+
+## New
+-  Added support for Agno Agents.
+-  Added support for Rasa Agents.
+
+## Enhancements
+-  None
+
+## Fixes
+-  None
+
+<br/>
+
 # AI Agents v0.0.5 | 2025-10-14
 
 ## New

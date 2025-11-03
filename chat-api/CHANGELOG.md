@@ -1,3 +1,17 @@
+# Chat API v3.9.43 | 2025-11-03
+
+## New
+- None
+
+## Enhancements
+- Added a provision to improve the reliability of processing **extensions** and **legacy webhooks** by introducing a more robust queuing mechanism.
+- Updated rate limits for **Build (free)** apps to enhance platform stability and prevent potential system abuse.
+
+## Fixes
+- Resolved an issue where enabling the **Enhanced Messaging Status Service** and **Conversations Search Service** caused unread message counts to display incorrectly.
+- Conversations now correctly update the last message for the receiver when the latest message is flagged and then blocked by a moderator.
+  
+
 # Chat API v3.9.42 | 2025-10-28
 
 ## New
@@ -438,6 +452,7 @@
 
 -   None   
 <br/>
+
 
 
 

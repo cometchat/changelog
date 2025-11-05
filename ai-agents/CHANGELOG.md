@@ -1,3 +1,14 @@
+# AI Agents v0.0.7 | 2025-11-05
+
+## New
+-  Added support for AG-UI Agents.
+
+## Enhancements
+-  None
+
+## Fixes
+-  None
+
 # AI Agents v0.0.6 | 2025-10-31
 
 ## New

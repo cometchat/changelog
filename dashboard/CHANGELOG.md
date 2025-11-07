@@ -1,3 +1,19 @@
+# Dashboard v3.15.16 | 2025-11-07
+
+## New
+- **AI Agent Builder**  
+  Introduced the **AI Agent Builder**, an integrated platform within CometChat that enables users to create, customise, and deploy AI agents directly.
+  The new **Deploy Agent Builder UI** simplifies and accelerates integration, allowing users to seamlessly manage agent creation, configuration, and deployment with improved efficiency.  
+  It supports multiple LLMs (OpenAI, Anthropic, etc.), MCP and ready-to-use tools, offering a complete end-to-end agent management experience.
+  
+ ## Enhancements
+ - None
+ 
+ ## Fixes
+ - None
+<br/>
+
+
 # Dashboard v3.15.15 | 2025-10-29
 
 ## New
@@ -18,6 +34,7 @@
 - Reverted a previous change where **Custom Bots** were marked as legacy and deprecated for new apps created after **August 15, 2025**, for non–multi-tenant accounts.  
 - Custom Bots are now fully available for all new apps, restoring previous functionality and compatibility.
 <br/>
+
 
 # Dashboard v3.15.14 | 2025-10-24
 
@@ -901,6 +918,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

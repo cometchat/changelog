@@ -1,3 +1,15 @@
+# Chat API v3.9.44 | 2025-11-11
+
+## New
+- Added a restriction on the maximum file upload size per request to enhance performance and ensure platform reliability.
+- Added provision for `before_call` trigger support, enabling customers to seamlessly integrate custom workflows before a call is initiated.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where call statuses could incorrectly change from *ongoing* to *cancelled*.
+
 # Chat API v3.9.43 | 2025-11-03
 
 ## New
@@ -453,6 +465,7 @@
 
 -   None   
 <br/>
+
 
 
 

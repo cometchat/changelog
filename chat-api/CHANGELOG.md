@@ -1,3 +1,93 @@
+# Chat API v3.9.44 | 2025-11-11
+
+## New
+- Added a restriction on the maximum file upload size per request to enhance performance and ensure platform reliability.
+- Added provision for `before_call` trigger support, enabling customers to seamlessly integrate custom workflows before a call is initiated.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where call statuses could incorrectly change from *ongoing* to *cancelled*.
+
+# Chat API v3.9.43 | 2025-11-03
+
+## New
+- None
+
+## Enhancements
+- Added a provision to improve the reliability of processing **extensions** and **legacy webhooks** by introducing a more robust queuing mechanism.
+- Updated rate limits for **Build (free)** apps to enhance platform stability and prevent potential system abuse.
+
+## Fixes
+- Resolved an issue where enabling the **Enhanced Messaging Status Service** and **Conversations Search Service** caused unread message counts to display incorrectly.
+- Conversations now correctly update the last message for the receiver when the latest message is flagged and then blocked by a moderator.
+- Fixed an issue where non-members could view private group details. Access to private group information is now restricted to members only, ensuring improved privacy. Existing customers who have implemented workflows dependent on the previous behavior can contact our support team for assistance.
+  
+
+# Chat API v3.9.42 | 2025-10-28
+
+## New
+- None
+
+## Enhancements
+- Added a restriction on the maximum file size and the number of files that can be uploaded in a single request to ensure better performance and reliability.
+- Introduced `hideAgentic` and `onlyAgentic` query parameters to provide more control over displaying conversations involving agents.
+
+## Fixes
+- Fixed an issue where the call rejected webhook was incorrectly triggered during group calls.
+
+
+# Chat API v3.9.41 | 2025-10-23
+
+## New
+- None
+
+## Enhancements
+- Added support for app-level configuration to enable sequential execution of member management operations in the Add Members API.
+- Updated the calling configuration to support the latest calling backend, ensuring improved performance and compatibility.
+- Added support for Flag and Review, allowing both users and AI to flag messages for review.
+
+## Fixes
+- None
+
+# Chat API v3.9.40 | 2025-10-14
+
+## New
+- None
+
+## Enhancements
+- Updated the calling host to support the latest calling backend, ensuring improved performance and compatibility.
+
+## Fixes
+- Fixed an issue where group member scope change events were not updated in real time. This issue originated from the WebSocket infrastructure maintenance conducted on August 5, 2025.
+- Updated the Messages Import API to correctly handle timestamps. Messages with sentAt dates older than the archival period are now restricted from import, ensuring data consistency.
+
+# Chat API v3.9.39 | 2025-09-29
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue in the list Conversations API where the last message was not displayed if it had been deleted. This issue, introduced in Chat API v3.9.38, has now been resolved to ensure the correct last message is always returned.
+
+# Chat API v3.9.38 | 2025-09-17
+
+## New
+- Introduced support for quoted messages, allowing users to reference a specific message when sending a new one.
+
+## Enhancements
+- Enforced a rate limit of 30 messages per minute per `authToken` on the Send Message API to enhance security and stability.
+
+## Fixes
+- Resolved an issue that prevented adding the same member to a group after the user was deleted and recreated.
+- Resolved SDK warnings that appeared when no extensions were enabled, following the deprecation of Chat Widgets which were previously enabled by default.
+- Added validation to enforce maximum reaction length, preventing silent truncation of reaction strings.
+<br/>
+
 # Chat API v3.9.37 | 2025-09-06
 
 ## New
@@ -375,6 +465,18 @@
 
 -   None   
 <br/>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

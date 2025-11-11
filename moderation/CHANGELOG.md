@@ -1,3 +1,22 @@
+# Moderation v1.0.9 | 2025-10-28
+## New
+- None
+## Enhancements
+- None
+## Fixes
+- Fixed an issue where the **blocked message event** in Moderation was not delivered in realtime to users and webhooks.
+  This issue was introduced in **Moderation v1.0.8** in the **US region**.
+
+
+# Moderation v1.0.8 | 2025-10-23
+## New
+- Added support for Flag and Review, allowing both users and AI to flag messages for review.
+## Enhancements
+- None
+## Fixes
+- None
+<br/>
+
 # Moderation v1.0.7 | 2025-08-05
 ## New
 - None
@@ -96,4 +115,7 @@
 
 -   None   
 <br/>
+
+
+
 

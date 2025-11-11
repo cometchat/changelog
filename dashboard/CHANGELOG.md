@@ -2,15 +2,17 @@
 
 ## New
 - **AI Agent Builder**  
-  Introduced the **AI Agent Builder**, an integrated platform within CometChat that enables users to create, customise, and deploy AI agents directly.
-  The new **Deploy Agent Builder UI** simplifies and accelerates integration, allowing users to seamlessly manage agent creation, configuration, and deployment with improved efficiency.  
-  It supports multiple LLMs (OpenAI, Anthropic, etc.), MCP and ready-to-use tools, offering a complete end-to-end agent management experience.
-  
- ## Enhancements
- - None
- 
- ## Fixes
- - None
+  Introduced the **Agent Builder**, an integrated platform within CometChat that enables users to create, customize, and deploy AI agents directly.  
+  The new **Deploy Agent Builder UI** streamlines and accelerates the setup process, allowing seamless management of agent creation, configuration, and deployment with improved efficiency.  
+  It supports multiple LLMs (e.g., OpenAI), MCP, and ready-to-use tools, providing a complete end-to-end agent management experience.
+
+## Enhancements
+- **Bring Your Own Agents (BYO Agents)**  
+  Renamed the **Third-Party Agents** section to **Bring Your Own Agents (BYO Agents)**.  
+  Combined the **BYO Agents**, **Actions**, and **Tools** sections into a unified **BYO Agents** section to simplify navigation and enhance usability.
+
+## Fixes
+- None
 <br/>
 
 
@@ -918,23 +920,4 @@ None
 
 -   None   
 <br/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -1,3 +1,43 @@
+# Dashboard v3.15.16 | 2025-11-07
+
+## New
+- **AI Agent Builder**  
+  Introduced the **Agent Builder**, an integrated platform within CometChat that enables users to create, customize, and deploy AI agents directly.  
+  The new **Deploy Agent Builder UI** streamlines and accelerates the setup process, allowing seamless management of agent creation, configuration, and deployment with improved efficiency.  
+  It supports multiple LLMs (e.g., OpenAI), MCP, and ready-to-use tools, providing a complete end-to-end agent management experience.
+
+## Enhancements
+- **Bring Your Own Agents (BYO Agents)**  
+  Renamed the **Third-Party Agents** section to **Bring Your Own Agents (BYO Agents)**.  
+  Combined the **BYO Agents**, **Actions**, and **Tools** sections into a unified **BYO Agents** section to simplify navigation and enhance usability.
+
+## Fixes
+- None
+<br/>
+
+
+# Dashboard v3.15.15 | 2025-10-29
+
+## New
+- **Optional Auth Key in No-Code Widget Builder**  
+  Made the **Auth Key** optional when using **Auth Token** in the No-Code Widget Builder for easier setup and configuration.  
+
+## Enhancements
+- **Updated Upgrade Tag to Premium Tag**  
+  Replaced the “Upgrade” tag with a **“Premium”** tag for chat features that are part of restricted or paid plans, improving clarity in feature accessibility.  
+
+## Fixes
+- **Webhook List Toggle UI**  
+  Fixed an issue with the toggle UI in the webhook list on the **Edit Webhook** form for more consistent interaction.  
+- **Preview to Dashboard State Persistence**  
+  Resolved an issue where returning from preview to the dashboard for existing users did not clear previously selected settings, causing problems when launching variants after reaching the variant limit.  
+
+## Reversions
+- Reverted a previous change where **Custom Bots** were marked as legacy and deprecated for new apps created after **August 15, 2025**, for non–multi-tenant accounts.  
+- Custom Bots are now fully available for all new apps, restoring previous functionality and compatibility.
+<br/>
+
+
 # Dashboard v3.15.14 | 2025-10-24
 
 ## New
@@ -880,20 +920,4 @@ None
 
 -   None   
 <br/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

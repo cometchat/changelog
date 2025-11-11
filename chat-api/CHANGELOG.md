@@ -1,3 +1,30 @@
+# Chat API v3.9.44 | 2025-11-11
+
+## New
+- Added a restriction on the maximum file upload size per request to enhance performance and ensure platform reliability.
+- Added provision for `before_call` trigger support, enabling customers to seamlessly integrate custom workflows before a call is initiated.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where call statuses could incorrectly change from *ongoing* to *cancelled*.
+
+# Chat API v3.9.43 | 2025-11-03
+
+## New
+- None
+
+## Enhancements
+- Added a provision to improve the reliability of processing **extensions** and **legacy webhooks** by introducing a more robust queuing mechanism.
+- Updated rate limits for **Build (free)** apps to enhance platform stability and prevent potential system abuse.
+
+## Fixes
+- Resolved an issue where enabling the **Enhanced Messaging Status Service** and **Conversations Search Service** caused unread message counts to display incorrectly.
+- Conversations now correctly update the last message for the receiver when the latest message is flagged and then blocked by a moderator.
+- Fixed an issue where non-members could view private group details. Access to private group information is now restricted to members only, ensuring improved privacy. Existing customers who have implemented workflows dependent on the previous behavior can contact our support team for assistance.
+  
+
 # Chat API v3.9.42 | 2025-10-28
 
 ## New
@@ -438,6 +465,9 @@
 
 -   None   
 <br/>
+
+
+
 
 
 

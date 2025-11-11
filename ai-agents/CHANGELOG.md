@@ -1,3 +1,16 @@
+# AI Agents v0.0.8 | 2025-11-10
+
+## New
+-  None
+
+## Enhancements
+-  Introduced the ability to create AI agents directly within CometChat. Users can select models, add tools, and configure agents without relying on external services.
+
+## Fixes
+-  Fixed an issue where one-on-one messages not intended for AI agents were being processed.
+
+<br/>
+
 # AI Agents v0.0.7 | 2025-11-05
 
 ## New
@@ -8,6 +21,8 @@
 
 ## Fixes
 -  None
+
+<br/>
 
 # AI Agents v0.0.6 | 2025-10-31
 

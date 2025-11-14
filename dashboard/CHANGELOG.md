@@ -3,6 +3,7 @@
 ## New
 - Added a **Friends Only** option in the No-Code Widget Builder, allowing apps to filter the user list to show only friends.
 - Added **Shopify support** for no-code integration, enabling easier embedding of chat experiences in Shopify stores.
+- Added support for **React Native UI Kit Builder** in Low Code, enabling easier customization and integration for React Native apps.
 
 ## Enhancements
 - Updated **React UI Kit** to version **6.3.4** and **Calls SDK** to version **4.2.1** for improved performance and stability.
@@ -936,5 +937,6 @@ None
 
 -   None   
 <br/>
+
 
 

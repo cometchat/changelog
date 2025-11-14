@@ -1,4 +1,4 @@
-# Notifications v1.6.13 | 2025-11-18
+# Notifications v1.6.13 | 2025-11-17
 
 ## New
 - Added support for `@all` mentions in group conversations, allowing users to notify all group members, including those with muted notifications. The `@all` label is fully customizable, enabling developers to define any trigger text (e.g., `@everyone`, `@team`, `@channel`, or any custom keyword) while maintaining the same notification behavior.

@@ -6,6 +6,7 @@
 - Added support for **React Native UI Kit Builder** in Low Code, enabling easier customization and integration for React Native apps.
 
 ## Enhancements
+- Added support for the **setStorageMode** method, enabling developers to switch between `sessionStorage` and `localStorage` for more flexible session persistence control.
 - Updated **React UI Kit** to version **6.3.4** and **Calls SDK** to version **4.2.1** for improved performance and stability.
 
 ## Fixes
@@ -937,6 +938,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

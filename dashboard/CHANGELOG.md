@@ -1,3 +1,19 @@
+# Dashboard v3.15.17 | 2025-11-14
+
+## New
+- Added a **Friends Only** option in the No-Code Widget Builder, allowing apps to filter the user list to show only friends.
+- Added **Shopify support** for no-code integration, enabling easier embedding of chat experiences in Shopify stores.
+
+## Enhancements
+- Updated **React UI Kit** to version **6.3.4** and **Calls SDK** to version **4.2.1** for improved performance and stability.
+
+## Fixes
+- Fixed a UI issue affecting **polls** in the Widget Builder.
+- Fixed an issue where the **agent icon** was not visible in the Agent Builder app navigation.
+- Fixed an issue where the **"Delete Chat"** option remained enabled for already deleted group conversations, which previously resulted in an API error in Widget Builder.
+<br/>
+
+
 # Dashboard v3.15.16 | 2025-11-07
 
 ## New
@@ -920,4 +936,5 @@ None
 
 -   None   
 <br/>
+
 

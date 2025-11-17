@@ -1,14 +1,13 @@
-# Chat API v3.9.44 | 2025-11-11
+# Chat API v3.9.44 | 2025-11-17
 
 ## New
-- Added a restriction on the maximum file upload size per request to enhance performance and ensure platform reliability.
-- Added provision for `before_call` trigger support, enabling customers to seamlessly integrate custom workflows before a call is initiated.
-
-## Enhancements
 - None
 
+## Enhancements
+- Newly added friends can now automatically appear in your conversations by including `addToConversations: true` in the body parameter, eliminating the extra step of finding them before you can start chatting.
+
 ## Fixes
-- Fixed an issue where call statuses could incorrectly change from *ongoing* to *cancelled*.
+- None
 
 # Chat API v3.9.43 | 2025-11-03
 
@@ -465,6 +464,7 @@
 
 -   None   
 <br/>
+
 
 
 

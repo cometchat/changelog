@@ -4,7 +4,7 @@
 - None
 
 ## Enhancements
-- Newly added friends can now automatically appear in your conversations by including `addToConversations: true` in the body parameter, eliminating the extra step of finding them before you can start chatting.
+- Newly added friends can now automatically appear in the conversations by including `addToConversations: true` in the body parameter, eliminating the extra step of finding them before you can start chatting.
 
 ## Fixes
 - None
@@ -476,6 +476,7 @@
 
 -   None   
 <br/>
+
 
 
 

@@ -1,3 +1,18 @@
+# Dashboard v3.15.18 | 2025-11-19
+
+## New
+- Added an option to **edit existing agents** in Agent Builder, allowing easier updates and modifications.
+- Added support for the new **Zendesk tool**, including a guided authentication form to help users provide required details seamlessly.
+- Added a new **Custom Tabs** option in app navigation, configurable for professional services to tailor in-app workflows.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+<br/>
+
+
 # Dashboard v3.15.17 | 2025-11-14
 
 ## New
@@ -938,6 +953,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

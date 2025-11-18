@@ -1,3 +1,17 @@
+# AI Agents v0.0.9 | 2025-11-18
+
+## New
+- Enabled OpenAI GPT-5–based models in Agent Builder.
+- Added Google Tool Suite in Agent Builder (includes tools for creating calendar events, sending emails, and other Google Workspace actions).
+- Added support for the latest Mastra agents powered by AI SDK v5.
+
+## Enhancements
+-  None
+
+## Fixes
+-  None
+</br>
+
 # AI Agents v0.0.8 | 2025-11-10
 
 ## New

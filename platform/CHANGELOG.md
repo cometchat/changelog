@@ -1,3 +1,14 @@
+# Platform v3.0.16 | 2025-11-19
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where voice-only minutes were incorrectly calculated as video minutes during voice-only calls with recording enabled, ensuring accurate tracking of both voice and video metrics.
+<br/>
+
 # Platform v3.0.15 | 2025-11-05
 ## New
 - None

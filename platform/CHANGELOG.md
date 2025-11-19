@@ -5,8 +5,8 @@
 ## Enhancements
 - None
 
-## Fixes
-- Fixed an issue where voice-only minutes were incorrectly calculated as video minutes during voice-only calls with recording enabled, ensuring accurate tracking of both voice and video metrics.
+## Fixes 
+- Fixed an issue where voice-only call minutes were incorrectly counted as video minutes when recording was enabled. The issue originated in the latest calling backend and became visible starting with Chat API v3.9.41, which introduced an updated calling-configuration. This fix ensures accurate tracking for both voice and video usage.
 <br/>
 
 # Platform v3.0.15 | 2025-11-05

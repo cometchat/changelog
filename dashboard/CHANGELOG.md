@@ -3,7 +3,7 @@
 ## New
 - Added an option to **edit existing agents** in Agent Builder, allowing easier updates and modifications.
 - Added support for the new **Zendesk** & **Google Suite** tools, including a guided authentication form to help users provide required details seamlessly.
-- Added a new **Custom Tabs** option in app navigation, configurable for professional services to tailor in-app workflows.
+- Added a new **Custom Tabs** option in app navigation, allowing teams to tailor in-app workflows to their specific needs.
 
 ## Enhancements
 - Added **icon display support** in the **Custom API Tools** list for better visual identification of tools.
@@ -954,4 +954,5 @@ None
 
 -   None   
 <br/>
+
 

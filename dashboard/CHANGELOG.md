@@ -2,11 +2,12 @@
 
 ## New
 - Added an option to **edit existing agents** in Agent Builder, allowing easier updates and modifications.
-- Added support for the new **Zendesk tool**, including a guided authentication form to help users provide required details seamlessly.
+- Added support for the new **Zendesk** & **Google Suite** tools, including a guided authentication form to help users provide required details seamlessly.
 - Added a new **Custom Tabs** option in app navigation, configurable for professional services to tailor in-app workflows.
 
 ## Enhancements
 - Added **icon display support** in the **Custom API Tools** list for better visual identification of tools.
+- Added **Agent UID** display in the Edit Agent form with copy option for easier reference and management.
 
 ## Fixes
 - None
@@ -953,6 +954,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

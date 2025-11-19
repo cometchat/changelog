@@ -6,7 +6,7 @@
 - Added a new **Custom Tabs** option in app navigation, configurable for professional services to tailor in-app workflows.
 
 ## Enhancements
-- None
+- Added **icon display support** in the **Custom API Tools** list for better visual identification of tools.
 
 ## Fixes
 - None
@@ -953,6 +953,7 @@ None
 
 -   None   
 <br/>
+
 
 
 

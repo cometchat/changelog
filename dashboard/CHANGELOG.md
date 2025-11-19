@@ -1,3 +1,19 @@
+# Dashboard v3.15.18 | 2025-11-19
+
+## New
+- Added an option to **edit existing agents** in Agent Builder, allowing easier updates and modifications.
+- Added support for the new **Zendesk** & **Google Suite** tools, including a guided authentication form to help users provide required details seamlessly.
+- Added a new **Custom Tabs** option in app navigation, allowing teams to tailor in-app workflows to their specific needs.
+
+## Enhancements
+- Added **icon display support** in the **Custom API Tools** list for better visual identification of tools.
+- Added **Agent UID** display in the Edit Agent form with copy option for easier reference and management.
+
+## Fixes
+- None
+<br/>
+
+
 # Dashboard v3.15.17 | 2025-11-14
 
 ## New
@@ -938,7 +954,5 @@ None
 
 -   None   
 <br/>
-
-
 
 

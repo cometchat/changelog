@@ -1,3 +1,14 @@
+# Chat API v3.9.45 | 2025-11-17
+
+## New
+- None
+
+## Enhancements
+- Newly added friends can now automatically appear in the conversations by including `addToConversations: true` in the body parameter, eliminating the extra step of finding them before you can start chatting.
+
+## Fixes
+- None
+
 # Chat API v3.9.44 | 2025-11-11
 
 ## New
@@ -465,6 +476,9 @@
 
 -   None   
 <br/>
+
+
+
 
 
 

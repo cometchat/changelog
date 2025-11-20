@@ -1,3 +1,19 @@
+# Dashboard v3.15.19 | 2025-11-20
+
+## New
+- Added a new option to **enable/disable “Ignore end user mute preferences on @all”** under Push Notifications.
+
+## Enhancements
+- Updated text and labels related to **Slack support** for improved clarity.
+- Applied minor UI improvements under app section for a smoother experience.
+
+## Fixes
+- Fixed an issue where the "Delete Chat" option remained enabled for already deleted group conversations, which previously resulted in an API error in Widget Builder.
+- Renamed Custom Tabs to More and fixed an issue where this section displayed a blank screen during page refresh.
+
+<br/>
+
+
 # Dashboard v3.15.18 | 2025-11-19
 
 ## New
@@ -954,5 +970,6 @@ None
 
 -   None   
 <br/>
+
 
 

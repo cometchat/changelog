@@ -1,3 +1,14 @@
+# Platform v3.0.15 | 2025-11-05
+## New
+- None
+
+## Enhancements
+- Added a provision to improve the reliability of processing extensions and legacy webhooks by introducing a more robust queuing mechanism.
+
+## Fixes
+- None
+<br/>
+
 # Platform v3.0.14 | 2025-10-28
 ## New
 - None
@@ -242,6 +253,7 @@
 
 -   None   
 <br/>
+
 
 
 

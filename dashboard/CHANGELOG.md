@@ -1,3 +1,19 @@
+# Dashboard v3.15.20 | 2025-11-21
+
+## New
+- Introduced a new **Flag & Review** moderation workflow, enabling end users to report messages with a reason and allowing moderators to review or approve blocked messages and block or review flagged messages directly from the dashboard.
+- Added the ability for app owners to **create custom flag reasons** directly in the dashboard to tailor their moderation experience.
+- Added support for customers in the **UAE region** for UI Kit Builder preview and the No-Code Widget Builder.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where saving Email and SMS Notification settings and then resetting them to default did not behave as expected.
+- Fixed UI issues on the Calling Screen within the No-Code Widget Builder.
+<br/>
+
+
 # Dashboard v3.15.19 | 2025-11-20
 
 ## New
@@ -10,7 +26,6 @@
 ## Fixes
 - Fixed an issue where the "Delete Chat" option remained enabled for already deleted group conversations, which previously resulted in an API error in Widget Builder.
 - Renamed Custom Tabs to More and fixed an issue where this section displayed a blank screen during page refresh.
-
 <br/>
 
 
@@ -970,6 +985,3 @@ None
 
 -   None   
 <br/>
-
-
-

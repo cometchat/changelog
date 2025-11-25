@@ -26,7 +26,6 @@
 ## Fixes
 - Fixed an issue where the "Delete Chat" option remained enabled for already deleted group conversations, which previously resulted in an API error in Widget Builder.
 - Renamed Custom Tabs to More and fixed an issue where this section displayed a blank screen during page refresh.
-
 <br/>
 
 
@@ -986,7 +985,3 @@ None
 
 -   None   
 <br/>
-
-
-
-

@@ -1,3 +1,13 @@
+# Moderation v1.0.10 | 2025-11-19
+## New
+- None
+## Enhancements
+- None
+## Fixes
+- Fixed an issue where manually approved messages that originated from previously flagged or blocked items did not appear in the Reviewed Messages list. These messages now display as expected.
+- Resolved an issue where media files were not moderated when Secure File Access was enabled.
+
+
 # Moderation v1.0.9 | 2025-10-28
 ## New
 - None
@@ -115,6 +125,8 @@
 
 -   None   
 <br/>
+
+
 
 
 

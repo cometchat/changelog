@@ -1,3 +1,17 @@
+# Dashboard v3.15.21 | 2025-11-29
+
+## New
+- Added support for the **Report Message** feature in the UI Kit Builder, Widget Builder, and Preview, allowing users to report inappropriate or harmful messages directly from the chat.
+- Added support for **`@all` mentions** in the UI Kit Builder, Widget Builder, and Preview, enabling users to mention all members of a group with a single message.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+<br/>
+
+
 # Dashboard v3.15.20 | 2025-11-21
 
 ## New
@@ -984,4 +998,5 @@ None
 ## Fixes
 
 -   None   
+
 <br/>

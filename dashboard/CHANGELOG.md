@@ -6,6 +6,7 @@
 
 ## Enhancements
 - Updated the **React UI Kit** to the latest version **6.3.5** in UI Kit Builder, Widget Builder & Agent Builder, providing improved performance and updated components.
+- Updated **documentation links for the Android platform** to reflect the latest compatibility for **Quoted Replies**, **Conversation Search**, and **Report Message** under Chat Feature Compatibility.
 
 ## Fixes
 - None
@@ -1000,5 +1001,6 @@ None
 -   None   
 
 <br/>
+
 
 

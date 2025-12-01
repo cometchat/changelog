@@ -5,7 +5,7 @@
 - Added support for **`@all` mentions** in the UI Kit Builder, Widget Builder, and Preview, enabling users to mention all members of a group with a single mention. This feature can also be enabled or disabled as needed.
 
 ## Enhancements
-- None
+- Updated the **React UI Kit** to the latest version **6.3.5** in UI Kit Builder, Widget Builder & Agent Builder, providing improved performance and updated components.
 
 ## Fixes
 - None
@@ -1000,4 +1000,5 @@ None
 -   None   
 
 <br/>
+
 

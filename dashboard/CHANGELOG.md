@@ -1,3 +1,16 @@
+# Dashboard v3.15.22 | 2025-12-02
+
+## New
+- Added a **Knowledge Base** option in the AI Agent Builder, allowing you to connect a content source and sync your data—via file uploads or text entries—as a reference for your agent. This knowledge will be used by the agent to provide informed and context-aware responses during conversations.
+
+## Enhancements
+- Added an asterisk (*) indicator in the AI Agent Builder’s **MCP Tools** and **Custom API Tools** add/edit forms to clearly denote that all fields are mandatory.
+
+## Fixes
+- None
+<br/>
+
+
 # Dashboard v3.15.21 | 2025-11-29
 
 ## New
@@ -1001,4 +1014,5 @@ None
 -   None   
 
 <br/>
+
 

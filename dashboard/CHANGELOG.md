@@ -1,3 +1,16 @@
+# Dashboard v3.15.23 | 2025-12-04
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Resolved issues affecting support in the **UAE region** for both the **UI Kit Builder** and the **No-Code Widget Builder**, ensuring seamless setup, configuration, and preview functionality for apps operating in the region.
+<br/>
+
+
 # Dashboard v3.15.22 | 2025-12-02
 
 ## New
@@ -1014,6 +1027,7 @@ None
 -   None   
 
 <br/>
+
 
 
 

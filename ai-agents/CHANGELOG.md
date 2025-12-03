@@ -1,3 +1,16 @@
+# AI Agents v0.1.0 | 2025-12-03
+
+## New
+- Added RAG support to the Agent Builder, enabling file uploads and text content to be included as part of an agent’s knowledge base.
+
+## Enhancements
+- None
+
+## Fixes
+- Added a fix to skip action messages from being processed.
+
+</br>
+
 # AI Agents v0.0.9 | 2025-11-18
 
 ## New

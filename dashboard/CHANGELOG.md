@@ -10,14 +10,13 @@
 - Resolved issues affecting support in the **UAE region** for both the **UI Kit Builder** and the **No-Code Widget Builder**, ensuring seamless setup, configuration, and preview functionality for apps operating in the region.
 <br/>
 
-
 # Dashboard v3.15.22 | 2025-12-02
 
 ## New
-- Added a **Knowledge Base** option with **RAG (Retrieval-Augmented Generation)** support in the AI Agent Builder. You can now connect a content source and sync your data—through file uploads or text input—as reference material for your agent. This enables the agent to deliver more accurate, informed, and context-aware responses during conversations.
+- Added a **Knowledge Base** option with RAG support in the AI Agent Builder, allowing you to connect a content source and sync your data—via file uploads or text entries—as a reference for your agent. This knowledge will be used by the agent to provide informed and context-aware responses during conversations.
 
 ## Enhancements
-- Introduced a **(*) required field indicator** in the AI Agent Builder’s MCP Tools and Custom API Tools add/edit forms to clearly show that all fields are mandatory.
+- Added a (*) indicator in the AI Agent Builder’s **MCP Tools** and **Custom API Tools** add/edit forms to clearly denote that all fields are mandatory.
 
 ## Fixes
 - None

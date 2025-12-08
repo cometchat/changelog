@@ -1,3 +1,14 @@
+# Management API v1.3.17 | 2025-12-08
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Resolved an issue that prevented users with the moderator role from accessing legacy moderation extensions.
+<br/>
+
 # Management API v1.3.16 | 2025-09-26
 ## New
 - None
@@ -202,4 +213,5 @@ More details regarding the endpoint - https://api-explorer.cometchat.com/referen
 -   None
    
 <br/>
+
 

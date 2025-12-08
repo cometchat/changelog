@@ -1,3 +1,14 @@
+# Platform v3.0.16 | 2025-12-09
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Resolved an issue where message tags were missing from real-time messages. This was introduced during WebSocket code optimizations released on August 5, 2025
+<br/>
+
 # Platform v3.0.15 | 2025-11-05
 ## New
 - None

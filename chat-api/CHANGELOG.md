@@ -1,3 +1,16 @@
+# Chat API v3.9.46 | 2025-12-09
+
+## New
+- None
+
+## Enhancements
+- Enabled caching for GET requests to improve response times and enhance overall performance.
+
+## Fixes
+- Resolved an issue where new members saw a moderated message as the most recent message in the conversation preview. 
+This occurred when they were added while the latest message in the conversation was moderated.
+- Fixed an intermittent issue where role permissions were not visible under roles section.
+
 # Chat API v3.9.45 | 2025-11-17
 
 ## New
@@ -476,6 +489,7 @@
 
 -   None   
 <br/>
+
 
 
 

@@ -7,11 +7,13 @@
 - Made multiple **UI and UX improvements** to the Knowledge Base section in the AI Agent Builder for a smoother and more intuitive experience.
 
 ## Fixes
-- Fixed an issue where the **Refresh** button did not display the latest flagged messages in the list.
+- Fixed an issue where the **Refresh** button did not display the latest **Flagged messages** in the list under Moderation.
 - Fixed an issue with the **roles list** not loading correctly when creating a new user.
+- **UI Kit & Widget Builder, Builder Preview** - Fixed an issue where the **Add Member** action became unresponsive in certain scenarios, ensuring consistent and reliable member addition.
+- **UI Kit Builder** - Updated the download logic to include new feature settings in older builder variants required by **UI Kit Builder mobile apps**, preventing errors and ensuring they continue to run smoothly.
 
 ## Removals
-- Deprecated and removed the **Enhanced Messaging Status** setting for non–multi-tenant apps where the setting is disabled, as well as for all newly created apps.
+- Deprecated and removed the **Enhanced Messaging Status** setting for non–multi-tenant apps where the setting is disabled, as well as for all newly created apps for non–multi-tenant accounts.
 <br/>
 
 # Dashboard v3.15.23 | 2025-12-04
@@ -1042,6 +1044,7 @@ None
 -   None   
 
 <br/>
+
 
 
 

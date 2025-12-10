@@ -9,7 +9,7 @@
 ## Fixes
 - Fixed an issue where the **Refresh** button did not display the latest **Flagged messages** in the list under Moderation.
 - Fixed an issue with the **roles list** not loading correctly when creating a new user.
-- **UI Kit & Widget Builder, Builder Preview** - Fixed an issue where the **Add Member** action became unresponsive in certain scenarios, ensuring consistent and reliable member addition.
+- **Widget Builder, Builder Preview** - Fixed an issue where the **Add Member** action became unresponsive in certain scenarios, ensuring consistent and reliable member addition.
 - **UI Kit Builder** - Updated the download logic to include new feature settings in older builder variants required by **UI Kit Builder mobile apps**, preventing errors and ensuring they continue to run smoothly.
 
 ## Removals
@@ -1044,6 +1044,7 @@ None
 -   None   
 
 <br/>
+
 
 
 

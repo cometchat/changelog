@@ -4,7 +4,7 @@
 - Added support for adding **Knowledge Base sources via links** in the AI Agent Builder. Users can now either **scrape all links from a website URL** or add **individual links** to automatically **import and sync content** as part of the agent’s knowledge base.
 
 ## Enhancements
-- None
+- Added **CometChatAuth** support to the **No-Code Widget**, making Chat and AI Agent integration simpler and faster with minimal setup. Updated integration steps accordingly in Agent Builder.
 
 ## Fixes
 - None
@@ -1057,6 +1057,7 @@ None
 -   None   
 
 <br/>
+
 
 
 

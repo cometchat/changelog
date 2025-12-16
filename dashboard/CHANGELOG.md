@@ -1,3 +1,16 @@
+# Dashboard v3.15.25 | 2025-12-16
+
+## New
+- Added support for adding **Knowledge Base sources via links** in the AI Agent Builder. Users can now either **scrape all links from a website URL** or add **individual links** to automatically **import and sync content** as part of the agent’s knowledge base.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+<br/>
+
+
 # Dashboard v3.15.24 | 2025-12-10
 
 ## New
@@ -1044,6 +1057,7 @@ None
 -   None   
 
 <br/>
+
 
 
 

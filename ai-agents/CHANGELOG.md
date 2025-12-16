@@ -1,3 +1,24 @@
+# AI Agents v0.2.0 | 2025-12-16
+
+## New
+- Added support for connecting websites as data sources to the Knowledge Base in Agent Builder.
+- Added new OpenAI LLMs to Agent Builder.
+  - gpt-5.2-chat-latest
+  - gpt-5.2  
+  - gpt-5.1-chat-latest
+  - gpt-5.1
+- Added support for Google LLMs in Agent Builder.
+  - gemini-2.5-flash
+  - gemini-2.5-flash-lite
+
+## Enhancements
+- None
+
+## Fixes
+-  None
+
+</br>
+
 # AI Agents v0.1.0 | 2025-12-03
 
 ## New

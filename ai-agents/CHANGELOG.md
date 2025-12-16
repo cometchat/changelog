@@ -1,4 +1,4 @@
-# AI Agents v0.2.0 | 2025-12-16
+# AI Agents v0.2.0 | 2025-12-17
 
 ## New
 - Added support for connecting websites as data sources to the Knowledge Base in Agent Builder.

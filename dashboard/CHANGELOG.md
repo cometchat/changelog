@@ -1,3 +1,18 @@
+# Dashboard v3.15.26 | 2025-12-19
+
+## New
+- Added a new **Goals & Instructions Editor** in the AI Agent Builder with rich formatting options, including **bold**, *italic*, ~~strikethrough~~, **bullet points**, and **line numbers**, making it easier to structure and manage agent instructions.
+- Added **Agent Chat Logs** with **real-time messages**, **searchable history**, and an **export option**, enabling teams to monitor, review, and download agent conversation logs directly from the builder.
+
+## Enhancements
+- Improved the **Deploy flow** in the AI Agent Builder by updating the customization screen to include the full **App Navigation** section, replacing the previous limited view that did not display navigation options.
+- Newly created **MCP tools** are now **enabled by default** for the respective agent, reducing additional configuration steps.
+
+## Fixes
+- Fixed an issue where **deleted groups** did not always refresh correctly in the list.
+<br/>
+
+
 # Dashboard v3.15.25 | 2025-12-16
 
 ## New
@@ -1057,3 +1072,4 @@ None
 -   None   
 
 <br/>
+

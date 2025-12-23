@@ -10,6 +10,7 @@
 
 ## Fixes
 - Fixed an issue where **deleted groups** did not always refresh correctly in the list.
+- Fixed an issue where being redirected to the apps list after an app was not found resulted in a persistent loading state.
 <br/>
 
 
@@ -1072,4 +1073,5 @@ None
 -   None   
 
 <br/>
+
 

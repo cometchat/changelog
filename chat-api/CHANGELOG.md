@@ -1,3 +1,15 @@
+# Chat API v3.9.47 | 2026-01-01
+
+## New
+- Added foundational support for access control based on user roles and group member scopes, enabling more granular permission management. Contact support to request early access to this feature.
+
+## Enhancements
+- The "Mark messages as unread" feature, previously gated, is now available by default.
+- Added foundational support for automatically syncing updated user and group details across historical messages. Contact support to request early access to this feature.
+
+## Fixes
+- None
+
 # Chat API v3.9.46 | 2025-12-09
 
 ## New
@@ -488,6 +500,7 @@
 
 -   None   
 <br/>
+
 
 
 

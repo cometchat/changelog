@@ -1,3 +1,14 @@
+# Management API v1.3.18 | 2026-01-01
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue that prevented collaborators from accepting app invitations when logging in with Google or GitHub.
+<br/>
+
 # Management API v1.3.17 | 2025-12-08
 ## New
 - None
@@ -213,5 +224,6 @@ More details regarding the endpoint - https://api-explorer.cometchat.com/referen
 -   None
    
 <br/>
+
 
 

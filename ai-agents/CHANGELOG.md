@@ -1,3 +1,16 @@
+# AI Agents v0.2.1 | 2025-12-24
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where messages were duplicated in agents created via Agent Builder.
+- Fixed an issue where messages were duplicated in BYO agents.
+</br>
+
 # AI Agents v0.2.0 | 2025-12-17
 
 ## New
@@ -16,7 +29,6 @@
 
 ## Fixes
 -  None
-
 </br>
 
 # AI Agents v0.1.0 | 2025-12-03

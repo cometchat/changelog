@@ -1,3 +1,16 @@
+# AI Agents v0.3.0 | 2026-01-07
+
+## New
+- Added support for LangGraph Agents.
+- Added support for CrewAI Agents.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue that resulted in deleted messages being processed.
+</br>
+
 # AI Agents v0.2.1 | 2025-12-24
 
 ## New

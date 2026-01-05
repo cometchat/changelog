@@ -7,7 +7,7 @@
 - None
 
 ## Fixes
-- Fixed an issue where the List Muted Conversations API returned conversations whose mute-until timestamp had already expired.
+- Fixed an issue where the **List Muted Conversations** API returned conversations whose mute duration had already expired.
 </br>
 
 # Notifications v1.6.13 | 2025-11-17

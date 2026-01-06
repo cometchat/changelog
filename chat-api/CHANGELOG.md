@@ -1,3 +1,14 @@
+# Chat API v3.9.48 | 2026-01-06
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue introduced in Chat API v3.9.47 that caused delays in listing newly initiated conversations when groups were created with members in certain customer environments.
+
 # Chat API v3.9.47 | 2026-01-01
 
 ## New
@@ -500,6 +511,7 @@
 
 -   None   
 <br/>
+
 
 
 

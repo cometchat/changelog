@@ -7,7 +7,7 @@
 - None
 
 ## Fixes
-- Fixed an issue introduced in Chat API v3.9.47 that caused delays in listing newly initiated conversations when groups were created with members in certain customer environments.
+- Fixed an issue introduced in Chat API v3.9.47 that caused delays in listing newly started conversations. This was due to intermittent lags in processing events for creating conversations for members added using the Create Group API.
 
 # Chat API v3.9.47 | 2026-01-01
 
@@ -511,6 +511,7 @@
 
 -   None   
 <br/>
+
 
 
 

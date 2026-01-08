@@ -1,3 +1,15 @@
+# Notifications v1.6.14 | 2026-01-07
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where the **List Muted Conversations** API returned conversations whose mute duration had already expired.
+</br>
+
 # Notifications v1.6.13 | 2025-11-17
 
 ## New

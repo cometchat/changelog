@@ -1,3 +1,17 @@
+Chat API v3.9.49 | 2026-01-16
+## New 
+- None 
+
+## Enhancements 
+- Optimized conversation updates when sending messages in large groups if moderation is enabled, improving performance and responsiveness. 
+- Enhanced conversation rendering so conversations remain in their current position when reset using the preserveOrder=true parameter. 
+
+## Fixes 
+- Fixed an issue where the Get Message API response included mentions that were removed by editing the message. 
+- Fixed an issue where unreadMessageCount was not set for newly added group members on their add-member action message. 
+- Fixed an issue where mentions were missing in quoted message returned by the List Messages API when the quoted message itself was not included in the messages list. 
+- Restricted replying to messages that were sent before the conversation was reset.
+
 # Chat API v3.9.48 | 2026-01-06
 
 ## New
@@ -511,6 +525,7 @@
 
 -   None   
 <br/>
+
 
 
 

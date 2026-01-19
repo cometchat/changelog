@@ -2,12 +2,14 @@
 
 ## New
 - Added support for **Wix**, **Webflow**, and **Squarespace** in the **No-Code Widget Builder**, enabling easy chat integration across more website platforms.
+- Added a **“Mark as Unread”** option in the **React UI Kit Builder** and **No-Code Widget Builder**, with the ability to enable or disable this feature via builder settings.
 
 ## Enhancements
 - Improved pagination navigation for **user lists**, ensuring smoother and more reliable browsing.
 - Enhanced the **editor UX** and fixed issues related to **keyboard shortcut behavior** in specific use cases, ensuring smoother and more predictable interactions.
 - Made fixes and improvements to **caching behavior** in line with updated Chrome browser caching rules, preventing stale or incorrect data from appearing after update or delete actions.
 - Applied **minor UI updates** across the **Agentic Builder** to improve usability, consistency, and overall user experience.
+- Updated the **React UI Kit** to version **6.3.7** across the **UI Kit Builder**, **Widget Builder**, **Dashboard**, and **Preview** for improved stability and consistency.
 
 ## Fixes
 - None
@@ -1089,3 +1091,4 @@ None
 -   None   
 
 <br/>
+

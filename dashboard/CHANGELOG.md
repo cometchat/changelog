@@ -1,3 +1,19 @@
+# Dashboard v3.15.27 | 2026-01-12
+
+## New
+- Added support for **Wix**, **Webflow**, and **Squarespace** in the **No-Code Widget Builder**, enabling easy chat integration across more website platforms.
+
+## Enhancements
+- Improved pagination navigation for **user lists**, ensuring smoother and more reliable browsing.
+- Enhanced the **editor UX** and fixed issues related to **keyboard shortcut behavior** in specific use cases, ensuring smoother and more predictable interactions.
+- Made fixes and improvements to **caching behavior** in line with updated Chrome browser caching rules, preventing stale or incorrect data from appearing after update or delete actions.
+- Applied **minor UI updates** across the **Agentic Builder** to improve usability, consistency, and overall user experience.
+
+## Fixes
+- None
+<br/>
+
+
 # Dashboard v3.15.26 | 2025-12-19
 
 ## New
@@ -1073,5 +1089,3 @@ None
 -   None   
 
 <br/>
-
-

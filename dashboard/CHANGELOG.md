@@ -1,3 +1,19 @@
+# Dashboard v3.15.28 | 2026-01-20
+
+## New
+- Added new **Getting Started guides** for **Voice & Video Calling** and **Notifications**.
+
+## Enhancements
+- Updated and customized the **onboarding experience** based on product selection, including **Chat & Messaging**, **Voice & Video Calling**, **AI Agents**, and **Bring Your Own Agents**, helping users get started faster with relevant guidance.
+- Improved and added **detailed integration steps and next steps** in the **Getting Started** guides for **Chats**, **Moderation**, and **Bring Your Own Agents**.
+- Added and updated **relevant documentation** across **Chats**, **Voice & Video Calling**, **Moderation**, **Notifications**, **AI Agents**, and **Bring Your Own Agents** for better discoverability and clarity.
+- Improved **UI Kit Builder** and **Widget Builder** integration by keeping builder settings (code and no-code) in sync with dashboard feature settings, and by providing a clear feature overview with enable/disable options during **Export / Embed Code**.
+  
+## Fixes
+- Fixed **incorrect documentation links** to ensure accurate and up-to-date references.
+<br/>
+
+
 # Dashboard v3.15.27 | 2026-01-12
 
 ## New
@@ -1091,4 +1107,5 @@ None
 -   None   
 
 <br/>
+
 

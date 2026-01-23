@@ -1,16 +1,13 @@
 # Dashboard v3.15.28 | 2026-01-20
 
 ## New
-- Added new **Getting Started guides** for **Voice & Video Calling** and **Notifications**.
+- None
 
 ## Enhancements
-- Updated and customized the **onboarding experience** based on product selection, including **Chat & Messaging**, **Voice & Video Calling**, **AI Agents**, and **Bring Your Own Agents**, helping users get started faster with relevant guidance.
-- Improved and added **detailed integration steps and next steps** in the **Getting Started** guides for **Chats**, **Moderation**, and **Bring Your Own Agents**.
-- Added and updated **relevant documentation** across **Chats**, **Voice & Video Calling**, **Moderation**, **Notifications**, **AI Agents**, and **Bring Your Own Agents** for better discoverability and clarity.
-- Improved **UI Kit Builder** and **Widget Builder** integration by keeping builder settings (code and no-code) in sync with dashboard feature settings, and by providing a clear feature overview with enable/disable options during **Export / Embed Code**.
+- None
   
 ## Fixes
-- Fixed **incorrect documentation links** to ensure accurate and up-to-date references.
+- Updated the **React UI Kit** to version **6.3.9**, which resolves an issue where messages sent while creating a new agent chat were incorrectly added to chat history.
 <br/>
 
 
@@ -1107,5 +1104,6 @@ None
 -   None   
 
 <br/>
+
 
 

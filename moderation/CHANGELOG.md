@@ -5,7 +5,7 @@
 - None
 ## Fixes
 - Fixed an issue where manually approved messages that originated from previously flagged or blocked items did not appear in the Reviewed Messages list. These messages now display as expected.
-- Resolved an issue where media files were not moderated when Secure File Access was enabled.
+- Resolved an issue where media files were not moderated when Token Based File Access was enabled.
 
 
 # Moderation v1.0.9 | 2025-10-28
@@ -125,6 +125,7 @@
 
 -   None   
 <br/>
+
 
 
 

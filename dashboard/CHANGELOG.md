@@ -1,3 +1,17 @@
+# Dashboard v3.15.30 | 2026-01-28
+
+## New
+- Introduced updated pricing for the **Basic** and **Advanced** plans across both **monthly** and **annual** billing cycles. While prices have been revised, the **existing plans and tiers remain unchanged**, ensuring continuity in features and offerings.
+
+## Enhancements
+- None
+  
+## Fixes
+- Fixed an issue where **previous group tags** were incorrectly shown while editing a group.
+- Fixed an issue where **Insights** and **Operational Data** graphs appeared empty for certain apps.
+<br/>
+
+
 # Dashboard v3.15.28 | 2026-01-20
 
 ## New
@@ -1104,6 +1118,8 @@ None
 -   None   
 
 <br/>
+
+
 
 
 

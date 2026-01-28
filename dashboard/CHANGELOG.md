@@ -8,6 +8,7 @@
   
 ## Fixes
 - Fixed an issue where **previous group tags** were incorrectly shown while editing a group.
+- Fixed an issue where **Insights** and **Operational Data** graphs appeared empty for certain apps.
 <br/>
 
 
@@ -1117,6 +1118,7 @@ None
 -   None   
 
 <br/>
+
 
 
 

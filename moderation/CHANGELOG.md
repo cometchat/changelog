@@ -1,3 +1,11 @@
+# Moderation v1.0.11 | 2026-01-28
+## New
+- None
+## Enhancements
+- None
+## Fixes
+- Fixed an issue where secured media files were inaccessible from Moderation logs in the Dashboard when Token-Based File Access was enabled.
+
 # Moderation v1.0.10 | 2025-11-19
 ## New
 - None
@@ -125,6 +133,7 @@
 
 -   None   
 <br/>
+
 
 
 

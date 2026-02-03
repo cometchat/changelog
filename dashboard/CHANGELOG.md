@@ -1,3 +1,39 @@
+# Dashboard v3.15.32 | 2026-02-03
+
+## New
+- Introduced a refreshed onboarding experience, updated and customized based on selected products, including **Chat & Messaging**, **Voice & Video Calling**, **AI Agents**, and **Bring Your Own Agents**, ensuring users receive relevant setup guidance.
+- Added new **Get Started** guides for **Notifications** and **Voice & Video Calling** to help users onboard faster.
+- Introduced new **Monthly** and **Annual** plans for **AI Agents**, with **Contact Us** options that allow customers to request a callback for each plan.
+
+## Enhancements
+- Enhanced the **App Creation Flow** with:
+  - A redesigned product selection layout with clear separation between available product options.
+  - Updated messaging and visuals to improve clarity during onboarding.
+- Improved **Platform Selection** by:
+  - Updating available platform options under **Chat & Messaging**.
+  - Removing the platform selection step for **AI Agents** to streamline setup.
+- Restructured **Dashboard Navigation** with clearer categories, including:
+  - Chat & Messaging  
+  - AI Agents  
+  - Features  
+  - Notifications  
+  - Moderation  
+  - Insights
+- Enhanced **Getting Started** guides for **Chats**, **Moderation**, **Voice & Video Calling**, **AI Agents**, and **Bring Your Own Agents** with detailed integration steps and clear next actions.
+- Added and updated **relevant documentation** across **Chats**, **Voice & Video Calling**, **Moderation**, **Notifications**, **AI Agents**, and **Bring Your Own Agents** for improved discoverability and clarity.
+- Enhanced **Chat Features** by displaying platform compatibility information for each feature and extension.
+- Updated the **Moderation Get Started** flow to align with the new dashboard structure and remove outdated steps.
+- Improved **UI Kit Builder** and **Widget Builder** integration by keeping builder settings in sync with dashboard feature configurations and providing a clear feature overview with enable and disable options during **Export / Embed Code**.
+- Updated **premium feature tagging** to display the applicable **plan name** instead of a generic premium label across **Chat features**, **AI features**, and **Webhooks**, improving pricing clarity.
+
+## Fixes
+- Fixed incorrect documentation links to ensure accurate and up-to-date references.
+
+## Removals
+- Removed **Moderation** as a standalone product from the app creation flow to simplify product selection.
+<br/>
+
+
 # Dashboard v3.15.30 | 2026-01-28
 
 ## New
@@ -1118,6 +1154,7 @@ None
 -   None   
 
 <br/>
+
 
 
 

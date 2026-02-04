@@ -1,4 +1,4 @@
-# Notifications v1.6.15 | 2026-02-04
+# Notifications v1.6.15 | 2026-02-05
 
 ## New
 - Added support for Unread Message Count in push notifications. When enabled, the user's total unread count is included in the notification payload.

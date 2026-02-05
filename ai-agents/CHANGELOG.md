@@ -1,3 +1,14 @@
+# AI Agents v0.3.1 | 2026-02-03
+## New
+- Added support for authentication and custom variables in agents created via Agent Builder, enabling dynamic personalization and user-based access control across instructions and API tools (headers and request bodies). Custom variables can source values from message metadata, user metadata, or constants.
+- Added support for Frontend Actions in agents created via Agent Builder, allowing agents to trigger UI interactions like opening forms, navigating screens, or executing client-side workflows.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where the `text_message_start` event was not being emitted for agents created via Agent Builder.
+
 # AI Agents v0.3.0 | 2026-01-07
 
 ## New

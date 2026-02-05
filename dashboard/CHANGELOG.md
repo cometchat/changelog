@@ -4,6 +4,8 @@
 - Introduced a refreshed onboarding experience, updated and customized based on selected products, including **Chat & Messaging**, **Voice & Video Calling**, **AI Agents**, and **Bring Your Own Agents**, ensuring users receive relevant setup guidance.
 - Added new **Get Started** guides for **Notifications** and **Voice & Video Calling** to help users onboard faster.
 - Introduced new **Monthly** and **Annual** plans for **AI Agents**, with **Contact Us** options that allow customers to request a callback for each plan.
+- Introduced **Variables** in the AI Agent Builder to inject dynamic data into agent instructions and API tools. Use **auth variables** for user context (such as sender UID and name), or define **custom variables** for constants and metadata-based values.
+- Added **Frontend Actions** in the AI Agent Builder, enabling developers to configure client-side triggers—such as opening modals, navigating between pages, or showing notifications—that agents can invoke during conversations.
 
 ## Enhancements
 - Enhanced the **App Creation Flow** with:
@@ -1154,6 +1156,7 @@ None
 -   None   
 
 <br/>
+
 
 
 

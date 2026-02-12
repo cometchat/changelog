@@ -1,3 +1,23 @@
+# Dashboard v3.15.34 | 2026-02-12
+
+## New
+- None
+
+## Enhancements
+- Updated the UI Kit to version `6.3.11` in UI Kit Builder (React) and Widget Builder.
+
+## Fixes
+- Fixed an issue where the **Previous** button remained enabled on the first page after adding a user or group.
+- Fixed an issue where tags persisted in the **Add User** form after saving.
+- Fixed an issue where the AI Agent navigation menu did not highlight the correct tab during navigation.
+- Fixed an issue with the extension restriction check on the **Chat Features** page, resolving inconsistencies in the UI Kit and Widget Builder embed/export flow.
+- Ensured exported and embedded code includes only the features supported by the user's plan.
+- Fixed an issue where the **Rename Credential** modal retained previous values when reopened, ensuring form fields reset and display the correct credential details each time.
+- Improved dropdown close behaviour and modal state handling to prevent stale IDs and UI inconsistencies during credential actions.
+- Fixed an issue where message deletion did not work correctly in the **History** tab.
+- Fixed an issue in **Widget (No-Code Integration)** where the host application CSS conflicted with widget styles.
+<br/>
+
 # Dashboard v3.15.33 | 2026-02-11
 
 ## New
@@ -1169,4 +1189,5 @@ None
 -   None   
 
 <br/>
+
 

@@ -4,7 +4,7 @@
 - None
 
 ## Enhancements
-- Updated the UI Kit to version `6.3.11` in UI Kit Builder (React) and Widget Builder.
+- Updated the UI Kit to version `6.3.11` in UI Kit Builder (React), Widget Builder, Code and No Code integrations.
 
 ## Fixes
 - Fixed an issue where the **Previous** button remained enabled on the first page after adding a user or group.
@@ -1189,5 +1189,6 @@ None
 -   None   
 
 <br/>
+
 
 

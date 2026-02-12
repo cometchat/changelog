@@ -1,3 +1,16 @@
+# Dashboard v3.15.33 | 2026-02-11
+
+## New
+- Added an option to request enabling the unread badge count in the Notifications Engine under **Push Notifications > Preferences**. When enabled, the user’s total unread message count is included in the notification payload.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+<br/>
+
+
 # Dashboard v3.15.32 | 2026-02-03
 
 ## New
@@ -1156,10 +1169,4 @@ None
 -   None   
 
 <br/>
-
-
-
-
-
-
 

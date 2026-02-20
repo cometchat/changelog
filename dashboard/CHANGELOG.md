@@ -1,11 +1,12 @@
 # Dashboard v3.15.34 | 2026-02-12
 
 ## New
-- None
+- Introduced group scope–based access control with a new **Permissions** tab for Group Roles, allowing app owners and admins to configure permissions based on group membership scopes for more granular control.
 
 ## Enhancements
 - Updated the UI Kit to version `6.3.11` in UI Kit Builder, preview, and Code and No-Code Widget.
 - Upgraded the Calls SDK to version `4.3.4` in UI Kit Builder, preview, and Code and No-Code Widget.
+- Enhanced role-based access control (RBAC) by adding additional permissions, enabling more precise access management based on user roles for improved security and flexibility.
 
 ## Fixes
 - Fixed an issue where the **Previous** button remained enabled on the first page after adding a user or group.
@@ -1190,6 +1191,7 @@ None
 -   None   
 
 <br/>
+
 
 
 

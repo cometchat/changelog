@@ -1,3 +1,14 @@
+# Platform v3.0.17 | 2026-02-16
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Resolved an issue where webhooks were not triggered when using the `markConversationAsRead()` and `markConversationAsDeleted()` functions, preventing read and delivery events from being properly communicated.
+<br/>
+
 # Platform v3.0.16 | 2025-12-09
 ## New
 - None
@@ -264,6 +275,7 @@
 
 -   None   
 <br/>
+
 
 
 

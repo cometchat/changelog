@@ -1,3 +1,27 @@
+# Dashboard v3.15.34 | 2026-02-12
+
+## New
+- Introduced group scope–based access control with a new **Permissions** tab for Group Roles, allowing app owners and admins to configure permissions based on group membership scopes for more granular control.
+- Added two new props under a new **App Sounds** feature group to configure **Incoming Message Sound** and **Outgoing Message Sound** in UI Kit Builder and Widget Builder, including Low-Code and No-Code widget integrations.
+
+
+## Enhancements
+- Enhanced role-based access control (RBAC) by adding additional permissions, enabling more precise access management based on user roles for improved security and flexibility.
+- Updated the UI Kit to version `6.3.11` in UI Kit Builder, preview, and Code and No-Code Widget.
+- Upgraded the Calls SDK to version `4.3.4` in UI Kit Builder, preview, and Code and No-Code Widget.
+
+## Fixes
+- Fixed an issue where the **Previous** button remained enabled on the first page after adding a user or group.
+- Fixed an issue where tags persisted in the **Add User** form after saving.
+- Fixed an issue where the AI Agent navigation menu did not highlight the correct tab during navigation.
+- Fixed an issue with the extension restriction check on the **Chat Features** page, resolving inconsistencies in the UI Kit and Widget Builder embed/export flow.
+- Ensured exported and embedded code includes only the features supported by the user’s plan.
+- Fixed an issue where the **Rename Credential** modal retained previous values when reopened, ensuring form fields reset and display the correct credential details each time.
+- Improved dropdown close behavior and modal state handling to prevent stale IDs and UI inconsistencies during credential actions.
+- Fixed an issue where message deletion did not work correctly in the **History** tab.
+- Fixed an issue in **Widget (No-Code Integration)** where host application CSS conflicted with widget styles.
+<br/>
+
 # Dashboard v3.15.33 | 2026-02-11
 
 ## New
@@ -1169,4 +1193,10 @@ None
 -   None   
 
 <br/>
+
+
+
+
+
+
 

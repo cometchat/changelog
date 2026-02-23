@@ -2,6 +2,8 @@
 
 ## New
 - Introduced group scope–based access control with a new **Permissions** tab for Group Roles, allowing app owners and admins to configure permissions based on group membership scopes for more granular control.
+- Added two new props under a new **App Sounds** feature group to configure **Incoming Message Sound** and **Outgoing Message Sound** in UI Kit Builder and Widget Builder, including Low-Code and No-Code widget integrations.
+
 
 ## Enhancements
 - Enhanced role-based access control (RBAC) by adding additional permissions, enabling more precise access management based on user roles for improved security and flexibility.
@@ -1191,6 +1193,7 @@ None
 -   None   
 
 <br/>
+
 
 
 

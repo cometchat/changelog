@@ -1,3 +1,16 @@
+# Dashboard v3.15.35 | 2026-03-06
+
+## New
+- None
+
+## Enhancements
+- Enhanced the UI/UX across the onboarding flow and key in-app modules, improving navigation, usability, and the overall experience for developers and customers using the dashboard.
+
+## Fixes
+- None
+<br/>
+
+
 # Dashboard v3.15.34 | 2026-02-12
 
 ## New
@@ -1193,6 +1206,7 @@ None
 -   None   
 
 <br/>
+
 
 
 

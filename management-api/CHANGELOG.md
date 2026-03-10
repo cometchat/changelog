@@ -1,3 +1,14 @@
+# Management API v1.3.19 | 2026-03-10
+## New
+- None
+
+## Enhancements
+- Upgraded the platform version to improve overall stability and reliability. As part of this upgrade, users currently logged in to the dashboard will be automatically logged out and will need to log in again.
+
+## Fixes
+- None
+<br/>
+
 # Management API v1.3.18 | 2026-01-01
 ## New
 - None
@@ -224,6 +235,7 @@ More details regarding the endpoint - https://api-explorer.cometchat.com/referen
 -   None
    
 <br/>
+
 
 
 

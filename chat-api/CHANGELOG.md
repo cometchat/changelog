@@ -1,3 +1,15 @@
+# Chat API v3.9.50 | 2026-03-10
+
+## New
+- None
+
+## Enhancements
+- Introduced `mimeTypeAccessControl` and `mimeTypes` permissions in the Send Message API, allowing greater control over which MIME types can be allowed or restricted when sending messages.
+
+## Fixes
+- Fixed an issue where disapproved messages were incorrectly displayed to the sender when the `unread=1` parameter was used.
+- Improved RBAC error messages to make them clearer and easier to understand.
+
 # Chat API v3.9.50 | 2026-02-16
 
 ## New
@@ -539,6 +551,7 @@
 
 -   None   
 <br/>
+
 
 
 

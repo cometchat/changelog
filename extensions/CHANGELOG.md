@@ -1,8 +1,8 @@
 # Extensions v3.0.15 | 2026-10-03
 
 ## New
-- Introduced a **Notification Configuration API for the Polls extension**, allowing platform operators to enable or disable push notifications for poll messages using `PUT /v2/notifications` with `{ "enabled": true | false }`.
-- Introduced a **Notification Configuration API for the Reminders extension**, allowing platform operators to enable or disable push notifications for reminder messages using `PUT /v1/notifications` with `{ "enabled": true | false }`.
+- Introduced a **Notification Configuration API for the Polls extension**, allowing push notifications for poll messages to be enabled or disabled.
+- Introduced a **Notification Configuration API for the Reminders extension**, allowing push notifications for reminder messages to be enabled or disabled.
 
 ## Enhancements
 - None

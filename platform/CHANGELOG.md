@@ -1,13 +1,3 @@
-# Platform v3.0.19 | 2026-03-10
-## New
-- None
-
-## Enhancements
-- Upgraded the platform version to improve overall stability and reliability.
-
-## Fixes
-- None
-
 # Platform v3.0.18 | 2026-03-10
 ## New
 - None
@@ -297,6 +287,7 @@
 
 -   None   
 <br/>
+
 
 
 

@@ -1,8 +1,8 @@
-# Extensions v3.0.15 | 2026-10-03
+# Extensions v3.0.15 | 2026-13-03
 
 ## New
-- Introduced a **Notification Configuration API for the Polls extension**, allowing push notifications for poll messages to be enabled or disabled.
-- Introduced a **Notification Configuration API for the Reminders extension**, allowing push notifications for reminder messages to be enabled or disabled.
+- Added push notifications for the **Polls** messages, ensuring users are notified when new poll messages are posted.
+- Added push notifications for the **Reminders** messages so users receive alerts when reminder messages are sent.
 
 ## Enhancements
 - None

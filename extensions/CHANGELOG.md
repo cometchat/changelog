@@ -1,3 +1,16 @@
+# Extensions v3.0.15 | 2026-13-03
+
+## New
+- Added push notifications for the **Polls** messages, ensuring users are notified when new poll messages are posted.
+- Added push notifications for the **Reminders** messages so users receive alerts when reminder messages are sent.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+</br>
+
 # Extensions v3.0.14 | 2025-09-09
 
 ## New

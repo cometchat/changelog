@@ -5,7 +5,7 @@
 - Introduced **Notification Templates for Reminders**, allowing customization of push and email notifications for reminder messages.
 
 ## Enhancements
-- [Private] Added provision to consume group member limit from settings update.
+-  None
 
 ## Fixes
 - Fixed an issue where users were unable to delete default providers configured for push notifications.

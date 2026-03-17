@@ -1,3 +1,15 @@
+# Notifications v1.7.0 | 2026-03-17
+
+## New
+- Introduced **Notification Templates for Polls**, enabling customization of push and email notifications for poll messages.
+- Introduced **Notification Templates for Reminders**, allowing customization of push and email notifications for reminder messages.
+
+## Enhancements
+- [Private] Added provision to consume group member limit from settings update.
+
+## Fixes
+- Fixed an issue where users were unable to delete default providers configured for push notifications.
+
 # Notifications v1.6.15 | 2026-02-05
 
 ## New

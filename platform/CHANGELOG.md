@@ -1,3 +1,15 @@
+# Platform v3.0.18 | 2026-03-10
+## New
+- None
+
+## Enhancements
+- Upgraded the platform version to improve overall stability and reliability.
+- Added filter support to the Call Logs API, enabling more efficient retrieval of call log data based on specific criteria.
+
+## Fixes
+- None
+<br/>
+
 # Platform v3.0.17 | 2026-02-16
 ## New
 - None
@@ -275,6 +287,8 @@
 
 -   None   
 <br/>
+
+
 
 
 

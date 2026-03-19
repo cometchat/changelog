@@ -1,8 +1,8 @@
 # Notifications v1.7.0 | 2026-03-17
 
 ## New
-- Introduced **Notification Templates for Polls**, allowing customization of notification body and title.
-- Introduced **Notification Templates for Reminders**, allowing customization of notification body and title.
+- Introduced **Notification Templates for Polls**, allowing customization of notification title and body.
+- Introduced **Notification Templates for Reminders**, allowing customization of notification title and body.
 
 ## Enhancements
 -  None

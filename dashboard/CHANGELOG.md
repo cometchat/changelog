@@ -1,4 +1,4 @@
-# Dashboard v3.15.36 | 2026-03-017
+# Dashboard v3.15.36 | 2026-03-19
 
 ## New
 - Introduced **Notification Templates for Polls**, allowing customization of notification title and body.

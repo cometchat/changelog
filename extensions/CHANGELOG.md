@@ -1,3 +1,16 @@
+# Extensions v3.0.15 | 2026-13-03
+
+## New
+- Enabled Notifications for Polls.
+- Enabled Notifications for Reminders.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+</br>
+
 # Extensions v3.0.14 | 2025-09-09
 
 ## New

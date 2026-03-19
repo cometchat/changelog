@@ -8,7 +8,7 @@
 - None
 
 ## Fixes
-- None
+- Fixed an issue that was causing random crashes in the Chat Builder.
 <br/>
 
 # Dashboard v3.15.34 | 2026-02-12

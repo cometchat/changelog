@@ -1,14 +1,14 @@
 # Dashboard v3.15.36 | 2026-03-017
 
 ## New
-- Introduced **Notification Templates for Poll Message**, enabling customization of push and email notifications for poll messages.
-- Introduced **Notification Templates for Reminder Message**, allowing customization of push and email notifications for reminder messages.
+- Introduced **Notification Templates for Polls**, allowing customization of notification title and body.
+- Introduced **Notification Templates for Reminders**, allowing customization of notification title and body.
 
 ## Enhancements
 - None
 
 ## Fixes
-- None
+- Fixed an issue that was causing random crashes in the Chat Builder.
 <br/>
 
 

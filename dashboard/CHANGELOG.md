@@ -1,3 +1,30 @@
+# Dashboard v3.15.36 | 2026-03-017
+
+## New
+- Introduced **Notification Templates for Polls**, allowing customization of notification title and body.
+- Introduced **Notification Templates for Reminders**, allowing customization of notification title and body.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue that was causing random crashes in the Chat Builder.
+<br/>
+
+
+# Dashboard v3.15.35 | 2026-03-06
+
+## New
+- None
+
+## Enhancements
+- Enhanced the UI/UX across the onboarding flow and key in-app modules, improving navigation, usability, and the overall experience for developers and customers using the dashboard.
+
+## Fixes
+- None
+<br/>
+
+
 # Dashboard v3.15.34 | 2026-02-12
 
 ## New
@@ -1193,10 +1220,3 @@ None
 -   None   
 
 <br/>
-
-
-
-
-
-
-

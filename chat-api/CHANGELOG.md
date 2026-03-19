@@ -1,3 +1,28 @@
+# Chat API v3.9.51 | 2026-03-10
+
+## New
+- None
+
+## Enhancements
+- Introduced `mimeTypeAccessControl` and `mimeTypes` permissions in the Send Message API, allowing greater control over which MIME types can be allowed or restricted when sending messages.
+
+## Fixes
+- Fixed an issue where disapproved messages were incorrectly displayed to the sender when the `unread=1` parameter was used.
+- Improved RBAC error messages to make them clearer and easier to understand.
+
+# Chat API v3.9.50 | 2026-02-16
+
+## New
+- None
+
+## Enhancements
+- Enhanced role-based access control by introducing additional permissions, enabling precise access control based on user roles and group membership scopes for greater security and flexibility.
+
+## Fixes
+- Fixed an issue where user IDs were not automatically converted to lowercase when adding friends, which could result in "UID not found" errors if the case did not match.
+- Resolved an issue where messages sent before a conversation reset/delete continued to appear in search results when Conversation and Advanced Search were enabled.
+- Fixed an issue where the last message in large group conversations (more than 300 members) was not displayed consistently when moderation was enabled.
+
 # Chat API v3.9.49 | 2026-01-16
 
 ## New 
@@ -526,6 +551,9 @@
 
 -   None   
 <br/>
+
+
+
 
 
 

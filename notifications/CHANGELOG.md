@@ -1,3 +1,16 @@
+# Notifications v1.7.1 | 2026-03-24
+
+## New
+- None
+
+## Enhancements
+- Logs API now supports multi-select filtering for Provider, Trigger, Message Category, Message Type, Receiver Type, and Reason fields.
+
+## Fixes
+- Fixed an issue in the Settings API where the GET endpoint would occasionally return stale data due to a cache invalidation failure.
+<br/>
+
+
 # Notifications v1.7.0 | 2026-03-17
 
 ## New

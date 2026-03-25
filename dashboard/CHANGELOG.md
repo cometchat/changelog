@@ -1,3 +1,15 @@
+# Dashboard v3.15.37 | 2026-03-30
+
+## New
+- Introduced a unified filtering system across all CometChat Dashboard data tables, including Users, Groups, Chat Logs, Moderation Logs, Voice & Video Logs, and Notification Logs.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+<br/>
+
 # Dashboard v3.15.36 | 2026-03-19
 
 ## New

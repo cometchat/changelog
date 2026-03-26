@@ -1,3 +1,15 @@
+# Chat API v3.9.52 | 2026-03-24
+
+## New
+- None
+
+## Enhancements
+- Enhanced the List Users, Groups, and Messages APIs by adding support for additional filters, enabling more precise and efficient data retrieval based on specific criteria.
+- Upgraded the platform version to improve overall stability and reliability.
+
+## Fixes
+- None
+
 # Chat API v3.9.51 | 2026-03-10
 
 ## New

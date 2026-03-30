@@ -1,7 +1,7 @@
-# Dashboard v3.15.37 | 2026-03-30
+# Dashboard v3.15.37 | 2026-03-31
 
 ## New
-- Introduced a unified filtering system across all CometChat Dashboard data tables, including Users, Groups, Chat Logs, Moderation Logs, Voice & Video Logs, and Notification Logs.
+- Added support for the new virus_malware_scanner moderation rule category in the dashboard, along with improved UI labels for existing moderation rule subcategories.
 
 ## Enhancements
 - None

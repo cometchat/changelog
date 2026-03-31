@@ -1,7 +1,7 @@
 # Dashboard v3.15.37 | 2026-03-31
 
 ## New
-- Added support for the new virus_malware_scanner moderation rule category in the dashboard, along with improved UI labels for existing moderation rule subcategories.
+- Added support for the new virus malware scanner moderation rule category in the dashboard, along with improved UI labels for existing moderation rule subcategories.
 
 ## Enhancements
 - None

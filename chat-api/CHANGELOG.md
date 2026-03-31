@@ -1,11 +1,10 @@
-# Chat API v3.9.52 | 2026-03-24
+# Chat API v3.10.0 | 2026-03-31
 
 ## New
-- None
+- Introduced support for presigned URLs with configurable expiration (TTL), enabling time-bound access to media files.
 
 ## Enhancements
-- Enhanced the List Users, Groups, and Messages APIs by adding support for additional filters, enabling more precise and efficient data retrieval based on specific criteria.
-- Upgraded the platform version to improve overall stability and reliability.
+- Added provision to automatically decrement thread reply count when replies are deleted, allowing customization based on the `hideDeletedMessages` setting in the Message/Thread Request Builder.
 
 ## Fixes
 - None

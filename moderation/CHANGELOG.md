@@ -1,3 +1,11 @@
+# Moderation v1.1.0 | 2026-03-31
+## New
+- Added malware and virus scanning capability that checks file attachments for threats. It supports configurable rules with file type filtering.
+## Enhancements
+- None
+## Fixes
+- None
+
 # Moderation v1.0.11 | 2026-01-28
 ## New
 - None

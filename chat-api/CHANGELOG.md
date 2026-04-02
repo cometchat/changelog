@@ -7,7 +7,7 @@
 - Added provision to automatically decrement thread reply count when replies are deleted, allowing customization based on the `hideDeletedMessages` setting in the Message/Thread Request Builder.
 
 ## Fixes
-- None
+- None 
 
 # Chat API v3.9.52 | 2026-03-24
 
@@ -19,7 +19,7 @@
 - Upgraded the platform version to improve overall stability and reliability.
 
 ## Fixes
-- None  
+- None
 
 # Chat API v3.9.51 | 2026-03-10
 

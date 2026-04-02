@@ -1,3 +1,16 @@
+# Dashboard v3.15.38 | 2026-04-02
+
+## New
+- Introduced a unified filtering experience across CometChat Dashboard data tables, including Users, Groups, Chat Logs, Moderation Logs, Voice & Video Logs, and Notification Logs, making it easier to find and manage data consistently.
+- Added support for presigned URLs with configurable expiration times (TTL), enabling secure, time-bound access to media files.
+
+## Enhancements
+- Enhanced thread reply count handling to automatically decrease when replies are deleted, with behavior that can be tailored based on the `hideDeletedMessages` setting in the Message/Thread Request Builder.
+
+## Fixes
+- None
+<br>
+
 # Dashboard v3.15.37 | 2026-03-31
 
 ## New

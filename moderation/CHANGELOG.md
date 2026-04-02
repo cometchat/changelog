@@ -2,7 +2,6 @@
 ## New
 - None
 ## Enhancements
-- Upgraded the platform version to improve overall stability and reliability.
 - Added filter support to the Moderation Logs API, enabling more efficient retrieval of moderation logs data based on specific criteria.
 ## Fixes
 - Resolved an issue where OpenAI moderation did not trigger on the first message sent by a new user in a chat.

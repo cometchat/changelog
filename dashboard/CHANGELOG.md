@@ -2,12 +2,10 @@
 
 ## New
 - Introduced a unified filtering system across all CometChat Dashboard data tables, including Users, Groups, Chat Logs, Moderation Logs, Voice & Video Logs, and Notification Logs.
-- Introduced a compact message composer toggle in the Layout settings, allowing users to switch between compact (single-line) and multi-line message composer modes.
 - Introduced support for presigned URLs with configurable expiration (TTL), enabling time-bound access to media files.
 
 ## Enhancements
 - Added provision to automatically decrement thread reply count when replies are deleted, allowing customization based on the `hideDeletedMessages` setting in the Message/Thread Request Builder.
-- Updated the UI Kit to version 6.4.0 in UI Kit Builder, Code and No-Code Widget.
 
 ## Fixes
 - None

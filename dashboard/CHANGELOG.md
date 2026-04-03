@@ -1,3 +1,15 @@
+# Dashboard v3.15.39 | 2026-04-06
+
+## New
+- Introduced a compact message composer toggle in the Layout settings, allowing users to switch between compact (single-line) and multi-line message composer modes.
+
+## Enhancements
+- Updated the React UI Kit to version 6.4.2 and Calls SDK to version 4.2.5 across the UI Kit Builder, Widget Builder, Dashboard, and Preview for improved stability and consistency.
+
+## Fixes
+- None
+<br>
+
 # Dashboard v3.15.38 | 2026-04-02
 
 ## New

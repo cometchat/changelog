@@ -1,3 +1,14 @@
+# Platform v3.0.19 | 2026-04-07
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Improved the performance of the List Call Logs API, resulting in reduced latency when handling large datasets.
+<br/>
+
 # Platform v3.0.18 | 2026-03-10
 ## New
 - None

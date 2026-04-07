@@ -1,8 +1,8 @@
 # Dashboard v3.15.39 | 2026-04-08
 
 ## New
-- Introduced a compact message composer toggle in the Layout settings, allowing users to switch between compact (single-line) and multi-line message composer modes.
-- Added a toggle to enable or disable rich text formatting in the core messaging experience (enabled by default).
+- Added support for the compact message composer in the UI Kit Builder, Widget Builder, and Preview, enabling switching between single-line and multi-line message composition.
+- Added support for rich text formatting in the UI Kit Builder, Widget Builder, and Preview, enabling users to toggle rich text formatting in the core messaging experience. This feature is enabled by default.
 
 ## Enhancements
 - Updated the React UI Kit to version 6.4.2 and Calls SDK to version 4.2.5 across the UI Kit Builder, Widget Builder, Dashboard, and Preview for improved stability and consistency.

@@ -8,7 +8,7 @@
 - Updated the React UI Kit to version 6.4.2 and Calls SDK to version 4.2.5 across the UI Kit Builder, Widget Builder, Dashboard, and Preview for improved stability and consistency.
 
 ## Fixes
-- None
+- Fixed an issue in call logs pagination where navigation beyond page 10 was not working.
 <br>
 
 # Dashboard v3.15.38 | 2026-04-02

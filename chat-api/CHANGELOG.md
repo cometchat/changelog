@@ -1,3 +1,14 @@
+# Chat API v3.11.0 | 2026-04-09
+
+## New
+- None
+
+## Enhancements
+- Upgraded the backend infrastructure to improve reliability, security, and performance.
+
+## Fixes
+- None
+  
 # Chat API v3.10.0 | 2026-03-31
 
 ## New

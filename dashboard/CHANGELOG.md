@@ -1,3 +1,19 @@
+# Dashboard v3.15.40 | 2026-04-14
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where refreshing the Groups page resulted in an endless loading state instead of displaying the groups list.
+- Fixed an issue where the "Fetching more details" message remained visible indefinitely on the Chats page instead of disappearing after data was retrieved or after a timeout period.
+- Fixed an error where refreshing any page and immediately clicking on another tab would throw "App with app id undefined does not exist or you do not have access to it" and redirect to the app list page.
+- Fixed multiple API calls being triggered when clicking next on pagination in user and group components.
+- Fixed an infinite re-render loop on the Roles detail page that occurred when a multi-tenant child app referenced a parent app that no longer exists.
+<br>
+
 # Dashboard v3.15.39 | 2026-04-08
 
 ## New

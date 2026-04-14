@@ -1,7 +1,8 @@
 # Dashboard v3.15.40 | 2026-04-14
 
 ## New
-- None
+- Introduced notification templates for @user mentions, enabling customization of push notifications sent to mentioned users.
+- Introduced notification templates for @all mentions, enabling customization of push notifications for group mentions.
 
 ## Enhancements
 - None

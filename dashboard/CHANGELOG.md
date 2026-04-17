@@ -3,6 +3,7 @@
 ## New
 - Introduced notification templates for @user mentions, enabling customization of push notifications sent to mentioned users.
 - Introduced notification templates for @all mentions, enabling customization of push notifications for group mentions.
+- Added a new "Intent Selection" step to the onboarding flow, allowing users to indicate whether they are building, evaluating, or exploring CometChat. This step appears after role selection and before application creation.
 
 ## Enhancements
 - None

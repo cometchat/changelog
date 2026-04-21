@@ -1,3 +1,16 @@
+# Notifications v1.7.2 | 2026-04-21
+
+## New
+- Introduced notification templates for @user mentions, enabling customization of push notifications sent to mentioned users.
+- Introduced notification templates for @all mentions, enabling customization of push notifications for group mentions.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+<br/>
+
 # Notifications v1.7.1 | 2026-03-24
 
 ## New

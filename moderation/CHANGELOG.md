@@ -1,3 +1,19 @@
+# Moderation v1.2.0 | 2026-04-01
+## New
+- None
+## Enhancements
+- Added filter support to the Moderation Logs API, enabling more efficient retrieval of moderation logs data based on specific criteria.
+## Fixes
+- Resolved an issue where OpenAI moderation did not trigger on the first message sent by a new user in a chat.
+
+# Moderation v1.1.0 | 2026-03-31
+## New
+- Added malware and virus scanning capability that checks file attachments for threats. It supports configurable rules with file type filtering.
+## Enhancements
+- None
+## Fixes
+- None
+
 # Moderation v1.0.11 | 2026-01-28
 ## New
 - None

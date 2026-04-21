@@ -1,3 +1,14 @@
+# Management API v1.4.0 | 2026-04-20
+## New
+- Added support for authentication in AI-powered terminal environments, including Cursor and Claude. This skill allows users to sign in, sign up, and manage apps directly from the terminal with functionality similar to the dashboard.
+  
+## Enhancements
+- None
+
+## Fixes
+- None
+<br/>
+
 # Management API v1.3.19 | 2026-03-10
 ## New
 - None

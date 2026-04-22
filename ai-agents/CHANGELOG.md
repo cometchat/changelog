@@ -1,3 +1,13 @@
+# AI Agents v0.4.2 | 2026-04-22
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where API responses returned incorrect HTTP status codes.
+
 # AI Agents v0.3.1 | 2026-02-03
 ## New
 - Added support for authentication and custom variables in agents created via Agent Builder, enabling dynamic personalization and user-based access control across instructions and API tools (headers and request bodies). Custom variables can source values from message metadata, user metadata, or constants.

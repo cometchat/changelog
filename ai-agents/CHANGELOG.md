@@ -1,3 +1,13 @@
+# AI Agents v0.5.0 | 2026-04-27
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where the Google Send Email tool failed to send emails without attachments.
+
 # AI Agents v0.4.2 | 2026-04-22
 ## New
 - None

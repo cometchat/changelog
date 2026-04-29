@@ -1,3 +1,25 @@
+# Chat API v3.11.1 | 2026-04-29
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue in the Legacy Admin APIs where list group/user messages endpoints returned empty results when the subject user's UID was passed as a path parameter prefix (for example, `/users/<uid>`). This issue was introduced in a recent platform update.
+
+# Chat API v3.11.0 | 2026-04-09
+
+## New
+- None
+
+## Enhancements
+- Upgraded the backend infrastructure to improve reliability, security, and performance.
+
+## Fixes
+- None
+  
 # Chat API v3.10.0 | 2026-03-31
 
 ## New

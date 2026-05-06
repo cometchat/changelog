@@ -1,7 +1,7 @@
 # Dashboard v3.15.41 | 2026-05-05
 
 ## New
-- None
+- Added AI Agent Skill as a new integration option on the Chat & Messaging Get Started page. AI assistants (Claude Code, Cursor, Copilot, etc.) can now run npx @cometchat/skills add to automatically set up the SDK and UI Kit. Supported across React, React Router, Next.js, React Native, Angular, Android, iOS, Flutter, and Others tabs.
 
 ## Enhancements
 - None
@@ -11,6 +11,9 @@
 - Fixed an issue where creating a new app via the AI Agent platform opened the builder in a new tab with broken UI instead of the deploy screen.
 - Fixed the agent builder always displaying a loading screen when launching under deploy after creating a new app via AI Agents.
 - Fixed the Token TTL input row not being displayed on the Messages Settings page when presigned is the only available file-access option.
+- Fixed members list overflow inside the Add Members popup on the Groups page.
+- Fixed multiple loaders being visible on the Get Started page of Chat & Messaging when refreshing the page.
+- Fixed call logs list failing to load after refreshing the call detail page and navigating back to the list page.
 <br>
 
 # Dashboard v3.15.40 | 2026-04-14

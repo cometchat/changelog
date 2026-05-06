@@ -8,8 +8,8 @@
 
 ## Fixes
 - Fixed pagination issues across all three Moderation Log tabs (Flagged, Blocked, Reviewed) — including NaN total counts, cross-tab state interference, stale data accumulation, and filter/date range not persisting across pages.
-- Fixed an issue where creating a new app via the AI Agent platform opened the builder in a new tab with broken UI instead of the deploy screen.
-- Fixed the agent builder always displaying a loading screen when launching under deploy after creating a new app via AI Agents.
+- Fixed an issue where creating a new app via the AI Agent platform incorrectly opened the builder in a new tab instead of navigating to the deploy screen.
+- Fixed the Deploy tab in AI Agents showing an infinite loading screen instead of the integration options after creating a new app.
 - Fixed the Token TTL input row not being displayed on the Messages Settings page when presigned is the only available file-access option.
 - Fixed members list overflow inside the Add Members popup on the Groups page.
 - Fixed multiple loaders being visible on the Get Started page of Chat & Messaging when refreshing the page.

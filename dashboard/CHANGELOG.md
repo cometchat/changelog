@@ -1,7 +1,7 @@
 # Dashboard v3.15.41 | 2026-05-05
 
 ## New
-- Added AI Agent Skill as a new integration option on the Chat & Messaging Get Started page. AI assistants (Claude Code, Cursor, Copilot, etc.) can now run npx @cometchat/skills add to automatically set up the SDK and UI Kit. Supported across React, React Router, Next.js, React Native, Angular, Android, iOS, Flutter, and Others tabs.
+- Added AI Agent Skill as a new integration option on the Chat & Messaging Get Started page. AI assistants (Claude Code, Cursor, Copilot, etc.) can now run `npx skills add cometchat/cometchat-skills` add to automatically set up the SDK and UI Kit. Supported across React, React Router, Next.js, React Native, Angular, Android, iOS, Flutter, and Others tabs.
 
 ## Enhancements
 - None

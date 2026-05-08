@@ -1,4 +1,4 @@
-# Dashboard v3.15.42 | 2026-05-08
+# Dashboard v3.15.42 | 2026-05-11
 
 ## New
 - None
@@ -11,6 +11,7 @@
 - Fixed the screen reloading twice when navigating back from Logs to the Chat & Messaging page.
 - Fixed the Add Members modal in Groups showing a blank user list on open and not responding to single-character search.
 - Fixed the AI Agent Widget preview growing beyond its container as messages increase. The message list now scrolls within a fixed-height container instead of expanding the widget.
+<br>
 
 # Dashboard v3.15.41 | 2026-05-05
 

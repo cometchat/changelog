@@ -1,3 +1,18 @@
+# Dashboard v3.15.42 | 2026-05-11
+
+## New
+- None
+
+## Enhancements
+- Updated the AI Agent Skill terminal command from `npx skills add cometchat/cometchat-skills` to `npx @cometchat/skills add` on the Chat & Messaging -> Get Started / Integrate page.
+
+## Fixes
+- Fixed pagination layout issue in the Add Members popup on the Groups page.
+- Fixed the screen reloading twice when navigating back from Chat & Messaging -> Logs to the Get Started / Integrate page.
+- Fixed the Add Members modal in Groups showing a blank user list on open and not responding to single-character search.
+- Fixed the AI Agent Widget preview growing beyond its container as messages increase. The message list now scrolls within a fixed-height container instead of expanding the widget.
+<br>
+
 # Dashboard v3.15.41 | 2026-05-05
 
 ## New

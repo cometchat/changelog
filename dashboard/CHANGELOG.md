@@ -1,4 +1,4 @@
-# Dashboard v3.15.42 | 2026-05-11
+# Dashboard v3.15.43 | 2026-05-27
 
 ## New
 - Added Unreal Engine as a new SDK platform option in the onboarding flow and as a tab on the Chat & Messaging → Get Started / Integrate page, with a dedicated Unreal SDK card linking to the documentation.

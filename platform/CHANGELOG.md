@@ -1,3 +1,14 @@
+# Platform v3.0.20 | 2026-05-26
+## New
+- Added real-time campaign notification delivery over WebSocket, allowing subscribed clients to receive supported events as they occur.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+<br/>
+
 # Platform v3.0.19 | 2026-04-07
 ## New
 - None

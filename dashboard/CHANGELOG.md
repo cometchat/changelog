@@ -1,3 +1,19 @@
+# Dashboard v3.15.43 | 2026-05-27
+
+## New
+- Added Unreal Engine as a new SDK platform option in the onboarding flow and as a tab on the Chat & Messaging → Get Started / Integrate page, with a dedicated Unreal SDK card linking to the documentation.
+
+- Added Skills mode in the UI Kit Builder: when the builder is opened via the CometChat Skills CLI deep link `(?flow=cli)`, the header displays a  "Done Editing" button. Clicking "Done Editing" shows a confirmation modal, letting users know they can return to their terminal.
+
+- Campaigns — Create, schedule, and send templated notifications to users via in-app feed and push, with per-recipient variable substitution and real-time delivery tracking.
+
+
+## Enhancements
+- None
+
+## Fixes
+- None
+
 # Dashboard v3.15.42 | 2026-05-11
 
 ## New

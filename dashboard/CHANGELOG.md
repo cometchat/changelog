@@ -5,6 +5,9 @@
 
 - Added Skills mode in the UI Kit Builder: when the builder is opened via the CometChat Skills CLI deep link `(?flow=cli)`, the header displays a  "Done Editing" button. Clicking "Done Editing" shows a confirmation modal, letting users know they can return to their terminal.
 
+- Campaigns — Create, schedule, and send templated notifications to users via in-app feed and push, with per-recipient variable substitution and real-time delivery tracking.
+
+
 ## Enhancements
 - None
 

@@ -1,3 +1,13 @@
+# Platform v3.0.21 | 2026-05-28
+## New
+- Added webhook support for Campaign events (notifications, feed items, push notifications, campaign lifecycle).
+
+## Enhancements
+- None
+
+## Fixes
+- None
+
 # Platform v3.0.20 | 2026-05-26
 ## New
 - Added real-time campaign notification delivery over WebSocket.

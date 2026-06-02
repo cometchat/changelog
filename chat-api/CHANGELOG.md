@@ -11,6 +11,17 @@
 - Improved the `Delete User` API to handle concurrent requests more reliably.
 - Fixed an issue where the user entity appeared as `null` in group action messages for permanently deleted users when the hydrate user entities setting was enabled to display the most recently updated user attributes in past messages.
 
+# Chat API v3.11.1 | 2026-04-29
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue in the Legacy Admin APIs where list group/user messages endpoints returned empty results when the subject user's UID was passed as a path parameter prefix (for example, `/users/<uid>`). This issue was introduced in a recent platform update.
+
 # Chat API v3.11.0 | 2026-04-09
 
 ## New

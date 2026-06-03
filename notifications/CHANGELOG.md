@@ -1,3 +1,15 @@
+# Notifications v1.9.0 | 2026-05-26
+
+## New
+- Support for Push notifications based Campaign messaging
+
+## Enhancements
+- None
+
+## Fixes
+- None
+<br/>
+
 # Notifications v1.7.2 | 2026-04-21
 
 ## New

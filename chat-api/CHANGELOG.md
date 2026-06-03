@@ -1,3 +1,16 @@
+# Chat API v3.12.0 | 2026-05-23
+
+## New
+- Added foundational support for the Campaigns feature, establishing the groundwork for future campaign-related capabilities.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where group conversations were not visible in large groups after the logged-in user reset the conversation and new messages were received.
+- Improved the `Delete User` API to handle concurrent requests more reliably.
+- Fixed an issue where the user entity appeared as `null` in group action messages for permanently deleted users when the hydrate user entities setting was enabled to display the most recently updated user attributes in past messages.
+
 # Chat API v3.11.1 | 2026-04-29
 
 ## New

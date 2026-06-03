@@ -1,3 +1,14 @@
+# Dashboard v3.15.44 | 2026-06-02
+
+## New
+- Added a notification preference for quoted replies under Notifications → Preferences, allowing users to choose how they are notified about swipe-to-reply messages across push, email, and SMS.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+
 # Dashboard v3.15.43 | 2026-05-27
 
 ## New

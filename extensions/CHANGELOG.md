@@ -1,4 +1,16 @@
-# Extensions v3.0.15 | 2026-13-03
+# Extensions v3.0.16 | 2026-06-09
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue in the Link Preview extension where cached URL metadata could become outdated and display incorrect preview information.
+- Fixed an issue in the Link Preview extension where preview metadata was not refreshed after a message was edited.
+<br/>
+
+# Extensions v3.0.15 | 2026-03-13
 
 ## New
 - Enabled Notifications for Polls.

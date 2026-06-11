@@ -8,7 +8,6 @@
 
 ## Fixes
 - Fixed incorrect tooltip text on the Media URL Access section in Messages Settings.
-- Removed the "Chat with us" floating widget from the dashboard.
 
 # Dashboard v3.15.44 | 2026-06-02
 

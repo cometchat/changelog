@@ -1,7 +1,7 @@
 # Dashboard v3.15.45 | 2026-06-11
 
 ## New
-- Added AI Agent billing and usage tracking — users can now subscribe to AI Agent plans (monthly or annual), view credit balances broken down by plan, starter, and top-up credits, manually buy credits, and configure auto top-up rules with trigger threshold and per-cycle spending limits..
+- Added AI Agent billing and usage tracking — users can now subscribe to AI Agent plans (monthly or annual), view credit balances broken down by plan, starter, and top-up credits, manually buy credits, and configure auto top-up rules with trigger threshold and per-cycle spending limits.
 
 ## Enhancements
 - None

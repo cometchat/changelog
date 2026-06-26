@@ -2,6 +2,7 @@
 
 ## New
 - Added a Card Builder to visually design and preview interactive card messages from the dashboard — available in both Chat and AI Agents(Agent Config), with a canvas toolbar for composing card layouts.
+- Introduced Notification Templates for Cards, enabling customization of push and email notifications for card messages.
 
 ## Enhancements
 - None

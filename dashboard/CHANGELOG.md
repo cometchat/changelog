@@ -1,3 +1,15 @@
+# Dashboard v3.15.46 | 2026-06-29
+
+## New
+- Added a Card Builder to visually design and preview interactive card messages from the dashboard — available in both Chat and AI Agents(Agent Config), with a canvas toolbar for composing card layouts.
+- Introduced Notification Templates for Cards, enabling customization of push and email notifications for card messages.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed Roles search so single-character queries now return correct results.
+
 # Dashboard v3.15.45 | 2026-06-11
 
 ## New

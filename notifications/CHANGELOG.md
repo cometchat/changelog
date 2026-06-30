@@ -1,3 +1,15 @@
+# Notifications v1.9.1 | 2026-06-03
+
+## New
+- None
+
+## Enhancements
+- Added a notification preference for quoted replies, giving users more control over which conversation updates trigger notifications.
+
+## Fixes
+- None
+<br/>
+
 # Notifications v1.9.0 | 2026-05-26
 
 ## New

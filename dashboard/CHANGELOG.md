@@ -7,7 +7,7 @@
 - Dashboard Chat API requests — Users, Groups, Messages, Roles, Webhooks, API Keys, Moderation, Notifications, AI Agents, etc. — now route through the Management API wrapper, centralizing all chat-api traffic for consistent handling and audit logging.
 
 ## Fixes
-- Fixed Roles search so single-character queries now return correct results.
+- None
 
 # Dashboard v3.15.46 | 2026-06-29
 

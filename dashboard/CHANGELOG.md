@@ -7,7 +7,7 @@
 - Dashboard Chat API requests — Users, Groups, Messages, Roles, Webhooks, API Keys, Moderation, Notifications, AI Agents, etc. — now route through the Management API wrapper, centralizing all chat-api traffic for consistent handling and audit logging.
 
 ## Fixes
-- None
+- Plans & Billing — Annual Chat & Messaging plans now display the correct plan message instead of the "AI Agents plan" message.
 
 # Dashboard v3.15.46 | 2026-06-29
 

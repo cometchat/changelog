@@ -4,7 +4,7 @@
 - None
 
 ## Enhancements
-- Card Builder — replaced the placeholder "CC" branding with CometChat's wordmark, icon, and avatar across the builder and its chat and notification previews.
+- Card Builder — replaced the placeholder icon, and avatar across the builder and its chat and notification previews.
 
 ## Fixes
 - None

@@ -1,3 +1,15 @@
+# Dashboard v3.15.48 | 2026-07-09
+
+## New
+- None
+
+## Enhancements
+- Card Builder — replaced the placeholder "CC" branding with CometChat's wordmark, icon, and avatar across the builder and its chat and notification previews.
+
+## Fixes
+- None
+
+
 # Dashboard v3.15.47 | 2026-07-02
 
 ## New

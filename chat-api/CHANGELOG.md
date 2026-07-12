@@ -1,3 +1,14 @@
+# Chat API v3.13.0 | 2026-06-12
+
+## New
+- Added foundational support for the Threads feature, establishing the groundwork for upcoming thread-related capabilities.
+
+## Enhancements
+- Added support for retrieving unique conversations across the application, making it easier to access and manage distinct conversation lists.
+
+## Fixes
+- Fixed an issue where permission precedence was evaluated incorrectly when the same permission was defined in both a role and a scope. Permission resolution now correctly considers the permission's value type.
+
 # Chat API v3.12.0 | 2026-05-23
 
 ## New

@@ -1,3 +1,15 @@
+# Notifications v1.9.2 | 2026-06-29
+
+## New
+- Introduced Notification Templates for Cards, enabling customization of push and email notifications for card messages.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+<br/>
+
 # Notifications v1.9.1 | 2026-06-03
 
 ## New

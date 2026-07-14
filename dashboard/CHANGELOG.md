@@ -1,3 +1,27 @@
+# Dashboard v3.15.48 | 2026-07-09
+
+## New
+- None
+
+## Enhancements
+- Replaced the placeholder icon and avatar in Card Builder. The updated visuals now appear consistently across the builder itself and its chat and notification previews.
+
+## Fixes
+- None
+
+
+# Dashboard v3.15.47 | 2026-07-14
+
+## New
+- None
+
+## Enhancements
+- Routed all dashboard chat operations (Users, Groups, Messages, Roles, Webhooks, API Keys, Moderation, Notifications, and AI Agents) through the Management API. Chat API traffic from the dashboard now behaves consistently and is recorded in the audit log.
+
+## Fixes
+- Fixed an issue on the Plans & Billing page where annual Chat & Messaging plans displayed the AI Agents plan message instead of the correct plan details.
+- Changed ownership transfer to raise a support request rather than transferring ownership directly from the dashboard. Users initiating a transfer are now guided through a support-assisted process.
+
 # Dashboard v3.15.46 | 2026-06-29
 
 ## New

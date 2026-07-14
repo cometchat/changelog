@@ -10,7 +10,7 @@
 - None
 
 
-# Dashboard v3.15.47 | 2026-07-02
+# Dashboard v3.15.47 | 2026-07-14
 
 ## New
 - None
@@ -20,7 +20,7 @@
 
 ## Fixes
 - Plans & Billing — Annual Chat & Messaging plans now display the correct plan message instead of the "AI Agents plan" message.
-- Transfer Ownership — raise a manual outreach (support) request instead of the direct API transfer.
+- Transfer Ownership — raise a manual outreach (support) request instead of the direct transfer.
 
 # Dashboard v3.15.46 | 2026-06-29
 

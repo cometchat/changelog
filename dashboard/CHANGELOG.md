@@ -1,3 +1,15 @@
+# Dashboard v3.15.49 | 2026-07-16
+
+## New
+- Introduced the Conversation Explorer — a read-only tool to browse conversations, view message threads and replies, inspect message details, reactions, receipts, and moderation activity.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+
+
 # Dashboard v3.15.48 | 2026-07-09
 
 ## New

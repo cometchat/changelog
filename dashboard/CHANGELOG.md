@@ -1,7 +1,8 @@
 # Dashboard v3.15.49 | 2026-07-16
 
 ## New
-- Introduced the Conversation Explorer — a read-only tool to browse conversations, view message threads and replies, inspect message details, reactions, receipts, and moderation activity.
+
+- Conversation Explorer — a new read-only tool (Chat & Messaging → Conversation Explorer) to browse and review conversations across your app. Open any conversation to read its full message thread — text, formatted messages, media, and reply threads — and inspect per-message details: sender, delivery & read receipts, reactions, group members, and moderation activity, with quick links into the Moderation logs. Search and filter conversations, and export a conversation to CSV.
 
 ## Enhancements
 - None

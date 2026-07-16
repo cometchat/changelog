@@ -1,3 +1,14 @@
+# Notifications v1.9.3 | 2026-07-13
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Expired and unregistered Apple (APNs) device tokens are now automatically removed when Apple reports them as no longer valid, preventing repeated push attempts to devices that can no longer receive notifications.
+<br/>
+
 # Notifications v1.9.2 | 2026-06-29
 
 ## New

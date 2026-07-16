@@ -1,3 +1,13 @@
+# Moderation v1.3.0 | 2026-06-13
+## New
+- None
+## Enhancements
+- None
+## Fixes
+- Fixed an issue where valid regex patterns were incorrectly rejected as "greedy" when creating rules or keyword lists.
+- Fixed an issue where captions on file and audio messages were not moderated for restricted words.
+
+
 # Moderation v1.2.0 | 2026-04-01
 ## New
 - None

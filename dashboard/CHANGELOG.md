@@ -1,7 +1,6 @@
 # Dashboard v3.15.50 | 2026-07-17
 
 ## New
-
 - None
 
 ## Enhancements

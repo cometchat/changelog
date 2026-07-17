@@ -1,4 +1,4 @@
-# Dashboard v3.15.49 | 2026-07-17
+# Dashboard v3.15.50 | 2026-07-17
 
 ## New
 
@@ -9,6 +9,8 @@
 
 ## Fixes
 - None
+
+# Dashboard v3.15.49 | 2026-07-17
 
 ## New
 

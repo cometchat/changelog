@@ -1,3 +1,14 @@
+# Dashboard v3.15.50 | 2026-07-17
+
+## New
+- None
+
+## Enhancements
+- Conversation Explorer moderation details now show the specific auto-moderation rule that flagged a message (for example, "AI message toxicity") instead of a generic "Blocked" label, so reviewers can see exactly why a message was actioned.
+
+## Fixes
+- None
+
 # Dashboard v3.15.49 | 2026-07-16
 
 ## New

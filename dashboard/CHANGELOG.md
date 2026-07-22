@@ -1,3 +1,24 @@
+# Dashboard v3.15.51 | 2026-07-21
+
+## New
+- The Users section now displays the total user count for your app, grouped by user status (available/offline).
+
+## Enhancements
+- Login with Google/GitHub is now hardened with server-side `state` validation and PKCE, protecting the OAuth flow against login CSRF attacks.
+
+## Fixes
+- Applying a group filter in the Conversation Explorer no longer changes the open one-on-one conversation's header to the selected group's UID with "0 members" — the active conversation and its header stay unchanged until a different conversation is selected.
+- Activate and deactivate user actions now show consistent confirmation messaging instead of two different message styles.
+- React v6 sample app / Visual Builder exports no longer include corrupted SVG assets that contained GitHub error-page HTML instead of valid icon markup.
+- Pagination stays properly aligned after toggling "Switch to Legacy" mode on and off.
+- Searching already-added group members now works with a single character, and rapid typing/clearing no longer leaves the member list filtered incorrectly.
+- The Flagged Moderation screen no longer breaks its layout when the viewport shrinks (for example, with browser DevTools docked open).
+- A member kicked from a group can be re-added immediately without needing a page refresh.
+- Refreshing the Chat & Messaging Features tab no longer fires API requests with `undefined` in place of the app ID.
+- Pressing Ctrl + A in the application name field in Application Settings no longer makes the previous name reappear mid-edit.
+- Navigating back to the AI Agents page from Plan & Billing (with no agents created) now shows a single loader instead of multiple overlapping ones.
+
+
 # Dashboard v3.15.50 | 2026-07-17
 
 ## New

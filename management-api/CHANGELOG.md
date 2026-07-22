@@ -1,9 +1,9 @@
-# Management API v1.5.0 | 2026-06-10
+# Management API v1.5.0 | 2026-07-22
 ## New
-- Introduced Agentic pricing, enabling customers to integrate AI Agents with pricing tailored to agent-based use cases.
+- New apps now come pre-enabled with extensions and advanced search for a faster onboarding experience.
 
 ## Enhancements
-- None
+- Google and GitHub login has been enhanced with additional PKCE and state security safeguards.
 
 ## Fixes
 - None

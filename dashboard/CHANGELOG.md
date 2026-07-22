@@ -1,4 +1,4 @@
-# Dashboard v3.15.51 | 2026-07-21
+# Dashboard v3.15.51 | 2026-07-23
 
 ## New
 - The Users section now displays the total user count for your app, grouped by user status (available/offline).

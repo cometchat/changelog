@@ -1,4 +1,4 @@
-# Management API v1.5.0 | 2026-07-22
+# Management API v1.6.0 | 2026-07-22
 ## New
 - New apps now come pre-enabled with extensions and advanced search for a faster onboarding experience.
 
@@ -8,6 +8,16 @@
 ## Fixes
 - None
 <br/>
+
+# Management API v1.5.0 | 2026-06-10
+## New
+- Introduced Agentic pricing, enabling customers to integrate AI Agents with pricing tailored to agent-based use cases.
+
+## Enhancements
+- None
+
+## Fixes
+- None
 
 # Management API v1.4.0 | 2026-04-20
 ## New

@@ -1,11 +1,11 @@
 # Dashboard v3.15.51 | 2026-07-23
 
 ## New
-- The Users section now displays the total user count for your app, grouped by user status (available/offline).
+- The Users section now displays the total user count for the app, grouped by user status (available/offline).
 
 ## Enhancements
 - Login with Google/GitHub is now hardened with server-side `state` validation and PKCE, protecting the OAuth flow against login CSRF attacks.
-- Login links can prefill your email address using an email query parameter, so you land directly on the password field.
+- Login links can prefill the email address using an email query parameter, so users land directly on the password field.
 
 ## Fixes
 - Applying a group filter in the Conversation Explorer no longer changes the open one-on-one conversation's header to the selected group's UID with "0 members" — the active conversation and its header stay unchanged until a different conversation is selected.
@@ -15,7 +15,7 @@
 - The Flagged Moderation screen no longer breaks its layout when the viewport shrinks (for example, with browser DevTools docked open).
 - A member kicked from a group can be re-added immediately without needing a page refresh.
 - Refreshing the Chat & Messaging Features tab no longer fires API requests with `undefined` in place of the app ID.
-- Pressing Ctrl + A in the application name field in Application Settings no longer makes the previous name reappear mid-edit.
+- Selecting all and clearing the application name field in Application Settings no longer makes the previous name reappear.
 - Navigating back to the AI Agents page from Plan & Billing (with no agents created) now shows a single loader instead of multiple overlapping ones.
 
 

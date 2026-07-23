@@ -5,11 +5,11 @@
 
 ## Enhancements
 - Login with Google/GitHub is now hardened with server-side `state` validation and PKCE, protecting the OAuth flow against login CSRF attacks.
+- Login links can prefill your email address using an email query parameter, so you land directly on the password field.
 
 ## Fixes
 - Applying a group filter in the Conversation Explorer no longer changes the open one-on-one conversation's header to the selected group's UID with "0 members" — the active conversation and its header stay unchanged until a different conversation is selected.
 - Activate and deactivate user actions now show consistent confirmation messaging instead of two different message styles.
-- React v6 sample app / Visual Builder exports no longer include corrupted SVG assets that contained GitHub error-page HTML instead of valid icon markup.
 - Pagination stays properly aligned after toggling "Switch to Legacy" mode on and off.
 - Searching already-added group members now works with a single character, and rapid typing/clearing no longer leaves the member list filtered incorrectly.
 - The Flagged Moderation screen no longer breaks its layout when the viewport shrinks (for example, with browser DevTools docked open).

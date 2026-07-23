@@ -18,6 +18,7 @@
 
 ## Fixes
 - None
+<br/>
 
 # Management API v1.4.0 | 2026-04-20
 ## New

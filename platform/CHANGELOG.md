@@ -1,3 +1,23 @@
+# Platform v3.2.0 | 2026-07-29
+## New
+- Added a new `transcription_generated` webhook event that notifies the application when a call transcript is ready. This makes it easier to automatically access completed transcripts and use them in workflows without repeatedly checking for updates.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+
+# Platform v3.1.0 | 2026-07-29
+## New
+- Added call transcriptions, making it easier to review conversations after a call ends. Completed transcripts are available alongside the associated call, and calls can now be quickly filtered based on whether a transcript is available.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+
 # Platform v3.0.21 | 2026-05-28
 ## New
 - Added webhook support for Campaign events (notifications, feed items, push notifications, campaign lifecycle).

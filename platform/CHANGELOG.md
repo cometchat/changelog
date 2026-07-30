@@ -1,4 +1,4 @@
-# Platform v3.2.0 | 2026-07-29
+# Platform v3.2.0 | 2026-07-30
 ## New
 - Added a new `transcription_generated` webhook event that notifies the application when a call transcript is ready. This makes it easier to automatically access completed transcripts and use them in workflows without repeatedly checking for updates.
 

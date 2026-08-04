@@ -1,3 +1,15 @@
+# Dashboard v3.15.52 | 2026-08-05
+
+## New
+- Added support for multiple attachments in a single message in the Conversation Explorer. Images and videos appear as a grid, audio files and documents as a list, and every attachment can be previewed and downloaded.
+
+## Enhancements
+- None
+
+## Fixes
+- Videos in the Conversation Explorer now render at a consistent height, so a tall video no longer overflows the message thread and pushes the surrounding conversation out of view.
+
+
 # Dashboard v3.15.51 | 2026-07-23
 
 ## New

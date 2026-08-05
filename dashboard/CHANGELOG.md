@@ -1,3 +1,15 @@
+# Dashboard v3.15.52 | 2026-08-05
+
+## New
+- The Conversation Explorer now supports multi-attachment preview, for messages where multiple files are sent together.
+
+## Enhancements
+- None
+
+## Fixes
+- Videos in the Conversation Explorer now render at a consistent height, so a tall video no longer overflows the message thread and pushes the surrounding conversation out of view.
+
+
 # Dashboard v3.15.51 | 2026-07-23
 
 ## New

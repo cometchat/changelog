@@ -1,7 +1,7 @@
 # Dashboard v3.15.52 | 2026-08-05
 
 ## New
-- Added support for multiple attachments in a single message in the Conversation Explorer. Images and videos appear as a grid, audio files and documents as a list, and every attachment can be previewed and downloaded.
+- The Conversation Explorer now supports multi-attachment preview, for messages where multiple files are sent together.
 
 ## Enhancements
 - None

@@ -7,8 +7,7 @@
 - None
 
 ## Fixes
-- Videos in the Conversation Explorer now render at a consistent height, so a tall video no longer overflows the message thread and pushes the surrounding conversation out of view.
-
+- Videos in the Conversation Explorer now render at a consistent height, preventing portrait videos from stretching the message and pushing the rest of the conversation out of view.
 
 # Dashboard v3.15.51 | 2026-07-23
 

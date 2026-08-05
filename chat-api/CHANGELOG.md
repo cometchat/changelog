@@ -1,3 +1,14 @@
+# Chat API v3.13.1 | 2026-08-05
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where a quoted message that was later edited and blocked by moderation remained visible to receivers inside the quote.
+  
 # Chat API v3.13.0 | 2026-06-12
 
 ## New

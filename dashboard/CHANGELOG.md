@@ -5,6 +5,7 @@
 
 ## Enhancements
 - The Groups section has been rebuilt to match the rest of the modernised dashboard, covering the groups list, group details, members, banned members and scope permissions.
+- The "Notification Engine" section is now called "Notifications" in the sidebar and on its get-started page, matching the product name used in the CometChat docs.
 
 ## Fixes
 - Tags removed from a group are now saved correctly. Previously the removed tags reappeared after saving, and clearing the last tag had no effect.

@@ -1,3 +1,16 @@
+# Extensions v3.0.17 | 2026-08-13
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where editing a message could attach empty Link Preview data, including for plain-text messages and apps without the Link Preview extension enabled.
+- Fixed an issue where sending a plain-text message without URLs could attach an empty Link Preview field.
+- Fixed an issue where Link Preview generation returned no preview when a provider metadata service was unavailable, rate-limited, or returned an error, including for YouTube video links. Previews are now generated from the page's own metadata in these cases.
+<br/>
+
 # Extensions v3.0.16 | 2026-06-09
 ## New
 - None

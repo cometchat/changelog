@@ -1,3 +1,19 @@
+# Dashboard v3.15.53 | 2026-08-13
+
+## New
+- None
+
+## Enhancements
+- The Groups section has been rebuilt to match the rest of the modernised dashboard, covering the groups list, group details, members, banned members and scope permissions.
+
+## Fixes
+- Tags removed from a group are now saved correctly. Previously the removed tags reappeared after saving, and clearing the last tag had no effect.
+- Filters applied to the users and groups lists are now kept when you return from a profile or detail page, so the filter shown always matches the data displayed.
+- Searching by a single character now returns results across the users and groups sections, instead of requiring at least two characters.
+- Group names containing special characters such as `&` or `#` can now be searched correctly.
+- Searching groups no longer sends a request on every keystroke, and results can no longer briefly show matches for a search term you have already changed.
+
+
 # Dashboard v3.15.52 | 2026-08-05
 
 ## New

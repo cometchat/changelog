@@ -1,3 +1,19 @@
+# Dashboard v3.15.53 | 2026-08-13
+
+## New
+- None
+
+## Enhancements
+- Renamed Notification Engine to Notifications across the dashboard to align with the CometChat documentation.
+
+## Fixes
+
+- Fixed an issue where removed group tags would reappear after saving.
+- Fixed an issue where filters on the Users and Groups pages did not persist after returning from a profile or details page.
+- Fixed an issue where searches with a single character did not return results in the Users and Groups sections.
+- Fixed an issue where group names containing special characters such as `&` or `#` could not be searched.
+- Fixed an issue where group search sent a request on every keystroke, resulting in slower and inconsistent search results.
+
 # Dashboard v3.15.52 | 2026-08-05
 
 ## New

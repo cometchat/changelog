@@ -4,16 +4,15 @@
 - None
 
 ## Enhancements
-- The Groups section has been rebuilt to match the rest of the modernized dashboard, covering the groups list, group details, members, banned members, and scope permissions.
-- The "Notification Engine" section is now called "Notifications" in the sidebar and on its get-started page, matching the product name used in the CometChat docs.
+- Renamed Notification Engine to Notifications across the dashboard to align with the CometChat documentation.
 
 ## Fixes
-- Tags removed from a group are now saved correctly. Previously the removed tags reappeared after saving, and clearing the last tag had no effect.
-- Filters applied to the users and groups lists are now retained when you return from a profile or detail page, ensuring the active filter always matches the displayed data.
-- Searching by a single character now returns results across the users and groups sections, instead of requiring at least two characters.
-- Group names containing special characters such as `&` or `#` can now be searched correctly.
-- Searching groups no longer sends a request on every keystroke. This ensures the groups list always matches the current search term and prevents slower, out-of-order network requests from overwriting your active results.
 
+- Fixed an issue where removed group tags would reappear after saving.
+- Fixed an issue where filters on the Users and Groups pages did not persist after returning from a profile or details page.
+- Fixed an issue where searches with a single character did not return results in the Users and Groups sections.
+- Fixed an issue where group names containing special characters such as `&` or `#` could not be searched.
+- Fixed an issue where group search sent a request on every keystroke, resulting in slower and inconsistent search results.
 
 # Dashboard v3.15.52 | 2026-08-05
 

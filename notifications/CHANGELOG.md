@@ -1,3 +1,14 @@
+# Notifications v1.9.4 | 2026-08-06
+## New
+- None
+
+## Enhancements
+- Raise notification urgency for web push
+
+## Fixes
+- None
+<br/>
+
 # Notifications v1.9.3 | 2026-07-13
 ## New
 - None

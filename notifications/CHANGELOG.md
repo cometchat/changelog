@@ -3,13 +3,7 @@
 - None
 
 ## Enhancements
-- **BAT** - Raise notification urgency for web push
-- Break a single consumer processing 11 topics into 11 consumers to prevent one topic from taking over the processing, when events are pushed in bursts.
-- No API calls for group member sync, all data is pushed to the groups topic, which is already being consumed. This removed the blocking API calls from the Kafka consumer path. Also, it removes the need to maintain sync status and prevent sending the notifications until the sync completed. This allows partial delivery instead of the no delivery earlier until the sync completed.
-- Increased Kafka consumer defaults for some settings.
-- Increase partition concurrency.
-- Delete all app data from all collections, when the app consumer receives a app deletion event.
-- Added TTL for deleting docs in the push token errors collection. Now, any push token errors will be kept for 30 days after their TTL is crossed.
+- Raise notification urgency for web push
 
 ## Fixes
 - None

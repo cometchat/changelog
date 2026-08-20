@@ -1,3 +1,17 @@
+# Campaigns v0.1.1 | 2026-08-20
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- The variables editor previously offered an example name containing a dot (such as `user.name`), which the server does not accept, so following it caused the template to fail to save with no explanation. Invalid names are now rejected as you enter them, and the examples show names that work.
+- Templates whose variables have a display label different from the variable name can now be edited and saved repeatedly. Previously, saving such a template renamed the variable behind the scenes, and a label containing a space could leave the template permanently unsavable.
+- Values entered for template variables are now correctly filled into the delivered message when the variable has a display label. Previously these were saved against the label rather than the variable name, so the placeholder was left unfilled in the sent notification.
+- Creating a template with a name that already exists now shows an error message. Previously the error appeared far below the visible area of the page, so the save appeared to do nothing.
+<br/>
+
 # Campaigns v0.1.0 | 2026-05-27
 ## New
 - Campaigns - create and send notification campaigns to a selected set of users, either immediately or scheduled for a later date and time, with the option to cancel before they go out.

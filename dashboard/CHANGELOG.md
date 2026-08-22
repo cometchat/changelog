@@ -1,3 +1,18 @@
+# Dashboard v3.15.54 | 2026-08-23
+
+## New
+
+- Choosing Google or GitHub sign-in on cometchat.com now opens the dashboard and completes the sign-in with that account directly.
+
+## Enhancements
+
+- None
+
+## Fixes
+
+- None
+
+
 # Dashboard v3.15.53 | 2026-08-13
 
 ## New

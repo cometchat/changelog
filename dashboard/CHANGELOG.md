@@ -1,3 +1,17 @@
+# Dashboard v3.15.54 | 2026-08-24
+
+## New
+
+- None
+## Enhancements
+
+- The dashboard now automatically starts the sign-in flow when users arrive from cometchat.com after choosing Login with Google or Login with GitHub.
+
+## Fixes
+
+- None
+
+
 # Dashboard v3.15.53 | 2026-08-13
 
 ## New

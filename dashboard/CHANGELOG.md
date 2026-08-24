@@ -2,11 +2,10 @@
 
 ## New
 
-- Choosing Google or GitHub sign-in on cometchat.com now opens the dashboard and completes the sign-in with that account directly.
-
+- None
 ## Enhancements
 
-- None
+- The dashboard now automatically starts the sign-in flow when users arrive from cometchat.com after choosing Login with Google or Login with GitHub.
 
 ## Fixes
 

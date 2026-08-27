@@ -1,3 +1,16 @@
+# Dashboard v3.15.55 | 2026-08-27
+
+## New
+
+- None
+## Enhancements
+
+- The Overview page now shows a **Transcription Minutes** graph for the past 30 days.
+
+## Fixes
+
+- None
+
 # Dashboard v3.15.54 | 2026-08-24
 
 ## New

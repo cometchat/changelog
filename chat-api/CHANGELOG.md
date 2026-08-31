@@ -1,3 +1,15 @@
+# Chat API v3.14.0 | 2026-08-31
+
+## New
+- Introduced Pin messages and conversations to keep important content at the top.
+- Added provision to Save (bookmark) messages to quickly find them later.
+
+## Enhancements
+- Agent-only plans now include only agent features, other capabilities are gated by plan
+
+## Fixes
+- None
+
 # Chat API v3.13.1 | 2026-08-05
 
 ## New

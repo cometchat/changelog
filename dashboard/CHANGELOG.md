@@ -5,11 +5,11 @@
 - None
 ## Enhancements
 
-- Fixed an issue where switching between apps could show extension toggle states from the previously selected app on the Chat & Messaging → Features page.
+- None
 
 ## Fixes
 
-- None
+- Fixed an issue where switching between apps could show extension toggle states from the previously selected app on the Chat & Messaging → Features page.
 
 # Dashboard v3.15.55 | 2026-08-27
 

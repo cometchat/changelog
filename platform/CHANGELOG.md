@@ -1,3 +1,13 @@
+# Platform v3.2.2 | 2026-09-02
+## New
+- Added webhook support for Pin events. Four new triggers are now introduced: message_pinned, message_unpinned, conversation_pinned, and conversation_unpinned.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+
 # Platform v3.2.1 | 2026-08-27
 ## New
 - None

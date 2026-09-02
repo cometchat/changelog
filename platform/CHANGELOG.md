@@ -1,3 +1,53 @@
+# Platform v3.2.3 | 2026-09-02
+## New
+- Introducing pinned messages, pinned conversations, and saved messages. Pin and save actions now emit real-time socket events. message pins broadcast to all conversation participants, while conversation pins and saved messages sync only to the acting user's other devices.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+
+# Platform v3.2.2 | 2026-09-02
+## New
+- Added webhook support for Pin events. Four new triggers are now introduced: message_pinned, message_unpinned, conversation_pinned, and conversation_unpinned.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+
+# Platform v3.2.1 | 2026-08-27
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed webhooks to send `Content-Type: application/json` instead of the non-standard `Application/json`.
+
+# Platform v3.2.0 | 2026-07-30
+## New
+- Added a new `transcription_generated` webhook event that notifies the application when a call transcript is ready. This makes it easier to automatically access completed transcripts and use them in workflows without repeatedly checking for updates.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+
+# Platform v3.1.0 | 2026-07-29
+## New
+- Added call transcriptions, making it easier to review conversations after a call ends. Completed transcripts are available alongside the associated call, and calls can now be quickly filtered based on whether a transcript is available.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+
 # Platform v3.0.21 | 2026-05-28
 ## New
 - Added webhook support for Campaign events (notifications, feed items, push notifications, campaign lifecycle).

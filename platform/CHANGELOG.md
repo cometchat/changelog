@@ -1,3 +1,13 @@
+# Platform v3.2.3 | 2026-09-02
+## New
+- Introducing pinned messages, pinned conversations, and saved messages. Pin and save actions now emit real-time socket events. message pins broadcast to all conversation participants, while conversation pins and saved messages sync only to the acting user's other devices.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+
 # Platform v3.2.2 | 2026-09-02
 ## New
 - Added webhook support for Pin events. Four new triggers are now introduced: message_pinned, message_unpinned, conversation_pinned, and conversation_unpinned.

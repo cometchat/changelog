@@ -1,3 +1,18 @@
+# Dashboard v3.15.57 | 2026-09-09
+
+## New
+
+- App admins can now pin up to five conversations to the top of the conversation list for everyone in the app, reorder pinned conversations using drag and drop, and unpin them from **Chat & Messaging → Settings**.
+
+## Enhancements
+
+- The Conversation Explorer now includes an On behalf of filter, allowing admins to select an end user and view only the conversations visible to that user.
+- Pinned conversations now appear at the top of the Conversation Explorer when viewing conversations on behalf of a user, in the same order they appear for that user.
+
+## Fixes
+
+- None
+
 # Dashboard v3.15.56 | 2026-09-01
 
 ## New

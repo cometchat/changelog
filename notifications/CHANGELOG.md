@@ -1,3 +1,15 @@
+# Notifications v1.9.5 | 2026-09-02
+## New
+- Added support for subscribing to threads, allowing users to receive notifications for every reply in threads they have joined while remaining quiet in threads they have not subscribed to. The `Replies` push preference now accepts `Notify for subscribed threads`
+- Added notifications when a user's message is quoted in a conversation. The `Quoted replies` push preference now accepts `Notify when my message is quoted`.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+<br/>
+
 # Notifications v1.9.4 | 2026-08-06
 ## New
 - None

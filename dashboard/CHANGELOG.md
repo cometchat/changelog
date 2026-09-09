@@ -2,7 +2,7 @@
 
 ## New
 
-- App admins can now pin up to five conversations to the top of the conversation list for everyone in the app, reorder pinned conversations using drag and drop, and unpin them from **Chat & Messaging → Settings**.
+- Added support for app admins to pin up to five conversations to the top of the conversation list for everyone in the app, with options to reorder or unpin them from Chat & Messaging → Settings.
 
 ## Enhancements
 

@@ -1,3 +1,24 @@
+# Dashboard v3.15.58 | 2026-09-24
+
+## New
+
+- None
+
+## Enhancements
+
+- The Conversation Explorer now shows a clear message when Chat Logs is turned off for an app, with a shortcut to the setting for app owners.
+- Removed the role selection step from onboarding, shortening the sign-up flow.
+
+## Fixes
+
+- Fixed an issue where saving an AI bot did not update its details in the list.
+- Fixed an issue where the Documentation button on Voice & Video Calls → Get Started / Integrate opened the wrong page.
+- Fixed an issue where unpaid invoices under AI Agents → Pricing → Billing did not show the Pay Now option, and where the invoice list did not refresh after a payment.
+- Fixed an issue where filters applied on the Users and Groups pages carried over to other apps.
+- Fixed an issue where scrolling sideways on a trackpad loaded older chats on the Chat Logs page.
+- Fixed an issue where the "No more chats" message on the Chat Logs page remained on screen until dismissed.
+- Fixed an issue where clicking a link or button inside a row on Moderation → Flagged Messages and Reviewed Messages also opened that message's details.
+
 # Dashboard v3.15.57 | 2026-09-09
 
 ## New

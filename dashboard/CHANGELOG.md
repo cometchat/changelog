@@ -6,18 +6,18 @@
 
 ## Enhancements
 
-- When Chat Logs & Conversation Explorer is turned off in Chat & Messaging → Settings, the Conversation Explorer now shows "Messages have been disabled for your app" with a Change Settings button that opens that setting.
-- Removed the role selection step from onboarding, shortening the sign-up flow.
+- Added a setting under Chat & Messaging → Settings to turn off Chat Logs & Conversation Explorer.
+- Removed the role selection step from onboarding to shorten the sign-up flow.
 
 ## Fixes
 
-- Fixed an issue where saving an AI bot did not update its details in the list.
-- Fixed an issue where the Documentation button on Voice & Video Calls → Get Started / Integrate opened the wrong page.
-- Fixed an issue where unpaid invoices under AI Agents → Pricing → Billing did not show the Pay Now option, and where the invoice list did not refresh after a payment.
-- Fixed an issue where filters applied on the Users and Groups pages carried over to other apps.
-- Fixed an issue where scrolling sideways on a trackpad loaded older chats on the Chat Logs page.
-- Fixed an issue where the "No more chats" message on the Chat Logs page remained on screen until dismissed.
-- Fixed an issue where clicking a link or button inside a row on Moderation → Flagged Messages and Reviewed Messages also opened that message's details.
+- Fixed an issue where an AI bot's details did not update in the list after saving changes.
+- Fixed an issue where the Documentation button under Voice & Video Calls → Get Started / Integrate linked to the wrong page.
+- Fixed an issue where unpaid invoices under AI Agents → Pricing → Billing did not show the Pay Now option. The invoice list now also refreshes automatically after a payment.
+- Fixed an issue where filters applied on the Users and Groups pages persisted when switching to a different app.
+- Fixed an issue where horizontal trackpad scrolling on the Chat Logs page unintentionally loaded older chats.
+- Fixed an issue where the "No more chats" notice on the Chat Logs page stayed visible until manually dismissed.
+- Fixed an issue where clicking a link or button inside a row on Moderation → Flagged Messages or Reviewed Messages also opened the message details panel.
 
 # Dashboard v3.15.57 | 2026-09-09
 

@@ -6,7 +6,7 @@
 
 ## Enhancements
 
-- The Conversation Explorer now shows a clear message when Chat Logs is turned off for an app, with a shortcut to the setting for app owners.
+- When Chat Logs & Conversation Explorer is turned off in Chat & Messaging → Settings, the Conversation Explorer now shows "Messages have been disabled for your app" with a Change Settings button that opens that setting.
 - Removed the role selection step from onboarding, shortening the sign-up flow.
 
 ## Fixes

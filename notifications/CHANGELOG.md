@@ -1,3 +1,14 @@
+# Notifications v1.9.7 | 2026-09-26
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where enabling Enable unread badge count in the dashboard did not activate badge counts because an additional backend setting was required. The dashboard setting is now the only switch for apps whose plan includes the feature, without affecting apps that already receive badge counts.
+<br/>
+
 # Notifications v1.9.6 | 2026-09-15
 ## New
 - None

@@ -1,3 +1,19 @@
+# Dashboard v3.15.59 | 2026-09-29
+
+## New
+
+- The UI Kit Builder now supports Angular.
+
+## Enhancements
+
+- The UI Kit Builder and the React app it exports now use UI Kit v7.
+- The UI Kit Builder no longer supports mobile platforms — React Native, Android, Flutter and iOS. It is now available for web only.
+
+## Fixes
+
+- None
+
+
 # Dashboard v3.15.58 | 2026-09-24
 
 ## New

@@ -7,7 +7,7 @@
 - None
 
 ## Fixes
-- Legacy bots now receive mentionedMessages with the updated mention handling.
+- Legacy custom bots set to Group Settings → Mentioned messages are now triggered by the new mention delimiters (<@uid:…>) along with legacy @uid delimiter.
 
 # Chat API v3.14.0 | 2026-08-31
 

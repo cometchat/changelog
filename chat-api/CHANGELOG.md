@@ -1,3 +1,14 @@
+# Chat API v3.15.1 | 2026-09-29
+
+## New
+- Added support for the ringing call flow.
+
+## Enhancements
+- None
+
+## Fixes
+- Legacy bots now receive mentionedMessages with the updated mention handling.
+
 # Chat API v3.14.0 | 2026-08-31
 
 ## New

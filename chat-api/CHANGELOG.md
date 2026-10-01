@@ -1,3 +1,14 @@
+# Chat API v3.15.1 | 2026-09-29
+
+## New
+- Added support for the ringing call flow.
+
+## Enhancements
+- None
+
+## Fixes
+- Legacy custom bots set to Group Settings → Mentioned messages are now triggered by the new mention delimiters (<@uid:…>) along with legacy @uid delimiter.
+
 # Chat API v3.14.0 | 2026-08-31
 
 ## New

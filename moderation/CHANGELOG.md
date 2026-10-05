@@ -1,3 +1,11 @@
+# Moderation v1.4.0 | 2026-10-06
+## New
+- Introducing the `moderation_engine_failed` webhook, which fires when AI or Custom API moderation fails to return a decision.
+## Enhancements
+- None
+## Fixes
+- None
+
 # Moderation v1.3.0 | 2026-06-13
 ## New
 - None

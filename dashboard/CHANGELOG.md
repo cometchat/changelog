@@ -3,10 +3,11 @@
 ## New
 
 - The UI Kit Builder now supports Angular.
+- Added an Audit Logs page under Application → Audit Logs, allowing app owners and admins to view, filter and export a history of configuration changes made to their app.
 
 ## Enhancements
 
-- The UI Kit Builder and the React app it exports now use UI Kit v7.
+- Upgraded the UI Kit Builder to UI Kit v7, including the React app it exports.
 - The UI Kit Builder no longer supports mobile platforms — React Native, Android, Flutter and iOS. It is now available for web only.
 
 ## Fixes

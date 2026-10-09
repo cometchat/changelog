@@ -1,3 +1,14 @@
+# Chat API v3.15.2 | 2026-10-12
+
+## New
+- None.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where pinned conversations did not include their tags when withTags was enabled.
+
 # Chat API v3.15.1 | 2026-09-29
 
 ## New

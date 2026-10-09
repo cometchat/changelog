@@ -1,3 +1,14 @@
+# Management API v1.7.0 | 2026-10-12
+## New
+- Added APIs to support Audit Logs in the Dashboard.
+
+## Enhancements
+- None.
+
+## Fixes
+- None
+<br/>
+
 # Management API v1.6.0 | 2026-07-22
 ## New
 - New apps now come pre-enabled with extensions and advanced search for a faster onboarding experience.

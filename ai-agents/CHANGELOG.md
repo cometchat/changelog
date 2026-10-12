@@ -1,3 +1,13 @@
+# AI Agents v1.1.4 | 2026-10-12
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed agent creation failing when the Icon field was left blank.
+
 # AI Agents v1.1.3 | 2026-08-18
 ## New
 - None

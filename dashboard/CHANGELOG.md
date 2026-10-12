@@ -1,3 +1,20 @@
+# Dashboard v3.15.59 | 2026-10-12
+
+## New
+
+- The UI Kit Builder now supports Angular.
+- Added an Audit Logs page under Application → Audit Logs, allowing app owners and admins to view, filter and export a history of configuration changes made to their app.
+
+## Enhancements
+
+- Upgraded the UI Kit Builder to UI Kit v7, including the React app it exports.
+- The UI Kit Builder no longer supports mobile platforms — React Native, Android, Flutter and iOS. It is now available for web only.
+
+## Fixes
+
+- None
+
+
 # Dashboard v3.15.58 | 2026-09-24
 
 ## New

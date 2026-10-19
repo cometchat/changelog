@@ -1,3 +1,13 @@
+# Moderation v1.4.1 | 2026-10-20
+## New
+- None
+## Enhancements
+- None
+## Fixes
+- Metadata-only updates no longer re-trigger moderation on blocked messages.
+- Re-evaluated messages no longer appear twice in AI moderation history.
+- Default keyword list categories can no longer be changed.
+
 # Moderation v1.4.0 | 2026-10-06
 ## New
 - Introducing the `moderation_engine_failed` webhook, which fires when AI or Custom API moderation fails to return a decision.

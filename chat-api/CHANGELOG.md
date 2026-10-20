@@ -1,3 +1,14 @@
+# Chat API v3.16.0 | 2026-10-16
+
+## New
+- Enhanced the message listing APIs in SDK to support retrieving messages updated after a specified timestamp.
+
+## Enhancements
+- Added support for the moderator role to access Conversation Explorer in the dashboard.
+
+## Fixes
+- Fixed an issue where pin message permissions set to deny were not enforced in group conversations.
+  
 # Chat API v3.15.2 | 2026-10-12
 
 ## New

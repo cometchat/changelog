@@ -1,3 +1,13 @@
+# Platform v3.3.2 | 2026-10-16
+## New
+- None
+
+## Enhancements
+- Improved call status updates by automatically retrying failed attempts, helping keep call logs and webhooks accurate during temporary interruptions.
+
+## Fixes
+- None
+
 # Platform v3.3.1 | 2026-10-06
 ## New
 - Introducing the moderation_engine_failed webhook, which fires when AI or Custom API moderation fails to return a decision.

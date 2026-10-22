@@ -1,3 +1,14 @@
+# Extensions v3.0.18 | 2026-09-26
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where BMP image attachments received thumbnail URLs that did not resolve, preventing previews from being displayed. BMP images are now converted before resizing, and thumbnails are served as JPEGs.
+<br/>
+
 # Extensions v3.0.17 | 2026-08-13
 ## New
 - None

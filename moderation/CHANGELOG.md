@@ -4,7 +4,7 @@
 ## Enhancements
 - None
 ## Fixes
-- Metadata-only edits to blocked messages are now saved, and the message stays blocked.
+- Metadata-only edits to blocked messages are now saved without changing their blocked status.
 
 # Moderation v1.4.1 | 2026-10-20
 ## New

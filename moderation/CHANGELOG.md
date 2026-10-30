@@ -1,3 +1,11 @@
+# Moderation v1.4.2 | 2026-10-30
+## New
+- None
+## Enhancements
+- None
+## Fixes
+- Metadata-only edits to blocked messages are now saved, and the message stays blocked.
+
 # Moderation v1.4.1 | 2026-10-20
 ## New
 - None

@@ -1,3 +1,16 @@
+# Notifications v1.9.8 | 2026-11-02
+
+## New
+- Added Ringing Flow v2 support for call push notifications. Devices registered with `ringingFlowVersion: "v2"` now receive only the `initiated` push for Ringing Flow v2 calls, while subsequent call updates are delivered through the SDK connection. Existing devices and calls that do not use Ringing Flow v2 continue to receive notifications as before.
+- Custom push provider payloads now include ringingFlow: "v2" for Ringing Flow v2 calls. Every call event is still sent to your webhook as before; use this field, together with callAction, to deliver only the initiated push to devices running a Ringing Flow v2 SDK. The field is omitted for all other calls.
+
+## Enhancements
+- None
+  
+## Fixes
+- Fixed an issue where failed custom email, SMS, and push provider webhook requests were missing from notification logs or recorded with incorrect outcomes. Webhook failures now record the actual response status and error, including `TIMED_OUT`, `NOT_FOUND`, `INVALID_RESPONSE_CODE`, network errors, or `CONNECTION_FAILED`; only HTTP `200` is considered successfully delivered.
+<br/>
+
 # Notifications v1.9.7 | 2026-09-26
 ## New
 - None

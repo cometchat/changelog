@@ -1,3 +1,14 @@
+# Chat API v3.17.0 | 2026-11-02
+
+## New
+- Added a feature flag to enable or disable calling.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where the first message in a new conversation sometimes didn't appear for the recipient when moderation was enabled. This issue was introduced in v3.16.0.
+
 # Chat API v3.16.0 | 2026-10-16
 
 ## New

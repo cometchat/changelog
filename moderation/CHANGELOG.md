@@ -1,6 +1,6 @@
 # Moderation v1.5.0 | 2026-11-04
 ## New
-- Custom API payload version 2 (`customAPI.payloadVersion: 2`) sends the conversation's previous messages with their moderation status as context.
+- Introduced Custom API payload version 2, which includes previous conversation messages along with their moderation statuses, providing additional context for moderation decisions.
 ## Enhancements
 - None
 ## Fixes

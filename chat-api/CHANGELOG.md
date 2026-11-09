@@ -1,3 +1,15 @@
+# Chat API v3.17.1 | 2026-11-09
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where approving an older message through moderation replaced the conversation's last message and moved the conversation up the list.
+- Fixed an issue where approving a message through moderation could bring back messages a user had already cleared from the conversation.
+
 # Chat API v3.17.0 | 2026-11-02
 
 ## New

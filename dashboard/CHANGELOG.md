@@ -1,3 +1,20 @@
+# Dashboard v3.15.60 | 2026-11-11
+
+## New
+
+- None
+
+## Enhancements
+
+- None
+
+## Fixes
+
+- Fixed an issue where a BYO agent could be saved without an icon and then failed with an error. The icon is now marked as required in the form.
+- Fixed an issue where the calendar in Schedule a Kickoff Call was cut off.
+- Fixed an issue where the AI Settings upgrade popup kept reopening after being closed.
+- Fixed an issue where the Apps list kept loading when an app was scheduled for deletion.
+
 # Dashboard v3.15.59 | 2026-10-12
 
 ## New

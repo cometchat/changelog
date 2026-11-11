@@ -10,10 +10,10 @@
 
 ## Fixes
 
-- Fixed an issue where a BYO agent could be saved without an icon and then failed with an error. The icon is now marked as required in the form.
-- Fixed an issue where the calendar in Schedule a Kickoff Call was cut off.
+- Fixed an issue where saving a BYO agent without an icon caused an API error. The icon field is now marked as required.
+- Fixed an issue on the onboarding "Schedule your kick-off call" page where the booking calendar was cut off, hiding parts of the time-slot selection and booking steps.
 - Fixed an issue where the AI Settings upgrade popup kept reopening after being closed.
-- Fixed an issue where the Apps list kept loading when an app was scheduled for deletion.
+- Fixed an issue where opening an app scheduled for deletion kept showing a loading screen.
 
 # Dashboard v3.15.59 | 2026-10-12
 

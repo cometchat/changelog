@@ -1,3 +1,20 @@
+# Dashboard v3.15.60 | 2026-11-11
+
+## New
+
+- None
+
+## Enhancements
+
+- None
+
+## Fixes
+
+- Fixed an issue where saving a BYO agent without an icon caused an API error. The icon field is now marked as required.
+- Fixed an issue on the onboarding "Schedule your kick-off call" page where the booking calendar was cut off, hiding parts of the time-slot selection and booking steps.
+- Fixed an issue where the AI Settings upgrade popup kept reopening after being closed.
+- Fixed an issue where opening an app scheduled for deletion kept showing a loading screen.
+
 # Dashboard v3.15.59 | 2026-10-12
 
 ## New

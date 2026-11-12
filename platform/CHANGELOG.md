@@ -1,3 +1,13 @@
+# Platform v3.3.3 | 2026-11-12
+## New
+- None
+
+## Enhancements
+- Webhook requests now time out if the endpoint doesn't respond in time.
+
+## Fixes
+- None
+
 # Platform v3.3.2 | 2026-10-16
 ## New
 - None

@@ -1,3 +1,24 @@
+# Dashboard v3.15.61 | 2026-11-19
+
+## New
+
+- Added role-based access for team members, including the new Billing and Analyst roles. Each role now sees only the pages and actions it has access to; other pages show an "Access restricted" message.
+
+## Enhancements
+
+- None
+
+## Fixes
+
+- Fixed an issue where the Add drawers in Users, Groups and User Roles kept the previously entered values after Cancel.
+- Fixed an issue where Cancel did not discard unsaved changes in Notification Providers and Edit Group.
+- Fixed an issue where every group admin's role was locked in Group Members. Now only the group owner's role is locked.
+- Fixed an issue where moderation rule, list and flag reason names made only of spaces were accepted.
+- Fixed an issue where a search with no results showed the first-run empty state with an Add button instead of "No records found".
+- Fixed an issue where the colour picker in the legacy chat widget settings did not close on an outside click.
+- Fixed an issue where Moderation Get Started opened the wrong guide for Vue and React Router.
+- Fixed an issue where the last-opened app was reopened for a different account signed in on the same browser.
+
 # Dashboard v3.15.60 | 2026-11-11
 
 ## New

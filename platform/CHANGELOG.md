@@ -1,3 +1,14 @@
+# Platform v3.3.4 | 2026-11-19
+## New
+- None
+
+## Enhancements
+- Added tracing for webhook delivery to help investigate delivery issues faster.
+
+## Fixes
+- None
+
+
 # Platform v3.3.3 | 2026-11-12
 ## New
 - None

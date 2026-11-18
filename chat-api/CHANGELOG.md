@@ -1,3 +1,14 @@
+# Management API v3.10.0 | 2026-11-18
+## New
+- Added support for the Analyst and Billing dashboard roles, enabling users with these roles to access their respective dashboards.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+<br/>
+
 # Chat API v3.9.27 | 2025-03-21
 ## New
 - None

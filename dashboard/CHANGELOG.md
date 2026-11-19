@@ -2,7 +2,7 @@
 
 ## New
 
-- Added role-based access for team members, including the new Billing and Analyst roles. Each role now sees only the pages and actions it has access to; other pages show an "Access restricted" message.
+- Added role-based access for team members, including the new Billing and Analyst roles. Each role now sees only the pages and actions it has access to other pages show an "Access restricted" message.
 
 ## Enhancements
 

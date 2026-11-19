@@ -1,3 +1,16 @@
+# Chat API v3.18.0 | 2026-11-17
+
+## New
+- Added support for the Analyst and Billing dashboard roles, enabling users with these roles to access their respective dashboards.
+
+## Enhancements
+- Improved the performance of the List Conversations API to provide more efficient conversation retrieval.
+
+## Fixes
+- Fixed an issue where newly created one-on-one conversations disappeared from the sender's conversation list after a refresh when the first message was held by moderation or sent to a recipient who had blocked the sender.
+- Fixed an issue where users who had not added each other as friends saw an empty conversation history when friends-only message history was enabled.
+- Fixed an issue where removing a permission from a scope failed with the ERR_SCOPE_PERMISSION_NOT_MAPPED error.
+
 # Chat API v3.17.1 | 2026-11-09
 
 ## New

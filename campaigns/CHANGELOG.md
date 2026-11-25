@@ -1,6 +1,6 @@
 # Campaigns v0.2.0 | 2026-11-26
 ## New
-- `<private>` Added OpenTelemetry trace instrumentation to the service.
+- None
 
 ## Enhancements
 - None

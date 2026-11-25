@@ -1,3 +1,14 @@
+# Campaigns v0.2.0 | 2026-11-26
+## New
+- `<private>` Added OpenTelemetry trace instrumentation to the service.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where status badges and other controls in the Campaigns dashboard incorrectly displayed dark-theme colours on a light-themed page when the computer's system appearance was set to dark. Draft and Cancelled status badges were particularly affected, appearing as dark grey pills with light grey text. These controls now use the light colour palette.
+<br/>
+
 # Campaigns v0.1.1 | 2026-08-20
 ## New
 - None

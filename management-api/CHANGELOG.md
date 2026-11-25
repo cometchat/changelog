@@ -1,3 +1,14 @@
+# Management API v1.8.0 | 2026-11-19
+## New
+- Added support for the Analyst and Billing dashboard roles, enabling users with these roles to access their respective dashboards.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+<br/>
+
 # Management API v1.7.0 | 2026-10-12
 ## New
 - Added APIs to support Audit Logs in the Dashboard.

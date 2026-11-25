@@ -1,3 +1,1275 @@
+# Dashboard v3.15.61 | 2026-11-19
+
+## New
+
+- Added role-based access for team members, including the new Billing and Analyst roles. Each role now sees only the pages and actions it has access to other pages show an "Access restricted" message.
+
+## Enhancements
+
+- None
+
+## Fixes
+
+- Fixed an issue where the Add drawers in Users, Groups and User Roles kept the previously entered values after Cancel.
+- Fixed an issue where Cancel did not discard unsaved changes in Notification Providers and Edit Group.
+- Fixed an issue where moderation rule, list and flag reason names made only of spaces were accepted.
+- Fixed an issue where a search with no results showed the first-run empty state with an Add button instead of "No records found".
+- Fixed an issue where the colour picker in the legacy chat widget settings did not close on an outside click.
+- Fixed an issue where Moderation Get Started opened the wrong guide for Vue and React Router.
+
+# Dashboard v3.15.60 | 2026-11-11
+
+## New
+
+- None
+
+## Enhancements
+
+- None
+
+## Fixes
+
+- Fixed an issue where saving a BYO agent without an icon caused an API error. The icon field is now marked as required.
+- Fixed an issue on the onboarding "Schedule your kick-off call" page where the booking calendar was cut off, hiding parts of the time-slot selection and booking steps.
+- Fixed an issue where the AI Settings upgrade popup kept reopening after being closed.
+- Fixed an issue where opening an app scheduled for deletion kept showing a loading screen.
+
+# Dashboard v3.15.59 | 2026-10-12
+
+## New
+
+- The UI Kit Builder now supports Angular.
+- Added an Audit Logs page under Application → Audit Logs, allowing app owners and admins to view, filter and export a history of configuration changes made to their app.
+
+## Enhancements
+
+- Upgraded the UI Kit Builder to UI Kit v7, including the React app it exports.
+- The UI Kit Builder no longer supports mobile platforms — React Native, Android, Flutter and iOS. It is now available for web only.
+
+## Fixes
+
+- None
+
+
+# Dashboard v3.15.58 | 2026-09-24
+
+## New
+
+- None
+
+## Enhancements
+
+- Added a setting under Chat & Messaging → Settings to turn off Chat Logs & Conversation Explorer.
+- Removed the role selection step from onboarding to shorten the sign-up flow.
+
+## Fixes
+
+- Fixed an issue where an AI bot's details did not update in the list after saving changes.
+- Fixed an issue where the Documentation button under Voice & Video Calls → Get Started / Integrate linked to the wrong page.
+- Fixed an issue where unpaid invoices under AI Agents → Pricing → Billing did not show the Pay Now option. The invoice list now also refreshes automatically after a payment.
+- Fixed an issue where filters applied on the Users and Groups pages persisted when switching to a different app.
+- Fixed an issue where horizontal trackpad scrolling on the Chat Logs page unintentionally loaded older chats.
+- Fixed an issue where the "No more chats" notice on the Chat Logs page stayed visible until manually dismissed.
+- Fixed an issue where clicking a link or button inside a row on Moderation → Flagged Messages or Reviewed Messages also opened the message details panel.
+
+# Dashboard v3.15.57 | 2026-09-09
+
+## New
+
+- Added support for app admins to pin up to five conversations to the top of the conversation list for everyone in the app, with options to reorder or unpin them from Chat & Messaging → Settings.
+
+## Enhancements
+
+- The Conversation Explorer now includes an On behalf of filter, allowing admins to select an end user and view only the conversations visible to that user.
+- Pinned conversations now appear at the top of the Conversation Explorer when viewing conversations on behalf of a user, in the same order they appear for that user.
+
+## Fixes
+
+- None
+
+# Dashboard v3.15.56 | 2026-09-01
+
+## New
+
+- None
+## Enhancements
+
+- None
+
+## Fixes
+
+- Fixed an issue where switching between apps could show extension toggle states from the previously selected app on the Chat & Messaging → Features page.
+
+# Dashboard v3.15.55 | 2026-08-27
+
+## New
+
+- None
+## Enhancements
+
+- The Overview page now shows a **Transcription Minutes** graph for the past 30 days.
+
+## Fixes
+
+- None
+
+# Dashboard v3.15.54 | 2026-08-24
+
+## New
+
+- None
+## Enhancements
+
+- The dashboard now automatically starts the sign-in flow when users arrive from cometchat.com after choosing Login with Google or Login with GitHub.
+
+## Fixes
+
+- None
+
+
+# Dashboard v3.15.53 | 2026-08-13
+
+## New
+- None
+
+## Enhancements
+- Renamed Notification Engine to Notifications across the dashboard to align with the CometChat documentation.
+
+## Fixes
+
+- Fixed an issue where removed group tags would reappear after saving.
+- Fixed an issue where filters on the Users and Groups pages did not persist after returning from a profile or details page.
+- Fixed an issue where searches with a single character did not return results in the Users and Groups sections.
+- Fixed an issue where group names containing special characters such as `&` or `#` could not be searched.
+- Fixed an issue where group search sent a request on every keystroke, resulting in slower and inconsistent search results.
+
+# Dashboard v3.15.52 | 2026-08-05
+
+## New
+- The Conversation Explorer now supports multi-attachment preview, for messages where multiple files are sent together.
+
+## Enhancements
+- None
+
+## Fixes
+- Videos in the Conversation Explorer now render at a consistent height, preventing portrait videos from stretching the message and pushing the rest of the conversation out of view.
+
+# Dashboard v3.15.51 | 2026-07-23
+
+## New
+- The Users section now displays the total user count for the app, grouped by user status (available/offline).
+
+## Enhancements
+- Login with Google/GitHub is now hardened with server-side `state` validation and PKCE, protecting the OAuth flow against login CSRF attacks.
+- Login links can prefill the email address using an email query parameter, so users land directly on the password field.
+
+## Fixes
+- Applying a group filter in the Conversation Explorer no longer changes the open one-on-one conversation's header to the selected group's UID with "0 members" — the active conversation and its header stay unchanged until a different conversation is selected.
+- Activate and deactivate user actions now show consistent confirmation messaging instead of two different message styles.
+- Pagination stays properly aligned after toggling "Switch to Legacy" mode on and off.
+- Searching already-added group members now works with a single character, and rapid typing/clearing no longer leaves the member list filtered incorrectly.
+- The Flagged Moderation screen no longer breaks its layout when the viewport shrinks (for example, with browser DevTools docked open).
+- A member kicked from a group can be re-added immediately without needing a page refresh.
+- Refreshing the Chat & Messaging Features tab no longer fires API requests with `undefined` in place of the app ID.
+- Selecting all and clearing the application name field in Application Settings no longer makes the previous name reappear.
+- Navigating back to the AI Agents page from Plan & Billing (with no agents created) now shows a single loader instead of multiple overlapping ones.
+
+
+# Dashboard v3.15.50 | 2026-07-17
+
+## New
+- None
+
+## Enhancements
+- Conversation Explorer moderation details now show the specific auto-moderation rule that flagged a message (for example, "AI message toxicity") instead of a generic "Blocked" label, so reviewers can see exactly why a message was actioned.
+
+## Fixes
+- None
+
+# Dashboard v3.15.49 | 2026-07-16
+
+## New
+
+- Added Conversation Explorer, a read-only tool under Chat & Messaging → Conversation Explorer for browsing and reviewing conversations across an app. Users can open any conversation to read its full message thread, including text, formatted messages, media, and reply threads, and inspect per-message details such as sender, delivery and read receipts, reactions, group members, and moderation activity, with quick links into the Moderation logs. Conversations can be searched and filtered, and any conversation can be exported to CSV.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+
+
+# Dashboard v3.15.48 | 2026-07-09
+
+## New
+- None
+
+## Enhancements
+- Replaced the placeholder icon and avatar in Card Builder. The updated visuals now appear consistently across the builder itself and its chat and notification previews.
+
+## Fixes
+- None
+
+
+# Dashboard v3.15.47 | 2026-07-14
+
+## New
+- None
+
+## Enhancements
+- Routed all dashboard chat operations (Users, Groups, Messages, Roles, Webhooks, API Keys, Moderation, Notifications, and AI Agents) through the Management API. Chat API traffic from the dashboard now behaves consistently and is recorded in the audit log.
+
+## Fixes
+- Fixed an issue on the Plans & Billing page where annual Chat & Messaging plans displayed the AI Agents plan message instead of the correct plan details.
+- Changed ownership transfer to raise a support request rather than transferring ownership directly from the dashboard. Users initiating a transfer are now guided through a support-assisted process.
+
+# Dashboard v3.15.46 | 2026-06-29
+
+## New
+- Added a Card Builder to visually design and preview interactive card messages from the dashboard — available in both Chat and AI Agents(Agent Config), with a canvas toolbar for composing card layouts.
+- Introduced Notification Templates for Cards, enabling customization of push and email notifications for card messages.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed Roles search so single-character queries now return correct results.
+
+# Dashboard v3.15.45 | 2026-06-11
+
+## New
+- Added AI Agent billing and usage tracking — users can now subscribe to AI Agent plans (monthly or annual), view credit balances broken down by plan, starter, and top-up credits, manually buy credits, and configure auto top-up rules with trigger threshold and per-cycle spending limits.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed incorrect tooltip text on the Media URL Access section in Messages Settings.
+
+# Dashboard v3.15.44 | 2026-06-02
+
+## New
+- Added a notification preference for quoted replies under Notifications → Preferences, allowing users to choose how they are notified about swipe-to-reply messages across push, email, and SMS.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+
+# Dashboard v3.15.43 | 2026-05-27
+
+## New
+- Added Unreal Engine as a new SDK platform option in the onboarding flow and as a tab on the Chat & Messaging → Get Started / Integrate page, with a dedicated Unreal SDK card linking to the documentation.
+
+- Added Skills mode in the UI Kit Builder: when the builder is opened via the CometChat Skills CLI deep link `(?flow=cli)`, the header displays a  "Done Editing" button. Clicking "Done Editing" shows a confirmation modal, letting users know they can return to their terminal.
+
+- Campaigns — Create, schedule, and send templated notifications to users via in-app feed and push, with per-recipient variable substitution and real-time delivery tracking.
+
+
+## Enhancements
+- None
+
+## Fixes
+- None
+
+# Dashboard v3.15.42 | 2026-05-11
+
+## New
+- None
+
+## Enhancements
+- Updated the AI Agent Skill terminal command from `npx skills add cometchat/cometchat-skills` to `npx @cometchat/skills add` on the Chat & Messaging -> Get Started / Integrate page.
+
+## Fixes
+- Fixed pagination layout issue in the Add Members popup on the Groups page.
+- Fixed the screen reloading twice when navigating back from Chat & Messaging -> Logs to the Get Started / Integrate page.
+- Fixed the Add Members modal in Groups showing a blank user list on open and not responding to single-character search.
+- Fixed the AI Agent Widget preview growing beyond its container as messages increase. The message list now scrolls within a fixed-height container instead of expanding the widget.
+<br>
+
+# Dashboard v3.15.41 | 2026-05-05
+
+## New
+- Added AI Agent Skill as a new integration option on the Chat & Messaging Get Started page. AI assistants (Claude Code, Cursor, Copilot, etc.) can now run `npx skills add cometchat/cometchat-skills` add to automatically set up the SDK and UI Kit. Supported across React, React Router, Next.js, React Native, Angular, Android, iOS, Flutter, and Others tabs.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed pagination issues across all three Moderation Log tabs (Flagged, Blocked, Reviewed) — including NaN total counts, cross-tab state interference, stale data accumulation, and filter/date range not persisting across pages.
+- Fixed an issue where creating a new app via the AI Agent platform incorrectly opened the builder in a new tab instead of navigating to the deploy screen.
+- Fixed the Deploy tab in AI Agents showing an infinite loading screen instead of the integration options after creating a new app.
+- Fixed the Token TTL input row not being displayed on the Messages Settings page when presigned is the only available file-access option.
+- Fixed members list overflow inside the Add Members popup on the Groups page.
+- Fixed multiple loaders being visible on the Get Started page of Chat & Messaging when refreshing the page.
+- Fixed call logs list failing to load after refreshing the call detail page and navigating back to the list page.
+<br>
+
+# Dashboard v3.15.40 | 2026-04-14
+
+## New
+- Introduced notification templates for @user mentions, enabling customization of push notifications sent to mentioned users.
+- Introduced notification templates for @all mentions, enabling customization of push notifications for group mentions.
+- Added a new "Intent Selection" step to the onboarding flow, allowing users to indicate whether they are building, evaluating, or exploring CometChat. This step appears after role selection and before application creation.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where refreshing the Groups page resulted in an endless loading state instead of displaying the groups list.
+- Fixed an issue where the "Fetching more details" message remained visible indefinitely on the Chats page instead of disappearing after data was retrieved or after a timeout period.
+- Fixed an error where refreshing any page and immediately clicking on another tab would throw "App with app id undefined does not exist or you do not have access to it" and redirect to the app list page.
+- Fixed multiple API calls being triggered when clicking next on pagination in user and group components.
+- Fixed an infinite re-render loop on the Roles detail page that occurred when a multi-tenant child app referenced a parent app that no longer exists.
+<br>
+
+# Dashboard v3.15.39 | 2026-04-08
+
+## New
+- Added support for the compact message composer in the UI Kit Builder, Widget Builder, and Preview, enabling switching between single-line and multi-line message composition.
+- Added support for rich text formatting in the UI Kit Builder, Widget Builder, and Preview, enabling users to toggle rich text formatting in the core messaging experience. This feature is enabled by default.
+
+## Enhancements
+- Updated the React UI Kit to version 6.4.2 and Calls SDK to version 4.2.5 across the UI Kit Builder, Widget Builder, Dashboard, and Preview for improved stability and consistency.
+
+## Fixes
+- Fixed an issue in call logs pagination where navigation beyond page 10 was not working.
+<br>
+
+# Dashboard v3.15.38 | 2026-04-02
+
+## New
+- Introduced a unified filtering experience across CometChat Dashboard data tables, including Users, Groups, Chat Logs, Moderation Logs, Voice & Video Logs, and Notification Logs, making it easier to find and manage data consistently.
+- Added support for presigned URLs with configurable expiration times (TTL), enabling secure, time-bound access to media files.
+
+## Enhancements
+- Enhanced thread reply count handling to automatically decrease when replies are deleted, with behavior that can be tailored based on the `hideDeletedMessages` setting in the Message/Thread Request Builder.
+
+## Fixes
+- None
+<br>
+
+# Dashboard v3.15.37 | 2026-03-31
+
+## New
+- Added support for the new virus malware scanner moderation rule category in the dashboard, along with improved UI labels for existing moderation rule subcategories.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+<br/>
+
+# Dashboard v3.15.36 | 2026-03-19
+
+## New
+- Introduced **Notification Templates for Polls**, allowing customization of notification title and body.
+- Introduced **Notification Templates for Reminders**, allowing customization of notification title and body.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue that was causing random crashes in the Chat Builder.
+<br/>
+
+
+# Dashboard v3.15.35 | 2026-03-06
+
+## New
+- None
+
+## Enhancements
+- Enhanced the UI/UX across the onboarding flow and key in-app modules, improving navigation, usability, and the overall experience for developers and customers using the dashboard.
+
+## Fixes
+- None
+<br/>
+
+
+# Dashboard v3.15.34 | 2026-02-12
+
+## New
+- Introduced group scope–based access control with a new **Permissions** tab for Group Roles, allowing app owners and admins to configure permissions based on group membership scopes for more granular control.
+- Added two new props under a new **App Sounds** feature group to configure **Incoming Message Sound** and **Outgoing Message Sound** in UI Kit Builder and Widget Builder, including Low-Code and No-Code widget integrations.
+
+
+## Enhancements
+- Enhanced role-based access control (RBAC) by adding additional permissions, enabling more precise access management based on user roles for improved security and flexibility.
+- Updated the UI Kit to version `6.3.11` in UI Kit Builder, preview, and Code and No-Code Widget.
+- Upgraded the Calls SDK to version `4.3.4` in UI Kit Builder, preview, and Code and No-Code Widget.
+
+## Fixes
+- Fixed an issue where the **Previous** button remained enabled on the first page after adding a user or group.
+- Fixed an issue where tags persisted in the **Add User** form after saving.
+- Fixed an issue where the AI Agent navigation menu did not highlight the correct tab during navigation.
+- Fixed an issue with the extension restriction check on the **Chat Features** page, resolving inconsistencies in the UI Kit and Widget Builder embed/export flow.
+- Ensured exported and embedded code includes only the features supported by the user’s plan.
+- Fixed an issue where the **Rename Credential** modal retained previous values when reopened, ensuring form fields reset and display the correct credential details each time.
+- Improved dropdown close behavior and modal state handling to prevent stale IDs and UI inconsistencies during credential actions.
+- Fixed an issue where message deletion did not work correctly in the **History** tab.
+- Fixed an issue in **Widget (No-Code Integration)** where host application CSS conflicted with widget styles.
+<br/>
+
+# Dashboard v3.15.33 | 2026-02-11
+
+## New
+- Added an option to request enabling the unread badge count in the Notifications Engine under **Push Notifications > Preferences**. When enabled, the user’s total unread message count is included in the notification payload.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+<br/>
+
+
+# Dashboard v3.15.32 | 2026-02-03
+
+## New
+- Introduced a refreshed onboarding experience, updated and customized based on selected products, including **Chat & Messaging**, **Voice & Video Calling**, **AI Agents**, and **Bring Your Own Agents**, ensuring users receive relevant setup guidance.
+- Added new **Get Started** guides for **Notifications** and **Voice & Video Calling** to help users onboard faster.
+- Introduced new **Monthly** and **Annual** plans for **AI Agents**, with **Contact Us** options that allow customers to request a callback for each plan.
+- Introduced **Variables** in the AI Agent Builder to inject dynamic data into agent instructions and API tools. Use **auth variables** for user context (such as sender UID and name), or define **custom variables** for constants and metadata-based values.
+- Added **Frontend Actions** in the AI Agent Builder, enabling developers to configure client-side triggers—such as opening modals, navigating between pages, or showing notifications—that agents can invoke during conversations.
+
+## Enhancements
+- Enhanced the **App Creation Flow** with:
+  - A redesigned product selection layout with clear separation between available product options.
+  - Updated messaging and visuals to improve clarity during onboarding.
+- Improved **Platform Selection** by:
+  - Updating available platform options under **Chat & Messaging**.
+  - Removing the platform selection step for **AI Agents** to streamline setup.
+- Restructured **Dashboard Navigation** with clearer categories, including:
+  - Chat & Messaging  
+  - AI Agents  
+  - Features  
+  - Notifications  
+  - Moderation  
+  - Insights
+- Enhanced **Getting Started** guides for **Chats**, **Moderation**, **Voice & Video Calling**, **AI Agents**, and **Bring Your Own Agents** with detailed integration steps and clear next actions.
+- Added and updated **relevant documentation** across **Chats**, **Voice & Video Calling**, **Moderation**, **Notifications**, **AI Agents**, and **Bring Your Own Agents** for improved discoverability and clarity.
+- Enhanced **Chat Features** by displaying platform compatibility information for each feature and extension.
+- Updated the **Moderation Get Started** flow to align with the new dashboard structure and remove outdated steps.
+- Improved **UI Kit Builder** and **Widget Builder** integration by keeping builder settings in sync with dashboard feature configurations and providing a clear feature overview with enable and disable options during **Export / Embed Code**.
+- Updated **premium feature tagging** to display the applicable **plan name** instead of a generic premium label across **Chat features**, **AI features**, and **Webhooks**, improving pricing clarity.
+
+## Fixes
+- Fixed incorrect documentation links to ensure accurate and up-to-date references.
+
+## Removals
+- Removed **Moderation** as a standalone product from the app creation flow to simplify product selection.
+<br/>
+
+
+# Dashboard v3.15.30 | 2026-01-28
+
+## New
+- Introduced updated pricing for the **Basic** and **Advanced** plans across both **monthly** and **annual** billing cycles. While prices have been revised, the **existing plans and tiers remain unchanged**, ensuring continuity in features and offerings.
+
+## Enhancements
+- None
+  
+## Fixes
+- Fixed an issue where **previous group tags** were incorrectly shown while editing a group.
+- Fixed an issue where **Insights** and **Operational Data** graphs appeared empty for certain apps.
+<br/>
+
+
+# Dashboard v3.15.28 | 2026-01-20
+
+## New
+- None
+
+## Enhancements
+- None
+  
+## Fixes
+- Updated the **React UI Kit** to version **6.3.9**, which resolves an issue where messages sent while creating a new agent chat were incorrectly added to chat history.
+<br/>
+
+
+# Dashboard v3.15.27 | 2026-01-12
+
+## New
+- Added support for **Wix**, **Webflow**, and **Squarespace** in the **No-Code Widget Builder**, enabling easy chat integration across more website platforms.
+- Added a **“Mark as Unread”** option in the **React UI Kit Builder** and **No-Code Widget Builder**, with the ability to enable or disable this feature via builder settings.
+
+## Enhancements
+- Improved pagination navigation for **user lists**, ensuring smoother and more reliable browsing.
+- Enhanced the **editor UX** and fixed issues related to **keyboard shortcut behavior** in specific use cases, ensuring smoother and more predictable interactions.
+- Made fixes and improvements to **caching behavior** in line with updated Chrome browser caching rules, preventing stale or incorrect data from appearing after update or delete actions.
+- Applied **minor UI updates** across the **Agentic Builder** to improve usability, consistency, and overall user experience.
+- Updated the **React UI Kit** to version **6.3.7** across the **UI Kit Builder**, **Widget Builder**, **Dashboard**, and **Preview** for improved stability and consistency.
+
+## Fixes
+- None
+<br/>
+
+
+# Dashboard v3.15.26 | 2025-12-19
+
+## New
+- Added a new **Goals & Instructions Editor** in the AI Agent Builder with rich formatting options, including **bold**, *italic*, ~~strikethrough~~, **bullet points**, and **line numbers**, making it easier to structure and manage agent instructions.
+- Added **Agent Chat Logs** with **real-time messages**, **searchable history**, and an **export option**, enabling teams to monitor, review, and download agent conversation logs directly from the builder.
+
+## Enhancements
+- Improved the **Deploy flow** in the AI Agent Builder by updating the customization screen to include the full **App Navigation** section, replacing the previous limited view that did not display navigation options.
+- Newly created **MCP tools** are now **enabled by default** for the respective agent, reducing additional configuration steps.
+
+## Fixes
+- Fixed an issue where **deleted groups** did not always refresh correctly in the list.
+- Fixed an issue where being redirected to the apps list after an app was not found resulted in a persistent loading state.
+<br/>
+
+
+# Dashboard v3.15.25 | 2025-12-16
+
+## New
+- Added support for adding **Knowledge Base sources via links** in the AI Agent Builder. Users can now either **scrape all links from a website URL** or add **individual links** to automatically **import and sync content** as part of the agent’s knowledge base.
+
+## Enhancements
+- Added **CometChatAuth** support to the **No-Code Widget**, making Chat and AI Agent integration simpler and faster with minimal setup. Integration steps in the **Agent Builder** have been updated accordingly for a more streamlined configuration experience.
+
+## Fixes
+- None
+<br/>
+
+
+# Dashboard v3.15.24 | 2025-12-10
+
+## New
+- Added **CometChatNotifications** support in the No-Code Widget Builder, enabling easy configuration of notification settings without requiring any code changes.
+
+## Enhancements
+- Made multiple **UI and UX improvements** to the Knowledge Base section in the AI Agent Builder for a smoother and more intuitive experience.
+
+## Fixes
+- Fixed an issue where the **Refresh** button did not display the latest **Flagged messages** in the list under Moderation.
+- Fixed an issue with the **roles list** not loading correctly when creating a new user.
+- **Widget Builder, Builder Preview** - Fixed an issue where the **Add Member** action became unresponsive in certain scenarios, ensuring consistent and reliable member addition.
+- **UI Kit Builder** - Updated the download logic to include new feature settings in older builder variants required by **UI Kit Builder mobile apps**, preventing errors and ensuring they continue to run smoothly.
+
+## Removals
+- Deprecated and removed the **Enhanced Messaging Status** setting for non–multi-tenant apps where the setting is disabled, as well as for all newly created apps for non–multi-tenant accounts.
+<br/>
+
+# Dashboard v3.15.23 | 2025-12-04
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Resolved issues affecting support in the **UAE region** for both the **UI Kit Builder** and the **No-Code Widget Builder**, ensuring seamless setup, configuration, and preview functionality for apps operating in the region.
+<br/>
+
+# Dashboard v3.15.22 | 2025-12-02
+
+## New
+- Added a **Knowledge Base** option with RAG support in the AI Agent Builder, allowing you to connect a content source and sync your data—via file uploads or text entries—as a reference for your agent. This knowledge will be used by the agent to provide informed and context-aware responses during conversations.
+
+## Enhancements
+- Added a (*) indicator in the AI Agent Builder’s **MCP Tools** and **Custom API Tools** add/edit forms to clearly denote that all fields are mandatory.
+
+## Fixes
+- None
+<br/>
+
+
+# Dashboard v3.15.21 | 2025-11-29
+
+## New
+- Added support for the **Report Message** feature in the UI Kit Builder, Widget Builder, and Preview, allowing users to report inappropriate or harmful messages directly from the chat. An option is now available to enable or disable this feature based on your app’s requirements.
+- Added support for **`@all` mentions** in the UI Kit Builder, Widget Builder, and Preview, enabling users to mention all members of a group with a single mention. This feature can also be enabled or disabled as needed.
+
+## Enhancements
+- Updated the **React UI Kit** to the latest version **6.3.5** in UI Kit Builder, Widget Builder & Agent Builder, providing improved performance and updated components.
+- Updated **documentation links for the Android platform** to reflect the latest compatibility for **Quoted Replies**, **Conversation Search**, and **Report Message** under Chat Feature Compatibility.
+
+## Fixes
+- None
+<br/>
+
+
+# Dashboard v3.15.20 | 2025-11-21
+
+## New
+- Introduced a new **Flag & Review** moderation workflow, enabling end users to report messages with a reason and allowing moderators to review or approve blocked messages and block or review flagged messages directly from the dashboard.
+- Added the ability for app owners to **create custom flag reasons** directly in the dashboard to tailor their moderation experience.
+- Added support for customers in the **UAE region** for UI Kit Builder preview and the No-Code Widget Builder.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where saving Email and SMS Notification settings and then resetting them to default did not behave as expected.
+- Fixed UI issues on the Calling Screen within the No-Code Widget Builder.
+<br/>
+
+
+# Dashboard v3.15.19 | 2025-11-20
+
+## New
+- Added a new option to **enable/disable “Ignore end user mute preferences on @all”** under Push Notifications.
+
+## Enhancements
+- Updated text and labels related to **Slack support** for improved clarity.
+- Applied minor UI improvements under app section for a smoother experience.
+
+## Fixes
+- Fixed an issue where the "Delete Chat" option remained enabled for already deleted group conversations, which previously resulted in an API error in Widget Builder.
+- Renamed Custom Tabs to More and fixed an issue where this section displayed a blank screen during page refresh.
+<br/>
+
+
+# Dashboard v3.15.18 | 2025-11-19
+
+## New
+- Added an option to **edit existing agents** in Agent Builder, allowing easier updates and modifications.
+- Added support for the new **Zendesk** & **Google Suite** tools, including a guided authentication form to help users provide required details seamlessly.
+- Added a new **Custom Tabs** option in app navigation, allowing teams to tailor in-app workflows to their specific needs.
+
+## Enhancements
+- Added **icon display support** in the **Custom API Tools** list for better visual identification of tools.
+- Added **Agent UID** display in the Edit Agent form with copy option for easier reference and management.
+
+## Fixes
+- None
+<br/>
+
+
+# Dashboard v3.15.17 | 2025-11-14
+
+## New
+- Added a **Friends Only** option in the No-Code Widget Builder, allowing apps to filter the user list to show only friends.
+- Added **Shopify support** for no-code integration, enabling easier embedding of chat experiences in Shopify stores.
+- Added support for **React Native UI Kit Builder** in Low Code, enabling easier customization and integration for React Native apps.
+
+## Enhancements
+- Added support for the **setStorageMode** method, enabling developers to switch between `sessionStorage` and `localStorage` for more flexible session persistence control.
+- Updated **React UI Kit** to version **6.3.4** and **Calls SDK** to version **4.2.1** for improved performance and stability.
+
+## Fixes
+- Fixed a UI issue affecting **polls** in the Widget Builder.
+- Fixed an issue where the **agent icon** was not visible in the Agent Builder app navigation.
+- Fixed an issue where the **"Delete Chat"** option remained enabled for already deleted group conversations, which previously resulted in an API error in Widget Builder.
+<br/>
+
+
+# Dashboard v3.15.16 | 2025-11-07
+
+## New
+- **AI Agent Builder**  
+  Introduced the **Agent Builder**, an integrated platform within CometChat that enables users to create, customize, and deploy AI agents directly.  
+  The new **Deploy Agent Builder UI** streamlines and accelerates the setup process, allowing seamless management of agent creation, configuration, and deployment with improved efficiency.  
+  It supports multiple LLMs (e.g., OpenAI), MCP, and ready-to-use tools, providing a complete end-to-end agent management experience.
+
+## Enhancements
+- **Bring Your Own Agents (BYO Agents)**  
+  Renamed the **Third-Party Agents** section to **Bring Your Own Agents (BYO Agents)**.  
+  Combined the **BYO Agents**, **Actions**, and **Tools** sections into a unified **BYO Agents** section to simplify navigation and enhance usability.
+
+## Fixes
+- None
+<br/>
+
+
+# Dashboard v3.15.15 | 2025-10-29
+
+## New
+- **Optional Auth Key in No-Code Widget Builder**  
+  Made the **Auth Key** optional when using **Auth Token** in the No-Code Widget Builder for easier setup and configuration.  
+
+## Enhancements
+- **Updated Upgrade Tag to Premium Tag**  
+  Replaced the “Upgrade” tag with a **“Premium”** tag for chat features that are part of restricted or paid plans, improving clarity in feature accessibility.  
+
+## Fixes
+- **Webhook List Toggle UI**  
+  Fixed an issue with the toggle UI in the webhook list on the **Edit Webhook** form for more consistent interaction.  
+- **Preview to Dashboard State Persistence**  
+  Resolved an issue where returning from preview to the dashboard for existing users did not clear previously selected settings, causing problems when launching variants after reaching the variant limit.  
+
+## Reversions
+- Reverted a previous change where **Custom Bots** were marked as legacy and deprecated for new apps created after **August 15, 2025**, for non–multi-tenant accounts.  
+- Custom Bots are now fully available for all new apps, restoring previous functionality and compatibility.
+<br/>
+
+
+# Dashboard v3.15.14 | 2025-10-24
+
+## New
+- Added a new section for **AI Agents (Beta)** featuring a **Contact Us** option and a **Coming Soon** view to preview upcoming capabilities.  
+- **UI Kit Builder**:  
+  - Added an option to manage **showing or hiding group action messages** for greater customization.  
+  - Added support for **Flutter integration**, enabling developers to easily use UI Kit Builder within Flutter applications.  
+- **Widget Builder**: Added options to manage **showing or hiding group action messages** and **unread count bubbles in the docked layout **.  
+
+## Enhancements
+- Renamed existing **AI Agents** to **Third-Party Agents** for improved clarity and categorization.  
+- Upgraded the React UI Kit in UI Kit Builder, Widget Builder and Preview to version **6.3.2**, delivering improved performance, refined design components, and a smoother development experience.  
+- Updated the **Chat Builder logo** to align with the new nomenclature — **UI Kit Builder** for Code integrations and **Widget Builder** for No Code integrations.  
+
+## Fixes
+- Fixed an issue where the **enable/disable option** for **Third-Party Agents** was not functioning as expected.
+<br/>
+
+
+# Dashboard v3.15.13 | 2025-10-22
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where updating a custom bot was not working as expected.
+<br/>
+
+
+# Dashboard v3.15.12 | 2025-10-21
+
+## New
+- None
+
+## Enhancements
+- Added a condition to **exclude multi-tenancy apps** created after **August 15th** from **deprecation checks** applied to **Custom Bots (Legacy)**, ensuring continued support for newer multi-tenant implementations.
+
+## Fixes
+- None
+<br/>
+
+
+# Dashboard v3.15.11 | 2025-10-14
+
+## New
+- Added detailed **platform support and compatibility information** for Chat features to help developers better understand feature availability across platforms.  
+- Added **UI Kit Builder options** for **iOS** and **Android** under *Getting Started → Chats* for easier setup and integration.  
+- Added an option to **request to join shared Slack Channel with CometChat Engineers directly from the Dashboard**.  
+
+## Enhancements
+- Delivered multiple **UI and UX improvements** across various app sections.  
+- Enhanced **empty views** across app modules for a clearer and more informative user experience.  
+- **Renamed modules for better clarity**:  
+  - *Chat Builder* → **UI Kit Builder**  
+  - *Chat Widget Builder (No Code)* → **Widget Builder**  
+  - Combined **Legacy AI Bots**, **AI Instructions**, and **Custom Bots** into one unified module called **Custom Bots (Legacy)**.  
+  - Updated nomenclature in **Custom Bots (Legacy)** from *Agent* to *Bot*.  
+- **Webhooks**: Improved the *Edit Webhooks* experience in the new UI for better usability.  
+- **React UI Kit**: Updated to the latest version across the **Demo**, **AI Agent Builder**, **UI Kit Builder**, and **Widget Builder** for improved stability and performance.  
+- **Moderation**: Introduced an option to **enable Moderation** in Blocked message logs, when the Moderation feature is disabled.  
+
+## Fixes
+- Implemented multiple **UI fixes** across the platform to enhance consistency and visual polish.
+<br/>
+
+
+# Dashboard v3.15.10 | 2025-09-25
+
+## New
+- Added support for **Quoted Replies** in Chat Builder (Demo, Code, and No Code Widget), with the option to enable or disable the feature as needed.  
+
+## Enhancements
+- **UI Kit**: Updated to version `6.3.0` for the latest improvements and stability.  
+- Delivered minor **UI enhancements** across both App and non-App sections for improved usability.  
+- **Webhooks**:  
+  - Renamed *Legacy Webhooks* to **Webhooks (Legacy)** for better clarity.  
+  - Introduced a **new UI for Webhooks add and edit forms**, improving ease of configuration.  
+  
+## Fixes
+- Chat Builder - Fixed an issue where **conversation search** was not working as expected when launches from Chats list.
+<br/>
+
+
+# Dashboard v3.15.9 | 2025-09-25
+
+## New
+- None
+
+## Enhancements
+- **Chat Builder (Preview, Code, and No-Code modes)**: Updated React UI Kit to version `6.2.6` for improved stability and feature support.
+- Delivered minor **App navigation UI enhancements** for improved consistency and usability.  
+
+## Fixes
+- Fixed an issue where **launching the Agent Chat Builder** occasionally did not work.  
+- **No Code Chat Builder Widget** - Fixed a **theming issue in Firefox** for deployed **No Code Chat Builder**, ensuring consistent appearance across browsers.
+- Fixed an issue where searching for an app returned an empty view with no results after switching from the **Accounts** screen.  
+- Fixed an issue in **Account Settings** where roles were displayed as raw values instead of role names for older roles.
+<br/>
+
+
+# Dashboard v3.15.8 | 2025-09-19
+
+## New
+- Introduced a **new onboarding flow** to help users get started more quickly and efficiently.  
+- Added **Get Started guides** for easier navigation and setup.  
+- Added support for **Login or Signup with Google and GitHub** for faster and more convenient authentication.  
+
+## Enhancements
+- Delivered multiple **UI and UX improvements across the App section**, including:  
+  - Improved tables for better readability.  
+  - Consistent button styling.  
+  - Updated app navigation for a smoother experience.  
+  - General **UX enhancements** to improve usability throughout the app.  
+- Updated **labels & titles for legacy features** such as Moderation, AI Bots, and Notifications to improve clarity.  
+- **UI Kit**: Updated to version `6.2.5` in Chat Builder (demo, Code, and No Code apps).  
+- Added **instructions in the Chat Builder preview** before redirecting users to the dashboard, improving clarity in the flow.  
+- Updated **Chat Builder No Code embed code** to use version `1.x.x` (`https://cdn.jsdelivr.net/npm/@cometchat/chat-embed@1.x.x/dist/main.js`) instead of `latest` for more stable integrations.
+
+## Fixes
+- Fixed an issue where **role IDs were displayed in capitalized format** in the users list.  
+- Fixed a **pagination issue** in the users list when handling a large number of users.
+<br/>
+
+
+# Dashboard v3.15.7 | 2025-09-10
+
+## New
+- **Chat Builder (Code and No Code)**: Added new chat and delete conversation option in the CometChatAIAssistantChatHistory component.
+
+## Enhancements
+- **UI Kit**: Updated to version `6.2.3` across the Chat Builder demo, Code apps, and No Code apps.
+
+## Fixes
+- Fixed an issue where the **selected timezone under App Settings** was not working for certain options due to UTC handling in Insights.
+- Fixed an issue where the Chat Builder view was blocked on certain desktop devices.
+- Chat Builder (Code and No code)
+  - Fixed inconsistent conversation header height across different views for a more uniform interface.
+  - Fixed an issue where audio files became distorted after sending.
+  - Fixed the hideReceipts prop in the CometChatThreadHeader component so it now updates correctly at runtime.
+  - Fixed an issue where adding a new template for custom messages failed to display the default statusInfoView.
+- Agent Builder
+  - Fixed an issue where **switching between agents** did not refresh and display the correct message list.
+<br>
+
+
+# Dashboard v3.15.6 | 2025-09-04
+
+## New
+- Introduced a new category of messages, **Agentic**, now available in App → Chats (both live and history).
+
+## Enhancements
+- **Documentation**: Updated No code Chat builder links to match the new documentation.  
+- **App Navigation**: Minor enhancements for smoother user experience.  
+
+## Fixes
+- Fixed an issue where the **docked layout** was incorrectly visible in rare cases in the Code version of the demo Chat Builder on the dashboard.  
+- Fixed an issue where **role IDs appeared capitalized** in the users list and user detail views.
+- Fixed an issue in the **AI Agent Chat Builder** where changing the active agent in the multiple agents list did not work as expected.
+<br>
+
+
+# Dashboard v3.15.5 | 2025-09-01
+
+## New
+- **Mobile Chat Builder Support**: Added support for Android and iOS apps with live preview capability via QR code scanning.  
+
+- **Downloadable Apps with Chat Builder Settings**: Enabled the ability to download Android and iOS apps pre-configured with selected Chat Builder settings, making integration and testing easier.  
+
+## Enhancements
+- **Chat Builder Moderation**:  
+  - Renamed *Moderator controls* to **Moderation** for improved clarity.  
+  - Updated the *Moderation* option: it is now called **Blocked Message Feedback** and is accessible under Moderation.
+
+- **Integrate** - Updated links for **Chat Builder** to point to the new documentation.
+
+- **AI Agents**: Minor updates to the **Get Started** screen for improved clarity.
+
+## Fixes
+- Fixed an issue where the **Chat Builder view was blocked on certain desktop devices**.
+<br>
+
+
+# Dashboard v3.15.4 | 2025-08-28
+
+## New
+- Introduced options to customize **email notification payloads**, allowing users to include or exclude the message object and metadata for greater control over notification content.
+
+- Introduced options to customize **SMS notification payloads**, giving users flexibility to include or exclude the message object and metadata.
+
+- Added support for **Moderation**, with the ability to enable or disable the feature directly in Chat Builder (available in both code and no-code variations).
+
+- Added an option to **launch the builder with a selected default agent from the AI Agents list**, streamlining setup and improving workflow efficiency.
+
+## Enhancements
+- Updated **React UI Kit** to the latest version `6.2.1`.
+
+- Enhanced **Chat Builder demo and preview** to fetch agentic users using the CometChat SDK.
+
+- Minor UI enhancements on Dashboard navigation.
+
+## Fixes
+- UI fixes on AI Agents Chat.
+<br>
+
+
+# Dashboard v3.15.3 | 2025-08-26
+
+## New
+- **AI Agents**  
+  Expanded availability of AI Agents to **IN and EU regions** in addition to the US.  
+
+- **Chat Builder Preview**  
+  Updated the mechanism for applying preview settings by introducing temporary builder settings in the dashboard flow, with an automatic time-to-live (TTL) of 24 hours.
+
+- **Conversation Search Toggle in Chat Builder**  
+  Introduced the option to enable or disable the conversation search feature in both code and no-code variations of Chat Builder.  
+  Moved conversation search settings in the dashboard from **Chat > Settings** to **Chat > Features** for improved accessibility.
+
+## Enhancements
+- **UI Improvements in AI Agent Chat Builder**  
+  Applied multiple UI refinements to improve usability and overall chat experience.  
+
+- **One-on-One Chat Behavior**  
+  Resolved an issue in both code and no-code apps where opening an agent conversation from the **Chats** tab incorrectly launched the one-on-one user chat instead of the intended AI Assistant chat.
+
+- **Legacy Widgets UI Improvements (Dashboard)**  
+  Enhanced the design and usability of Legacy Widgets within the dashboard for a smoother setup and management experience.  
+
+## Fixes
+- AI Agents displayed **unread message count** in the docked layout when accessed from chat history.  
+- Fixed an issue where messages disappeared in Agent Builder after a theme change or when switching between web and mobile views. 
+- Fixed an issue where, on certain occasions, creating a new app incorrectly redirected users to the **Apps Listing** page.
+
+## Deprecations
+- Removed Sans-serif option from typography font family list in Chat Builder.
+<br>
+
+
+# Dashboard v3.15.2 | 2025-08-22
+
+## New
+- None
+
+## Enhancements
+- AI Bots and Instructions are now marked as Legacy (instead of Deprecated) and remain visible for apps created before 15th August 2025.
+
+## Fixes
+- Corrected missing configuration in Custom Subscription Options where the Bypass Preferences setting was not available earlier.
+<br>
+
+
+# Dashboard v3.15.1 | 2025-08-14
+
+## New
+- **AI Agents** 
+  Introduced AI Agents to help businesses easily create, customise, and deploy intelligent chatbots, copilots, and agents directly into their applications — without the complexity of traditional AI integrations.  
+  - **Faster setup** – Launch production-ready AI agents in minutes using our no-code widget. 
+  - **Seamless integration** – Use our integration wizard and embeddable widget to add AI to your web apps effortlessly.  
+  - US apps only release — coming soon for EU and IN regions.
+
+- **Chat Builder (No code - widget) Launch with AI Agent Support**  
+  Released the new Chat Builder with built-in AI Agent integration, allowing users to design, customise, and deploy AI-powered chat experiences directly from the Chat Builder interface.
+
+- **Updated React UI Kit and JavaScript SDK in Chat Builder**  
+  Upgraded to the latest versions of the React UI Kit and JavaScript SDK within Chat Builder, delivering improved performance, refreshed UI components, and a better developer experience.
+
+## Enhancements
+- Enhanced the design and usability of **Legacy Widgets**, providing a cleaner interface and improved user experience for existing widget implementations.
+
+## Fixes
+- None
+<br>
+
+
+# Dashboard v3.15.0 | 2025-07-30
+
+## New
+- Added no-code widget support in Chat Builder, allowing users to embed chat functionality without writing any code.
+- Introduced conversation search functionality in Chat Builder, available in both code and no-code implementations.
+- Added support for integrating **Chat Builder** with platforms such as **HTML** and **WordPress**, making it easier to embed chat experiences with minimal setup. 
+- **Coming soon**: Support for **Shopify**, **Squarespace**, **Wix**, and **Webflow**.
+
+## Enhancements
+- Renamed "Visual Builder" to "Chat Builder" for improved clarity and alignment with product direction.
+- The new Chat Builder widget includes all existing functionality, layout options (docked and embedded), advanced methods and customisations from Legacy Widgets.
+- No-code widget now fully supports all features available in the code-based version of Chat Builder.
+- Updated the UI for the Create App screen and the Welcome screen in the onboarding flow to enhance the user experience.
+- Updated UI Kit and SDK versions to their latest versions in Chat Builder for improved performance and visual consistency.
+
+## Fixes
+- None
+
+## Deprecations
+- Legacy Widgets are now deprecated for newer customer accounts. Users are encouraged to use Chat Builder for the latest features and customisation options.
+<br>
+
+
+# Dashboard v3.14.12 | 2025-07-16
+
+## New
+
+- **"Get Started" Screen for AI Agents**  
+  A new **Get Started** screen has been introduced under the **AI Agents** section to assist users in setting up AI-powered chat experiences.  
+  Selecting "Get Started" navigates users directly to the **Custom Agents** configuration screen for a streamlined onboarding process.
+
+## Enhancements
+
+- The **"AI Chatbot"** section has been renamed to **"AI Agents"** in the navigation menu to reflect expanded capabilities and improve clarity.
+- **"Custom Bots"** have been renamed to **"Custom Agents"** for greater alignment with current terminology and feature scope.
+
+## Deprecations
+
+- **AI Bots and Personalities**  
+  The legacy **AI Bots** and **Personalities** features have been deprecated and are no longer available for new configurations.  
+  Existing configurations will continue to function as expected but are no longer supported for new setup.
+
+## Fixes
+
+- **Moderation – Get Started and Overview Screens**  
+  Addressed various UI and content-related issues in the **Moderation Get Started** and **Overview** screens, enhancing layout consistency, readability, and overall usability.
+<br>
+
+
+# Dashboard v3.14.11 | 2025-07-04
+
+## New
+
+- **"Get Started" Section for Moderation**  
+  A new **Get Started** section has been added under the **Moderation** tab to help users easily understand and set up moderation in their apps.
+
+  Highlights include:
+  - A visual overview of how moderation works, with an example of a flagged message.
+  - Easy access to key setup actions:
+    - **Set Up Rules**
+    - **Configure Moderation Webhook**
+    - **Integrate & Test Moderation API**
+  - Quick links to tutorial, documentation, and relevant app sections to guide users through the process.
+  - Users can intuitively switch between the **_Get Started_ and _Setup_ views** for a smoother experience.
+
+  This update streamlines the moderation onboarding experience and helps teams get started faster with content safety tools.
+  
+  ## Enhancements
+  - None
+  
+  ## Fixes
+  - None
+<br/>
+
+
+# Dashboard v3.14.10 | 2025-07-01
+
+## New
+- None
+
+## Enhancements
+- Renamed **“Non AI Bots”** to **“Custom Bots”** for improved clarity in bot configuration.
+- Removed the **Upgrade plan banner** from the **Legacy Moderation** screen as **Legacy Moderation** is now deprecated for newer apps.
+- Updated the **Current Usage** display in **App Overview** to show **monthly usage** for annual plans, providing more relevant insights.
+
+## Fixes
+- Fixed an issue with the **Insights calendar** where date selection was not functioning correctly.
+- Resolved a **UI bug with radio button options** in the Visual Builder.
+- Fixed UI issues in the **App/Builder Creation success/failure modals** for a smoother user experience.
+- Fixed **loader alignment issues** on buttons to ensure proper layout and feedback.
+- Removed inconsistent **background image** from onboarding screens for a cleaner appearance.
+<br/>
+
+
+# Dashboard v3.14.9 | 2025-06-11
+
+## New
+- [Visual Builder] Added `showScrollbar` prop support to the following components for improved UI control:
+  - `CometChatConversations`
+  - `CometChatUsers`
+  - `CometChatGroups`
+  - `CometChatMessageList`
+  - `CometChatMessageComposer`
+
+## Enhancements
+- Added support for **React UI Kit version 6.0.7**, bringing the latest improvements and refinements to the Visual Builder experience.
+
+## Deprecations
+- Deprecated the following **legacy extensions** for apps where they have not been enabled:
+  - **Mentions**
+  - **Reactions**
+  - **Smart Reply**
+  - **Legacy Notifications**
+  - **Legacy Moderation**
+
+  These extensions will no longer appear for new or inactive apps, ensuring a cleaner and more streamlined configuration experience.
+
+## Fixes
+- Addressed UI issues across multiple sections, including Integrate, Groups, App navigation, Visual Builder, Moderation, Chats, Bots, and Notifications for improved user experience.
+- [Visual Builder] Resolved an issue where the **message list** caused the entire webpage to scroll to the bottom on load.
+- [Visual Builder] Fixed a **UI spacing issue** where there was a missing space between the **member count** and the **member** keyword.
+- [Visual Builder] Fixed a **crash** caused by **unsupported regular expression features** in certain JavaScript engines, improving cross-browser stability.
+<br/>
+
+
+# Dashboard v3.14.8 | 2025-06-04
+
+## New
+- **Call Notification Preferences**  
+  Added a new option under **Notifications → Preferences → Common Preferences** to configure all call notifications behaviour.
+
+- **Custom Push Notification Payloads**  
+  Customers can now customise push notification payloads and include additional metadata via  
+  **Notifications → Preferences → Push Notification Preferences**, offering greater flexibility and control.
+
+- **Extensions Update**  
+  A new extension lifecycle model has been implemented. Extension states are reflected in **Chat Features**, **Legacy Moderation**, and **Legacy Notifications** sections:
+  
+  - **Legacy Extensions**  
+    - A **"Legacy" tag** will appear next to these extensions in the UI.  
+    - **Email Replies, Mentions, Reactions, Smart Reply** are now marked as Legacy.
+
+  - **Deprecated Extensions**  
+    - Extensions are completely removed from the dashboard.  
+    - No longer available to any users.  
+    - **Slow Mode, XSS Filter, E2E Encryption, Applozic, Video Broadcasting, Emojis, Gfycat, Avatar** are now deprecated.
+
+## Enhancements
+- **Two-Factor Authentication (2FA) Defaults Updated**  
+  - **Free plan users**: 2FA is now **disabled by default**, but can be manually enabled from Account Settings.  
+  - **Paid plan users**: 2FA is **enabled by default** upon subscription, with the option to disable it.  
+  - **No impact** on existing users — their current 2FA settings remain unchanged.
+
+- **AI Settings Migration**  
+  - AI settings have been moved from the **AI Chatbot** section to **Chat Settings → AI User Copilot**.  
+  - The **"Enable AI" toggle has been removed** — AI activates automatically when valid settings (Model, API Key, Temperature, etc.) are provided.  
+  - During bot creation, users are now redirected to configure AI settings before proceeding.  
+  - This update streamlines configuration and improves the overall AI setup experience.
+
+## Fixes
+- Fixed an issue where the **Upgrade tag** appeared on **Message Basic Webhooks** for users on the **Advanced plan**.
+- Fixed an issue where an **incorrect label** was displayed for the **Group Type** field on the **Add Group** screen.
+<br/>
+
+
+# Dashboard v3.14.7 | 2025-04-19
+## New
+- **AI-Based Moderation**  
+  - Introduced support for **OpenAI-based content moderation** and a **Custom Moderation API**, enabling more intelligent and context-aware filtering of user messages.
+  - Configure your own **OpenAI key, model, temperature**, and **prompt** directly from the dashboard.
+  - Use **custom APIs** for moderation with flexible error-handling options.
+  - Added new moderation list types: **OpenAI Prompt** and **Custom Moderation API**.
+  - **Default AI moderation rules** are now added automatically to help users get started quickly.
+  - App owners can **define custom rules** for both OpenAI and Custom API-based moderation.
+  - Available for **Build** and **Enterprise** plans only.
+  
+ - **Notification Preference Toggle for Mentions**  
+  Added a toggle under **Notifications > Common Preferences** to **ignore end-user mute settings when the user is mentioned in a message**, ensuring important mentions are delivered.
+
+- Added **Push Notification Logs** in the dashboard, enabling app owners to view logs of failed push notifications—helping diagnose delivery issues.
+  
+- Added **"Upgrade" tags** to premium features based on the user's current plan. Tags now appear on:
+  - **Chat Features**
+  - **Webhooks (New)**
+  - **Legacy Notifications**
+
+## Enhancements
+- Added **hover states** for buttons and links across the dashboard to improve interactivity and visual feedback.
+- Updated text and made visual improvements to the **Upgrade banner** for better clarity and engagement.
+- Visual Builder: **App Export Improvements** - App credentials are now included by default when exporting a **React app**, simplifying setup and reducing integration steps.
+- Visual Builder: **AI Settings Control** - Disabled **AI features by default**, giving developers more control over when and how AI is used in the Visual Builder.
+- Visual Builder: **Codebase Consistency** - Updated **nomenclature in core files** to improve code clarity, readability, and maintainability.
+
+## Fixes
+- Fixed an issue where users were **unable to scroll** on the Moderation Settings page.
+- Fixed a bug where the **"Cancel" button** on the "Add User Role" dialog was not working.
+- Resolved an **overflow issue** with graphs on the App Overview page, ensuring content stays within bounds.
+- Fixed **double border rendering** in Webhooks forms for a cleaner UI.
+- Fixed UI issue being faced after page reload in create application.
+- Fixed success notification issue on enabling Conversation search feature.
+- Fixed a UI issue where **feature toggle borders** were inconsistent on the Visual Builder toggle list.
+- Resolved an issue where the toggle for **Custom Push Notification Provider** was **enabled by default** when it shouldn't be.
+- Visual Builder: Fixed an issue where the "Show Back Button" setting in the sample app was not applying correctly.
+- Visual Builder: Fixed a bug where the Owner scope was not updating when a user left a password-protected group.
+- Visual Builder: Resolved a problem where the delete chat toggle was not working for new conversations.
+- Visual Builder: Fixed a UI issue in the voice calling screen, ensuring consistent visual behavior during calls.
+- Visual Builder: Fixed a bug where the Leave Group option appeared even when the owner was the only member in the group.
+- Visual Builder: Fixed an issue where the Info page did not close after creating a new group.
+- Visual Builder: Fixed a bug where pressing Enter in the group member search box triggered the last performed action prior to opening the search.
+- Visual Builder: Fixed a layout issue where, on clicking "Add Members", the user list appeared on only half the screen and overlapped with the group info panel.
+<br/>
+
+
+# Dashboard v3.14.6 | 2025-05-08
+## New
+- Added **Next.js** to the technology list when creating a new app, expanding framework options.
+- Added a **React Integration video** to the "Integrate" page, guiding users on how to integrate React apps using Visual Builder.
+- Included a **Status Page** link under both **Resources** and **Quick Links** on the dashboard for easier access to system health updates.
+- Introduced a **"Subscribe Plan" banner** for expired apps, displayed regardless of usage status to encourage timely reactivation.
+
+## Enhancements
+- Renamed **Next JS** to **Next.js** across the dashboard for naming consistency.
+- Updated the title text for **upselling banners** across the dashboard to improve clarity and consistency.
+
+## Fixes
+- Redirected users with **expired apps** to the **Plans and Billing** section instead of the Integrate page for a more relevant experience.
+- Fixed broken UI in the **restricted view of the Integrate section** when accessed from an expired app.
+- Resolved an issue where the **Upgrade Plan banner** was affecting the layout of the app navigation.
+- Fixed navigation issues on **smaller screen resolutions** for improved accessibility and usability.
+<br/>
+
+
+# Dashboard v3.14.5 | 2025-05-05
+## New
+- Added a banner prompting users to subscribe to a plan for free apps with active usage.
+
+## Enhancements
+- Updated UI Kit to version **6.0.5**
+- Removed Chat SDK as a direct dependency; it is now managed as a **peer dependency** via the updated UI Kit.
+- Changed the "Current Usage" label in the App Overview from *CCU* to *PCC* for improved clarity.
+- Added explanatory text to the App Overview noting that "Current Usage" reflects the current billing cycle.
+- Updated the subtext for the Sample App link in Quick Links to: “Explore ready-to-use app examples on GitHub.”
+- Made the order of items in the Resources and Quick Links lists consistent across the dashboard.
+- Improved app navigation by adding scroll functionality and refining scrolling behavior on smaller resolutions.
+
+## Fixes
+- Fixed a UI issue with selecting list inputs in the Moderation rule Add/Edit interface.
+- Fixed a bug where the Voice Message feature appeared in the Chat Widget settings, despite not being configurable.
+<br/>
+
+
+# Dashboard v3.14.4 | 2025-04-30
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue with Conversation Search setting on Chat settings.
+<br/>
+
+
+# Dashboard v3.14.3 | 2025-04-28
+## New
+- None
+
+## Enhancements
+- Updated React UI Kit version to 6.0.4, including changes to the CSS import path.
+- Updated JS Chat SDK version to 4.0.12.
+
+## Fixes
+- Fixed a UI issue with the download modal that caused display inconsistencies.
+- Redirected users to the "Integrate" section instead of "Overview" when current usage is 0, improving onboarding flow.
+- Fixed UI issues on the Chat Settings and App General Settings pages for a more consistent experience.
+- Fixed an incorrect documentation link for Next.js, ensuring accurate developer resources.
+- Handled validation errors for incorrect pattern values entered in rule conditions.
+<br/>
+
+
+# Dashboard v3.14.2 | 2025-04-21
+## New
+- Added a dashboard toggle to enable or disable the Conversation Search feature.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+<br/>
+
+
 # Dashboard v3.14.1 | 2025-04-15
 ## New
 - None
@@ -310,4 +1582,5 @@ None
 ## Fixes
 
 -   None   
+
 <br/>

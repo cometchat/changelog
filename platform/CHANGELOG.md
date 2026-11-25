@@ -1,3 +1,174 @@
+# Platform v3.3.1 | 2026-10-06
+## New
+- Introducing the moderation_engine_failed webhook, which fires when AI or Custom API moderation fails to return a decision.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+
+# Platform v3.2.2 | 2026-09-02
+## New
+- Introducing pinned messages, pinned conversations, and saved messages. Pin and save actions now emit real-time socket events. message pins broadcast to all conversation participants, while conversation pins and saved messages sync only to the acting user's other devices.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+
+# Platform v3.2.1 | 2026-09-02
+## New
+- Added webhook support for Pin events. Four new triggers are now introduced: message_pinned, message_unpinned, conversation_pinned, and conversation_unpinned.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+
+# Platform v3.2.0 | 2026-07-30
+## New
+- Added a new `transcription_generated` webhook event that notifies the application when a call transcript is ready. This makes it easier to automatically access completed transcripts and use them in workflows without repeatedly checking for updates.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+
+# Platform v3.1.0 | 2026-07-29
+## New
+- Added call transcriptions, making it easier to review conversations after a call ends. Completed transcripts are available alongside the associated call, and calls can now be quickly filtered based on whether a transcript is available.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+
+# Platform v3.0.21 | 2026-05-28
+## New
+- Added webhook support for Campaign events (notifications, feed items, push notifications, campaign lifecycle).
+
+## Enhancements
+- None
+
+## Fixes
+- None
+
+# Platform v3.0.20 | 2026-05-26
+## New
+- Added real-time campaign notification delivery over WebSocket.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+<br/>
+
+# Platform v3.0.19 | 2026-04-07
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Improved the performance of the List Call Logs API, resulting in reduced latency when handling large datasets.
+<br/>
+
+# Platform v3.0.18 | 2026-03-10
+## New
+- None
+
+## Enhancements
+- Upgraded the platform version to improve overall stability and reliability.
+- Added filter support to the Call Logs API, enabling more efficient retrieval of call log data based on specific criteria.
+
+## Fixes
+- None
+<br/>
+
+# Platform v3.0.17 | 2026-02-16
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Resolved an issue where webhooks were not triggered when using the `markConversationAsRead()` and `markConversationAsDeleted()` functions, preventing read and delivery events from being properly communicated.
+<br/>
+
+# Platform v3.0.16 | 2025-12-09
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Resolved an issue where message tags were missing from real-time messages. This was introduced during WebSocket code optimizations released on August 5, 2025
+<br/>
+
+# Platform v3.0.15 | 2025-11-05
+## New
+- None
+
+## Enhancements
+- Added a provision to improve the reliability of processing extensions and legacy webhooks by introducing a more robust queuing mechanism.
+
+## Fixes
+- None
+<br/>
+
+# Platform v3.0.14 | 2025-10-28
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed issues with the `getOnlineUserCount` and `getOnlineGroupMemberCount` SDK methods, where the APIs called by these methods were returning CORS errors. This issue originated with the WebSocket infrastructure maintenance on August 5, 2025.
+<br/>
+
+# Platform v3.0.13 | 2025-10-23
+## New
+- None
+
+## Enhancements
+- Added support for app-level configuration to enable sequential execution of member management operations in the Add Members API.
+
+## Fixes
+- None
+</br>
+
+# Platform v3.0.12 | 2025-08-06
+## New
+- None
+
+## Enhancements
+- Added support for real-time moderation events in the frontend, which will enable the UI to reflect moderation actions immediately.
+  
+## Fixes
+- None
+</br>
+
+# Platform v3.0.11 | 2025-05-07
+## New
+- None
+
+## Enhancements
+- Added support for generating token-based media URLs compatible with the UAE region.
+  
+## Fixes
+- None
+</br>
+
 # Platform v3.0.10 | 2025-04-15
 ## New
 - None
@@ -198,3 +369,12 @@
 
 -   None   
 <br/>
+
+
+
+
+
+
+
+
+

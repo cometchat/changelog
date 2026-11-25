@@ -1,3 +1,474 @@
+# Chat API v3.18.0 | 2026-11-17
+
+## New
+- Added support for the Analyst and Billing dashboard roles, enabling users with these roles to access their respective dashboards.
+
+## Enhancements
+- Improved the performance of the List Conversations API to provide more efficient conversation retrieval.
+
+## Fixes
+- Fixed an issue where newly created one-on-one conversations disappeared from the sender's conversation list after a refresh when the first message was held by moderation or sent to a recipient who had blocked the sender.
+- Fixed an issue where users who had not added each other as friends saw an empty conversation history when friends-only message history was enabled.
+- Fixed an issue where removing a permission from a scope failed with the ERR_SCOPE_PERMISSION_NOT_MAPPED error.
+
+# Chat API v3.17.1 | 2026-11-09
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where approving an older message through moderation replaced the conversation's last message and moved the conversation up the list.
+- Fixed an issue where approving a message through moderation could bring back messages a user had already cleared from the conversation.
+
+# Chat API v3.17.0 | 2026-11-02
+
+## New
+- Added a feature flag to enable or disable calling.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where the first message in a new conversation sometimes didn't appear for the recipient when moderation was enabled. This issue was introduced in v3.16.0.
+
+# Chat API v3.16.0 | 2026-10-16
+
+## New
+- Enhanced the message listing APIs in SDK to support retrieving messages updated after a specified timestamp.
+
+## Enhancements
+- Added support for the moderator role to access Conversation Explorer in the dashboard.
+
+## Fixes
+- Fixed an issue where pin message permissions set to deny were not enforced in group conversations.
+  
+# Chat API v3.15.2 | 2026-10-12
+
+## New
+- None.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where pinned conversations did not include their tags when withTags was enabled.
+
+# Chat API v3.15.1 | 2026-09-29
+
+## New
+- Added support for the ringing call flow.
+
+## Enhancements
+- None
+
+## Fixes
+- Legacy custom bots set to Group Settings → Mentioned messages are now triggered by the new mention delimiters (<@uid:…>) along with legacy @uid delimiter.
+
+# Chat API v3.14.0 | 2026-08-31
+
+## New
+- Introduced Pin messages and conversations to keep important content at the top.
+- Added provision to Save (bookmark) messages to quickly find them later.
+
+## Enhancements
+- Agent-only plans now include only agent features, other capabilities are gated by plan
+
+## Fixes
+- None
+
+# Chat API v3.13.1 | 2026-08-05
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where a quoted message that was later edited and blocked by moderation remained visible to receivers inside the quote.
+  
+# Chat API v3.13.0 | 2026-06-12
+
+## New
+- Added foundational support for the Threads feature, establishing the groundwork for upcoming thread-related capabilities.
+
+## Enhancements
+- Added support for retrieving unique conversations across the application, making it easier to access and manage distinct conversation lists.
+
+## Fixes
+- Fixed an issue where permission precedence was evaluated incorrectly when the same permission was defined in both a role and a scope. Permission resolution now correctly considers the permission's value type.
+
+# Chat API v3.12.0 | 2026-05-23
+
+## New
+- Added foundational support for the Campaigns feature, establishing the groundwork for future campaign-related capabilities.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where group conversations were not visible in large groups after the logged-in user reset the conversation and new messages were received.
+- Improved the `Delete User` API to handle concurrent requests more reliably.
+- Fixed an issue where the user entity appeared as `null` in group action messages for permanently deleted users when the hydrate user entities setting was enabled to display the most recently updated user attributes in past messages.
+
+# Chat API v3.11.1 | 2026-04-29
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue in the Legacy Admin APIs where list group/user messages endpoints returned empty results when the subject user's UID was passed as a path parameter prefix (for example, `/users/<uid>`). This issue was introduced in a recent platform update.
+
+# Chat API v3.11.0 | 2026-04-09
+
+## New
+- None
+
+## Enhancements
+- Upgraded the backend infrastructure to improve reliability, security, and performance.
+
+## Fixes
+- None
+  
+# Chat API v3.10.0 | 2026-03-31
+
+## New
+- Introduced support for presigned URLs with configurable expiration (TTL), enabling time-bound access to media files.
+
+## Enhancements
+- Added provision to automatically decrement thread reply count when replies are deleted, allowing customization based on the `hideDeletedMessages` setting in the Message/Thread Request Builder.
+
+## Fixes
+- None 
+
+# Chat API v3.9.52 | 2026-03-24
+
+## New
+- None
+
+## Enhancements
+- Enhanced the List Users, Groups, and Messages APIs by adding support for additional filters, enabling more precise and efficient data retrieval based on specific criteria.
+- Upgraded the platform version to improve overall stability and reliability.
+
+## Fixes
+- None
+
+# Chat API v3.9.51 | 2026-03-10
+
+## New
+- None
+
+## Enhancements
+- Introduced `mimeTypeAccessControl` and `mimeTypes` permissions in the Send Message API, allowing greater control over which MIME types can be allowed or restricted when sending messages.
+
+## Fixes
+- Fixed an issue where disapproved messages were incorrectly displayed to the sender when the `unread=1` parameter was used.
+- Improved RBAC error messages to make them clearer and easier to understand.
+
+# Chat API v3.9.50 | 2026-02-16
+
+## New
+- None
+
+## Enhancements
+- Enhanced role-based access control by introducing additional permissions, enabling precise access control based on user roles and group membership scopes for greater security and flexibility.
+
+## Fixes
+- Fixed an issue where user IDs were not automatically converted to lowercase when adding friends, which could result in "UID not found" errors if the case did not match.
+- Resolved an issue where messages sent before a conversation reset/delete continued to appear in search results when Conversation and Advanced Search were enabled.
+- Fixed an issue where the last message in large group conversations (more than 300 members) was not displayed consistently when moderation was enabled.
+
+# Chat API v3.9.49 | 2026-01-16
+
+## New 
+- None 
+
+## Enhancements 
+- Optimized conversation updates when sending messages in large groups if moderation is enabled, improving performance and responsiveness. 
+- Enhanced conversation rendering so conversations remain in their current position when reset using the preserveOrder=true parameter. 
+
+## Fixes 
+- Fixed an issue where the Get Message API response included mentions that were removed by editing the message. 
+- Fixed an issue where unreadMessageCount was not set for newly added group members on their add-member action message. 
+- Fixed an issue where mentions were missing in quoted message returned by the List Messages API when the quoted message itself was not included in the messages list. 
+- Restricted replying to messages that were sent before the conversation was reset.
+
+# Chat API v3.9.48 | 2026-01-06
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue introduced in Chat API v3.9.47 that caused delays in listing newly started conversations. This was due to intermittent lags in processing events for creating conversations for members added using the Create Group API.
+
+# Chat API v3.9.47 | 2026-01-01
+
+## New
+- Added foundational support for access control based on user roles and group member scopes, enabling more granular permission management. Contact support to request early access to this feature.
+
+## Enhancements
+- The "Mark messages as unread" feature, previously gated, is now available by default.
+- Added foundational support for automatically syncing updated user and group details across historical messages. Contact support to request early access to this feature.
+
+## Fixes
+- None
+
+# Chat API v3.9.46 | 2025-12-09
+
+## New
+- None
+
+## Enhancements
+- Enabled caching for GET requests to improve response times and enhance overall performance.
+
+## Fixes
+- Resolved an issue where new members saw a moderated message as the most recent message in the conversation preview. This occurred when they were added while the latest message in the conversation was moderated.
+- Fixed an intermittent issue where role permissions were not visible under roles section.
+
+# Chat API v3.9.45 | 2025-11-17
+
+## New
+- None
+
+## Enhancements
+- Newly added friends can now automatically appear in the conversations by including `addToConversations: true` in the body parameter, eliminating the extra step of finding them before you can start chatting.
+
+## Fixes
+- None
+
+# Chat API v3.9.44 | 2025-11-11
+
+## New
+- Added a restriction on the maximum file upload size per request to enhance performance and ensure platform reliability.
+- Added provision for `before_call` trigger support, enabling customers to seamlessly integrate custom workflows before a call is initiated.
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where call statuses could incorrectly change from *ongoing* to *cancelled*.
+
+# Chat API v3.9.43 | 2025-11-03
+
+## New
+- None
+
+## Enhancements
+- Added a provision to improve the reliability of processing **extensions** and **legacy webhooks** by introducing a more robust queuing mechanism.
+- Updated rate limits for **Build (free)** apps to enhance platform stability and prevent potential system abuse.
+
+## Fixes
+- Resolved an issue where enabling the **Enhanced Messaging Status Service** and **Conversations Search Service** caused unread message counts to display incorrectly.
+- Conversations now correctly update the last message for the receiver when the latest message is flagged and then blocked by a moderator.
+- Fixed an issue where non-members could view private group details. Access to private group information is now restricted to members only, ensuring improved privacy. Existing customers who have implemented workflows dependent on the previous behavior can contact our support team for assistance.
+  
+
+# Chat API v3.9.42 | 2025-10-28
+
+## New
+- None
+
+## Enhancements
+- Added a restriction on the maximum file size and the number of files that can be uploaded in a single request to ensure better performance and reliability.
+- Introduced `hideAgentic` and `onlyAgentic` query parameters to provide more control over displaying conversations involving agents.
+
+## Fixes
+- Fixed an issue where the call rejected webhook was incorrectly triggered during group calls.
+
+
+# Chat API v3.9.41 | 2025-10-23
+
+## New
+- None
+
+## Enhancements
+- Added support for app-level configuration to enable sequential execution of member management operations in the Add Members API.
+- Updated the calling configuration to support the latest calling backend, ensuring improved performance and compatibility.
+- Added support for Flag and Review, allowing both users and AI to flag messages for review.
+
+## Fixes
+- None
+
+# Chat API v3.9.40 | 2025-10-14
+
+## New
+- None
+
+## Enhancements
+- Updated the calling host to support the latest calling backend, ensuring improved performance and compatibility.
+
+## Fixes
+- Fixed an issue where group member scope change events were not updated in real time. This issue originated from the WebSocket infrastructure maintenance conducted on August 5, 2025.
+- Updated the Messages Import API to correctly handle timestamps. Messages with sentAt dates older than the archival period are now restricted from import, ensuring data consistency.
+
+# Chat API v3.9.39 | 2025-09-29
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue in the list Conversations API where the last message was not displayed if it had been deleted. This issue, introduced in Chat API v3.9.38, has now been resolved to ensure the correct last message is always returned.
+
+# Chat API v3.9.38 | 2025-09-17
+
+## New
+- Introduced support for quoted messages, allowing users to reference a specific message when sending a new one.
+
+## Enhancements
+- Enforced a rate limit of 30 messages per minute per `authToken` on the Send Message API to enhance security and stability.
+
+## Fixes
+- Resolved an issue that prevented adding the same member to a group after the user was deleted and recreated.
+- Resolved SDK warnings that appeared when no extensions were enabled, following the deprecation of Chat Widgets which were previously enabled by default.
+- Added validation to enforce maximum reaction length, preventing silent truncation of reaction strings.
+<br/>
+
+# Chat API v3.9.37 | 2025-09-06
+
+## New
+- None
+
+## Enhancements
+- Added support for importing mentions through the Import Messages API.
+- Optimized the App Creation API to deliver faster and more reliable setup.
+
+## Fixes
+- Fixed an issue where imported group members were unable to view past messages if those messages were sent before they joined.
+- List Messages Admin API now supports fetching agentic messages.
+<br/>
+
+# Chat API v3.9.36 | 2025-08-26
+
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where mentions were not being processed by the moderation system. Mentions are now correctly sent for moderation and consistently appear in real-time WebSocket events.
+<br/>
+
+
+# Chat API v3.9.35 | 2025-08-13
+## New
+- Introduced internal support for AI Agents, enabling automated and intelligent task handling for future feature expansion.
+
+## Enhancements
+- Updated bot permissions to allow bots to join groups without restrictions.
+- Implemented a restriction preventing bots from creating authentication tokens, improving security and access control.
+
+## Fixes
+- None
+<br/>
+
+# Chat API v3.9.34 | 2025-08-05
+## New
+- None
+
+## Enhancements
+- Added support for real-time moderation events in the frontend, which will enable the UI to reflect moderation actions immediately.
+
+## Fixes
+- Fixed an issue that prevented member scope updates from applying correctly when adding members in bulk. The bug was introduced in v3.9.33
+<br/>
+
+
+# Chat API v3.9.33 | 2025-07-21
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where the member count was not updating reliably when multiple Add Members API calls were made concurrently, especially during simultaneous member additions and removals.
+- Ensured action messages are now included in responses from the Get Message API.
+- Fixed an issue with conversation updates when marked as read/delivered via API.
+- Resolved a bug where marking a non-existent message as read or delivered via API lead to 5xx error.
+<br/>
+
+# Chat API v3.9.32 | 2025-07-03
+## New
+- Introduced separate REST API endpoints for Moderation, enabling it to operate independently from the core chat service.
+
+## Enhancements
+- None
+
+## Fixes
+- Masked `apiKey` and `authToken` values in error responses to enhance security.
+- Fixed an issue where the action message contained incorrect user information when changing user scope.
+<br/>
+
+# Chat API v3.9.31 | 2025-06-02
+## New
+- None
+
+## Enhancements
+- Added support for the `attachmentTypes` query parameter in the List Messages API, enabling more precise filtering of message attachments for the Advanced Search service.
+
+## Fixes
+- Fixed an issue where the List Conversations API, when called with `includeBlockedUsers` set to `1`, incorrectly displayed a blocked user after the conversation with them was reset.
+- Resolved a bug in the Import Users API that caused request failures when importing a mix of deactivated and active users.
+<br/>
+
+# Chat API v3.9.30 | 2025-05-19
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where `membersCount` did not update correctly when users were kicked or banned from a group.
+- Resolved a problem where `callToken` size exceeded acceptable limits by omitting user metadata during token generation.
+- Fixed a bug that allowed a user to react to a message after blocking another user.
+- Ensured `unreadMessageCount` is set to 0 when a conversation is reset.
+- Corrected the behavior of `category` and `type` filters in the list messages API, which previously caused empty message lists in UI Kits when the search service was enabled.
+- Fixed a bug where group conversations were not added to the conversation list when a user was added to a group with "Include Group Actions" disabled in the Conversation Preview configuration. This issue was introduced in version v3.9.26.
+<br/>
+
+
+# Chat API v3.9.29 | 2025-05-06
+## New
+- None
+
+## Enhancements
+- Added the ability to filter members by status in the List Group Members API.
+
+## Fixes
+- Updated the Stats API to leverage the new metrics service for improved accuracy and performance.
+- Ensured user and group tags are passed to the moderation event bus during message sending, allowing tag-based filters to function correctly.
+<br/>
+
+
+# Chat API v3.9.28 | 2025-04-23
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Resolved an issue where messages sent before a conversation reset were still visible when fetching message details.
+- Corrected the API response structure when modifying the scope of an admin user.
+- Enabled the ability to search soft-deleted messages through the Admin API.
+- Fixed incorrect conversation ordering when the enhanced message status service was enabled.
+<br/>
+
+
 # Chat API v3.9.27 | 2025-03-21
 ## New
 - None
@@ -241,3 +712,33 @@
 
 -   None   
 <br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

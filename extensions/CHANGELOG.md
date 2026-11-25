@@ -1,3 +1,88 @@
+# Extensions v3.0.18 | 2026-09-26
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where BMP image attachments received thumbnail URLs that did not resolve, preventing previews from being displayed. BMP images are now converted before resizing, and thumbnails are served as JPEGs.
+<br/>
+
+# Extensions v3.0.17 | 2026-08-13
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where editing a message could attach empty Link Preview data, including for plain-text messages and apps without the Link Preview extension enabled.
+- Fixed an issue where sending a plain-text message without URLs could attach an empty Link Preview field.
+- Fixed an issue where Link Preview generation returned no preview when a provider metadata service was unavailable, rate-limited, or returned an error, including for YouTube video links. Previews are now generated from the page's own metadata in these cases.
+<br/>
+
+# Extensions v3.0.16 | 2026-06-09
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue in the Link Preview extension where cached URL metadata could become outdated and display incorrect preview information.
+- Fixed an issue in the Link Preview extension where preview metadata was not refreshed after a message was edited.
+<br/>
+
+# Extensions v3.0.15 | 2026-03-13
+
+## New
+- Enabled Notifications for Polls.
+- Enabled Notifications for Reminders.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+</br>
+
+# Extensions v3.0.14 | 2025-09-09
+
+## New
+- Introduced notifications for agentic messages.
+
+## Enhancements
+- None
+
+## Fixes
+- None
+</br>
+
+# Extensions v3.0.10 | 2025-05-07
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where the Thumbnail Generation, Collaborative Document, Collaborative Whiteboard, and Avatar extensions were not working in the UAE due to the cometchat.io domain being blocked. An alternate domain has been added to restore functionality in the UAE.
+</br>
+
+# Extensions v3.0.9 | 2025-04-17
+## New
+- None.
+
+## Enhancements
+- None.
+
+## Fixes
+- Fixed an issue where message translations caused @mentions to break.
+- Resolved a performance issue in the Data Masking Filter extension where the email regex pattern led to excessive CPU usage.
+- Fixed a compatibility issue that prevented the settings page from loading for the Report Message and Report User extensions when using Firefox.
+</br>
+
 # Extensions v3.0.8 | 2025-01-23
 ## New
 

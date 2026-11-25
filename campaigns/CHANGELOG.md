@@ -1,3 +1,14 @@
+# Campaigns v0.2.0 | 2026-11-26
+## New
+- None
+
+## Enhancements
+- None
+
+## Fixes
+- Fixed an issue where status badges and several other controls in the Campaigns dashboard were drawn in dark-theme colours on an otherwise light page when the computer's system appearance was set to dark. The Draft and Cancelled campaign status badges were the most visible case, appearing as a dark grey pill with light grey text; they now use the light palette.
+<br/>
+
 # Campaigns v0.1.1 | 2026-08-20
 ## New
 - None

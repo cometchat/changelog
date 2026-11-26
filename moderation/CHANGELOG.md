@@ -1,3 +1,29 @@
+# Moderation v1.5.0 | 2026-11-04
+## New
+- Introduced Custom API payload version 2, which includes previous conversation messages along with their moderation statuses, providing additional context for moderation decisions.
+## Enhancements
+- None
+## Fixes
+- None
+
+# Moderation v1.4.2 | 2026-10-30
+## New
+- None
+## Enhancements
+- None
+## Fixes
+- Metadata-only edits to blocked messages are now saved without changing their blocked status.
+
+# Moderation v1.4.1 | 2026-10-20
+## New
+- None
+## Enhancements
+- None
+## Fixes
+- Metadata-only updates no longer re-trigger moderation on blocked messages.
+- Re-evaluated messages no longer appear twice in AI moderation history.
+- Default keyword list categories can no longer be changed.
+
 # Moderation v1.4.0 | 2026-10-06
 ## New
 - Introducing the `moderation_engine_failed` webhook, which fires when AI or Custom API moderation fails to return a decision.
